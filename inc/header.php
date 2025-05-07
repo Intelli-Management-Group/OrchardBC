@@ -1,10 +1,10 @@
 <!-- <?php
-$config = [
-    'base_url' => ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '192.168.0.47')
-        ? 'https://192.168.0.47/bcorchard/'
-        : 'https://bcorchard.intelligrp.com/'
-];
-?> -->
+        $config = [
+            'base_url' => ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '192.168.0.47')
+                ? 'https://192.168.0.47/bcorchard/'
+                : 'https://bcorchard.intelligrp.com/'
+        ];
+        ?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,7 +35,7 @@ $config = [
     <nav class="navbar navbar-expand-lg bg-transparent position-absolute w-100">
         <div class="container d-flex justify-content-between align-items-center">
             <!-- Logo -->
-            <a class="navbar-brand me-0" href="/">
+            <a class="navbar-brand" href="/">
                 <img src="img/home/logo.png" alt="logo" class="logo">
             </a>
             <!-- Toggle Button -->
@@ -45,8 +45,20 @@ $config = [
             <!-- Navbar Content -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav d-flex justify-content-start w-100 gap-3">
-                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>" href="index.php">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Coconut Water</a></li>
+                            <li><a class="dropdown-item" href="#">100% Pure Juice</a></li>
+                            <li><a class="dropdown-item" href="#">Arrow Tree Snacks</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#">Our Purpose</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Store Location</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
