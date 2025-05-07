@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer>
     <div class="container mt-lg-0 mt-4">
         <div class="row section-padding bottom-padding-sm">
             <div class="col-xxl-6 col-xl-7 col-lg-6 mt-0">
@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> -->
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

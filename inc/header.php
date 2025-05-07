@@ -12,8 +12,8 @@ $config = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>@yield('title', 'KINGSMAN')</title>
-    <meta name="description" content="@yield('meta_description', 'KINGSMAN')"> -->
+    <title>BC Orchard</title>
+    <!-- <meta name="description" content="@yield('meta_description', 'KINGSMAN')"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <base href="<?php echo $config['base_url']; ?>">
     <link rel="stylesheet" href="css/style.css">
@@ -24,37 +24,32 @@ $config = [
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/Generic/favicon/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/Generic/favicon/favicon-16X16.png') }}">
     <link rel="manifest" href="{{ asset('img/Generic/favicon/site.webmanifest') }}"> -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="" defer></script>
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg shadow-sm">
-            <div class="container d-flex justify-content-between align-items-center">
-                <!-- Logo -->
-                <a class="navbar-brand me-0 d-xl-block d-lg-none" href="/">
-                    <img src="{{ asset('img/Generic/KEG_logo.svg') }}" alt="logo" class="logo">
-                </a>
-                <a class="navbar-brand me-0 d-none d-lg-block d-xl-none" href="/">
-                    <img src="{{ asset('img/Generic/KEG_emblem.svg') }}" alt="logo" class="logo">
-                </a>
-                <!-- Toggle Button -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Navbar Content -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav d-flex justify-content-evenly w-100">
-                        <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Our Purpose</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Store Location</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    </ul>
-                </div>
+<header>
+    <nav class="navbar navbar-expand-lg bg-transparent position-absolute w-100">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo -->
+            <a class="navbar-brand me-0" href="/">
+                <img src="" alt="logo" class="logo">
+            </a>
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-evenly w-100">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Our Purpose</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Store Location</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
             </div>
-        </nav>
-    </header>
-</body>
+        </div>
+    </nav>
+</header>
 
 </html>
