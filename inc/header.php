@@ -33,7 +33,7 @@
 
 <header>
     <nav class="navbar navbar-expand-lg bg-transparent position-absolute w-100">
-        <div class="container d-flex justify-content-between align-items-center">
+        <div class="custom-container container d-flex justify-content-between align-items-center">
             <!-- Logo -->
             <a class="navbar-brand" href="/">
                 <img src="img/home/logo.png" alt="logo" class="logo">

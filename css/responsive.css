@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1400px) {
+    .custom-container {
+        max-width: 1340px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .custom-container {
+        max-width: 1576px;
+    }
+}

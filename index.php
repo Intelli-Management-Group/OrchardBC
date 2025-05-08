@@ -103,17 +103,17 @@
 
     <div class="container-fluid">
         <div class="row section-padding">
-            <div class="col-lg-4">
+            <div style="width: 40%;">
                 <div class="masked-image masked-image-1"></div>
             </div>
-            <div class="col-lg-4">
+            <div style="width: 30%;">
                 <div class="masked-image masked-image-2">
                     <div class="masked-image-content">
                         <h2>Make Your Morning More Than Just Good </h2>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div style="width: 30%;">
                 <div class="masked-image masked-image-3">
                     <div class="masked-image-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -123,7 +123,7 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="custom-container container">
         <div class="row">
             <div class="col-lg-3 col-6 p-0 border-end">
                 <div class="shop-wrap align-items-start">
@@ -160,12 +160,26 @@
         </div>
     </div>
 
-    <div class="home-footer">
+    <section class="home-footer">
         <div class="home-footer-content">
             <p>Client Testimonials</p>
             <h2>This tea is absolutely amazing! I feel immediate uplifting effects after consuming. That I have found on any shelf thus far.</h2>
         </div>
-    </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row section-padding">
+            <div class="col-lg-6 ps-0">
+                <img src="img/home/contact.jpg" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-lg-6 pe-0 d-flex flex-column justify-content-center align-items-center text-center">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="button">CONTACT US</button>
+            </div>
+        </div>
+    </section>
 </body>
 
 <?php include 'inc/footer.php'; ?>
