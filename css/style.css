@@ -1,3 +1,11 @@
+.row {
+    --bs-gutter-x: 30px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 30px;
+}
+
 body {
     font-family: 'Archivo';
 }
@@ -49,7 +57,7 @@ h5 {
 }
 
 /* Show Dropdown on Hover */
-.navbar .dropdown:hover > .dropdown-menu {
+.navbar .dropdown:hover>.dropdown-menu {
     display: block;
     margin-top: 0;
 }
@@ -98,12 +106,17 @@ a {
 }
 
 .highlight-icon {
-    font-size: 50px;
+    width: 48px;
     margin-bottom: 16px;
+    stroke: #fff;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
 }
 
 .highlight-wrap:hover .highlight-icon {
-    color: #a8cc3c;
+    stroke: #a8cc3c;
 }
 
 .highlight-wrap {
@@ -114,23 +127,45 @@ a {
     border-left: none;
 }
 
-.product-card-1,
-.product-card-2,
-.product-card-3 {
-    color: white;
-    background: url('../img/home/product-1.jpg') no-repeat center center/cover;
+.product-card {
     position: relative;
     height: 480px;
+    overflow: hidden;
 }
 
-.product-card-2 {
-    color: black;
-    background: url('../img/home/product-2.jpg') no-repeat center center/cover;
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    transition: transform 0.5s ease;
 }
 
-.product-card-3 {
-    color: black;
-    background: url('../img/home/product-3.jpg') no-repeat center center/cover;
+.product-card-1::before {
+    background-image: url('../img/home/product-1.jpg');
+}
+
+.product-card-2::before {
+    background-image: url('../img/home/product-2.jpg');
+}
+
+.product-card-3::before {
+    background-image: url('../img/home/product-3.jpg');
+}
+
+.product-card:hover::before {
+    transform: scale(1.05);
+}
+
+.product-card>* {
+    position: relative;
+    z-index: 1;
 }
 
 .product-card-content {
@@ -251,7 +286,7 @@ a {
 }
 
 .shop-wrap {
-    padding: 100px 24px;
+    padding: 100px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -290,8 +325,9 @@ a {
 }
 
 .shop-wrap .product-name {
+    text-align: center;
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     background: transparent;
     padding: 8px 16px;
     z-index: 2;
@@ -325,4 +361,59 @@ a {
     font-size: 20px;
     display: flex;
     gap: 24px;
+}
+
+.img-container {
+    height: 500px;
+    overflow: hidden;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.scroll-container {
+    width: 90px;
+    height: 500px;
+    /* Ensure the height matches the image */
+    overflow: hidden;
+    /* background: #f0f0f0; */
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Ensures it is vertically aligned */
+    position: relative;
+    /* Necessary for positioning the scroll content */
+}
+
+.scroll-content {
+    display: flex;
+    flex-direction: column;
+    animation: scrollDown 5s linear infinite;
+}
+
+.scroll-text {
+    writing-mode: sideways-lr;
+    transform: rotate(180deg);
+    /* Make the text readable from bottom to top */
+    height: 300px;
+    /* Each line of text should match the height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@keyframes scrollDown {
+    0% {
+        transform: translateY(-300px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
