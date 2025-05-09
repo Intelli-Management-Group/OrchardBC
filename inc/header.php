@@ -1,8 +1,8 @@
 <?php
 $config = [
     'base_url' => ($_SERVER['SERVER_NAME'] == 'localhost' || $_SERVER['SERVER_ADDR'] == '192.168.0.47')
-        ? 'http://192.168.0.47/bcorchard/'
-        : 'http://bcorchard.intelligrp.com/'
+        ? 'https://192.168.0.47/bcorchard/'
+        : 'https://bcorchard.intelligrp.com/'
 ];
 ?>
 

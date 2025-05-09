@@ -118,7 +118,7 @@
             <div style="width: 28%;">
                 <div class="masked-image masked-image-3">
                     <div class="masked-image-content">
-                        <p>Founded in 2016, BC Orchard is a Canadian company dedicated to crafting honest, great-tasting products made with clean, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe in thoughtful indulgence. That’s why we offer handcrafted premium snacks from Japan’s ArrowTree— elegant treats to enjoy or gifts.</p>
+                        <p style="line-height: 2;">Founded in 2016, BC Orchard is a Canadian company dedicated to crafting honest, great-tasting products made with clean, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe in thoughtful indulgence. That’s why we offer handcrafted premium snacks from Japan’s ArrowTree— elegant treats to enjoy or gifts.</p>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                 <div class="shop-wrap align-items-start">
                     <p>Our Top Picks</p>
                     <h2>Featured Products</h2>
-                    <p>Carefully selected for taste, quality, and purpose—these are our favorite picks for everyday refreshment and joy</p>
+                    <p>Carefully selected for taste, quality, and purpose—these are our favorite picks for everyday refreshment and joy.</p>
                     <button class="button">VIEW MORE PRODUCTS</button>
                 </div>
             </div>
