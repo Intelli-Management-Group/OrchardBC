@@ -69,7 +69,7 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="margin-top: 30px; padding-left: 20px; padding-right: 20px;">
+    <div class="container-fluid bottom-margin" style="margin-top: 30px; padding-left: 20px; padding-right: 20px;">
         <div class="row gy-3">
             <div class="col-lg-4 col-md-6">
                 <div class="product-card product-card-1">
@@ -103,7 +103,7 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="margin-top: 30px; padding-left: 20px; padding-right: 20px;">
+    <div class="container-fluid bottom-margin" style="padding-left: 20px; padding-right: 20px;">
         <div class="row">
             <div style="width: 44%;">
                 <div class="masked-image masked-image-1"></div>
@@ -126,10 +126,10 @@
     </div>
 
     <!-- <div class="custom-container container"> -->
-    <div class="container-fluid" style="margin-top: 30px; padding-left: 20px; padding-right: 20px;">
+    <div class="container-fluid bottom-margin" style="padding-left: 20px; padding-right: 20px;">
         <div class="row">
-            <div class="col-lg-3 col-6 p-0 border-end">
-                <div class="shop-wrap align-items-start">
+            <div class="col-lg-3 col-6 d-flex justify-content-center p-0 border-end">
+                <div class="feature-product-wrap">
                     <p>Our Top Picks</p>
                     <h2>Featured Products</h2>
                     <p>Carefully selected for taste, quality, and purpose—these are our favorite picks for everyday refreshment and joy.</p>
@@ -172,14 +172,14 @@
         </div>
     </div>
 
-    <section class="home-footer" style="margin-top: 140px;">
+    <section class="home-footer bottom-margin">
         <div class="home-footer-content">
             <p>Client Testimonials</p>
             <h2>This tea is absolutely amazing! I feel immediate uplifting effects after consuming. That I have found on any shelf thus far.</h2>
         </div>
     </section>
 
-    <section class="container-fluid" style="margin-top: 140px;">
+    <section class="container-fluid bottom-margin">
         <div class="row">
             <div class="col-lg-6 ps-0 d-flex align-items-stretch">
                 <div class="img-container">

@@ -44,6 +44,10 @@ h5 {
     padding: 100px 0;
 }
 
+.bottom-margin {
+    margin-bottom: 140px;
+}
+
 .navbar {
     z-index: 1030;
 }
@@ -96,7 +100,7 @@ a {
 
 .highlight-wrap {
     background-color: #425300;
-    padding: 77px 24px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -285,8 +289,13 @@ a {
     color: black;
 }
 
+.feature-product-wrap {
+    max-width: 330px;
+    margin: 0 30px;
+}
+
 .shop-wrap {
-    padding: 100px 30px;
+    padding: 30px 30px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,16 +386,12 @@ a {
 .scroll-container {
     width: 90px;
     height: 500px;
-    /* Ensure the height matches the image */
     overflow: hidden;
-    /* background: #f0f0f0; */
     border-right: 1px solid #ccc;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /* Ensures it is vertically aligned */
     position: relative;
-    /* Necessary for positioning the scroll content */
 }
 
 .scroll-content {
@@ -396,11 +401,8 @@ a {
 }
 
 .scroll-text {
-    writing-mode: sideways-lr;
-    transform: rotate(180deg);
-    /* Make the text readable from bottom to top */
+    writing-mode: vertical-rl;
     height: 300px;
-    /* Each line of text should match the height */
     display: flex;
     align-items: center;
     justify-content: center;
