@@ -1,12 +1,12 @@
 <?php include 'inc/header.php'; ?>
 
-<body>
+<body class="overflowX-hidden">
     <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
         <!-- Dot indicators -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <!-- <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
         </div>
 
         <div class="carousel-inner">
@@ -14,7 +14,7 @@
             <div class="carousel-item active">
                 <div class="home-slider" style="background-image: url('img/home/slider_1.jpg');">
                     <div class="slider-content">
-                        <p>PURE COCONUT WATER</p>
+                        <div class="upper-header">PURE COCONUT WATER</div>
                         <h1>100% Coconut <br>
                             Nothing More,<br>
                             Nothing Less</h1>
@@ -26,20 +26,20 @@
             <div class="carousel-item">
                 <div class="home-slider" style="background-image: url('img/home/slider_2.jpg');">
                     <div class="slider-content">
-                        <p>CRAFTED TO DELIGHT</p>
+                        <div class="upper-header">CRAFTED TO DELIGHT</div>
                         <h1>Handcrafted in Japan for Moments That Matter</h1>
                     </div>
                 </div>
             </div>
 
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <div class="home-slider" style="background-image: url('img/home/slider_2_1.jpg');">
                     <div class="slider-content">
-                        <p>CRAFTED TO DELIGHT</p>
+                        <div class="upper-header">CRAFTED TO DELIGHT</div>
                         <h1>Handcrafted in Japan for Moments That Matter</h1>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -48,7 +48,7 @@
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_premium.svg'; ?>
-                    <p>Premium Selection</p>
+                    <div class="upper-header">Premium Selection</div>
                     <p>Finest in Local and Global</p>
                 </div>
             </div>
@@ -56,7 +56,7 @@
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_wellness.svg'; ?>
-                    <p>Healthy Lifestyle</p>
+                    <div class="upper-header">Healthy Lifestyle</div>
                     <p>Everyday Wellness, Naturally</p>
                 </div>
             </div>
@@ -64,7 +64,7 @@
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_canada.svg'; ?>
-                    <p>Proudly Canadian</p>
+                    <div class="upper-header">Proudly Canadian</div>
                     <p>Rooted in Local Values</p>
                 </div>
             </div>
@@ -72,7 +72,7 @@
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_wholesome.svg'; ?>
-                    <p>Full of Flavor</p>
+                    <div class="upper-header">Full of Flavor</div>
                     <p>Healthy Can Still Be Delicious</p>
                 </div>
             </div>
@@ -84,8 +84,8 @@
             <div class="col-lg-4 col-md-6">
                 <div class="product-card product-card-1">
                     <div class="product-card-content">
-                        <p>Coconut Water</p>
-                        <h3>Pure. <br>Refreshing. <br>Simple.</h3>
+                        <div class="upper-header">Coconut Water</div>
+                        <h3>Refresh. <br>Rehydrate. <br>Replenish.</h3>
                         <button class="button">SHOP NOW</button>
                     </div>
                 </div>
@@ -94,8 +94,8 @@
             <div class="col-lg-4 col-md-6">
                 <div class="product-card product-card-2">
                     <div class="product-card-content">
-                        <p>BC Juices</p>
-                        <h3>Local. <br>Pure. <br>Fresh.</h3>
+                        <div class="upper-header">BC Juices</div>
+                        <h3>BC-Grown. <br>Vibrant. <br>Flavourful.</h3>
                         <button class="button">SHOP NOW</button>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
             <div class="col-lg-4">
                 <div class="product-card product-card-3">
                     <div class="product-card-content">
-                        <p>ArrowTree Snacks</p>
+                        <div class="upper-header">ArrowTree Snacks</div>
                         <h3>Handcrafted. <br>Delightful. <br>Elegant.</h3>
                         <button class="button">SHOP NOW</button>
                     </div>
@@ -140,7 +140,7 @@
         <div class="row">
             <div class="col-xl-3 col-6 d-flex justify-content-center p-0 border-end">
                 <div class="feature-product-wrap">
-                    <p>Our Top Picks</p>
+                    <div class="upper-header">Our Top Picks</div>
                     <h2>Featured Products</h2>
                     <p>Carefully selected for taste, quality, and purpose—these are our favorite picks for everyday refreshment and joy.</p>
                     <button class="button">VIEW MORE PRODUCTS</button>
@@ -149,7 +149,7 @@
 
             <div class="col-xl-3 col-6 p-0 border-end">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/feature-1.jpg" alt="White Peony">
+                    <img class="main-img" src="img/home/bco_feature-1.jpg" alt="White Peony">
                     <img class="hover-img" src="img/home/feature-1-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
                         <p>BC Orchard</p>
@@ -161,11 +161,11 @@
 
             <div class="col-xl-3 col-6 p-0 border-end">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/feature-1.jpg" alt="White Peony">
-                    <img class="hover-img" src="img/home/feature-1-hover.jpg" alt="White Peony Hover">
+                    <img class="main-img" src="img/home/bco_feature-2.jpg" alt="White Peony">
+                    <img class="hover-img" src="img/home/bco_feature-2-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
-                        <p>BC Orchard</p>
-                        <h4>100% Pure BC Grown Juices</h4>
+                        <p>Arrow Tree</p>
+                        <h4>Strawberry Financier</h4>
                         <a href="" class="learn-more-button">Learn More</a>
                     </div>
                 </div>
@@ -173,11 +173,11 @@
 
             <div class="col-xl-3 col-6 p-0">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/feature-1.jpg" alt="White Peony">
-                    <img class="hover-img" src="img/home/feature-1-hover.jpg" alt="White Peony Hover">
+                    <img class="main-img" src="img/home/bco_feature-3.jpg" alt="White Peony">
+                    <img class="hover-img" src="img/home/bco_feature-3-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
                         <p>Arrow Tree</p>
-                        <h4>Elegant Treats from Japan</h4>
+                        <h4>ICHI-HA</h4>
                         <a href="" class="learn-more-button">Learn More</a>
                     </div>
                 </div>
@@ -187,31 +187,33 @@
 
     <section class="home-footer bottom-margin">
         <div class="home-footer-content">
-            <p>Client Testimonials</p>
+            <div class="upper-header">Client Testimonials</div>
             <h2>This tea is absolutely amazing! I feel immediate uplifting effects after consuming. That I have found on any shelf thus far.</h2>
         </div>
     </section>
 
     <section class="container-fluid bottom-margin">
         <div class="row">
-            <div class="col-lg-6 ps-0 d-flex align-items-stretch">
+            <div class="col-lg-6 p-0 d-flex align-items-stretch">
                 <div class="img-container">
                     <img src="img/home/contact.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
-                        <div class="scroll-text">subscribe & save</div>
-                        <div class="scroll-text">subscribe & save</div>
-                        <div class="scroll-text">subscribe & save</div>
+                        <div class="scroll-text">Reach Out Today</div>
+                        <div class="scroll-text">Reach Out Today</div>
+                        <div class="scroll-text">Reach Out Today</div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-6 pe-0 d-flex flex-column justify-content-center align-items-center text-center">
-                <p>We’re Listening</p>
-                <h2>Get In Touch Now</h2>
-                <p>Have a question, idea, or request? Reach out—our team is ready to support you and explore new opportunities.</p>
-                <button class="button">CONTACT US</button>
+                <div class="px-5">
+                    <div class="upper-header">We’re Listening</div>
+                    <h2>Get In Touch Now</h2>
+                    <p>Have a question, idea, or request? Reach out—our team is ready to support you and explore new opportunities.</p>
+                    <button class="button">CONTACT US</button>
+                </div>
             </div>
         </div>
     </section>

@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Archivo';
+    font-family: 'Newsreader';
 }
 
 h1 {
@@ -40,6 +40,14 @@ h5 {
     font-weight: 300;
 }
 
+.upper-header {
+    font-family: 'Archivo';
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
 .section-padding {
     padding: 100px 0;
 }
@@ -50,6 +58,7 @@ h5 {
 
 .navbar {
     z-index: 1030;
+    padding: 20px 0;
 }
 
 .nav-link {
@@ -153,6 +162,7 @@ a {
 
 .product-card-1::before {
     background-image: url('../img/home/bco_brand_coconut_water.jpg');
+    background-position: 20% center;
 }
 
 .product-card-2::before {
@@ -173,7 +183,7 @@ a {
 }
 
 .product-card-content {
-    width: 192px;
+    /* width: 192px; */
     position: absolute;
     top: 50%;
     right: 10%;
@@ -222,6 +232,7 @@ a {
 }
 
 .button {
+    font-family: 'Archivo';
     position: relative;
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -256,6 +267,7 @@ a {
 }
 
 .button-white {
+    font-family: 'Archivo';
     color: white;
     position: relative;
     display: inline-block;
@@ -296,7 +308,7 @@ a {
 }
 
 .shop-wrap {
-    padding: 30px 30px 100px;
+    padding: 30px 30px 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,7 +403,7 @@ a {
 }
 
 .img-container {
-    height: 500px;
+    height: 560px;
     overflow: hidden;
 }
 
@@ -402,8 +414,8 @@ a {
 }
 
 .scroll-container {
-    width: 90px;
-    height: 500px;
+    width: 118px;
+    height: 560px;
     overflow: hidden;
     border-right: 1px solid #ccc;
     display: flex;
