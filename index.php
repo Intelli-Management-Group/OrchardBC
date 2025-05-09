@@ -6,12 +6,13 @@
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active">
-                <div class="home-slider" style="background-image: url('img/home/slider1.jpg');">
+                <div class="home-slider" style="background-image: url('img/home/slider_1.jpg');">
                     <div class="slider-content">
                         <p>PURE COCONUT WATER</p>
                         <h1>100% Coconut <br>
@@ -23,7 +24,16 @@
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-                <div class="home-slider" style="background-image: url('img/home/slider2.jpg');">
+                <div class="home-slider" style="background-image: url('img/home/slider_2.jpg');">
+                    <div class="slider-content">
+                        <p>CRAFTED TO DELIGHT</p>
+                        <h1>Handcrafted in Japan for Moments That Matter</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="home-slider" style="background-image: url('img/home/slider_2_1.jpg');">
                     <div class="slider-content">
                         <p>CRAFTED TO DELIGHT</p>
                         <h1>Handcrafted in Japan for Moments That Matter</h1>
@@ -73,10 +83,10 @@
         <div class="row gy-3">
             <div class="col-lg-4 col-md-6">
                 <div class="product-card product-card-1">
-                    <div class="product-card-content text-white">
+                    <div class="product-card-content">
                         <p>Coconut Water</p>
                         <h3>Pure. <br>Refreshing. <br>Simple.</h3>
-                        <button class="button-white">SHOP NOW</button>
+                        <button class="button">SHOP NOW</button>
                     </div>
                 </div>
             </div>
@@ -128,7 +138,7 @@
     <!-- <div class="custom-container container"> -->
     <div class="container-fluid bottom-margin" style="padding-left: 20px; padding-right: 20px;">
         <div class="row">
-            <div class="col-lg-3 col-6 d-flex justify-content-center p-0 border-end">
+            <div class="col-xl-3 col-6 d-flex justify-content-center p-0 border-end">
                 <div class="feature-product-wrap">
                     <p>Our Top Picks</p>
                     <h2>Featured Products</h2>
@@ -137,35 +147,38 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0 border-end">
+            <div class="col-xl-3 col-6 p-0 border-end">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/feature-1.jpg" alt="White Peony">
                     <img class="hover-img" src="img/home/feature-1-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
                         <p>BC Orchard</p>
                         <h4>100% Pure Coconut Water</h4>
+                        <a href="" class="learn-more-button">Learn More</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0 border-end">
+            <div class="col-xl-3 col-6 p-0 border-end">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/feature-1.jpg" alt="White Peony">
                     <img class="hover-img" src="img/home/feature-1-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
                         <p>BC Orchard</p>
                         <h4>100% Pure BC Grown Juices</h4>
+                        <a href="" class="learn-more-button">Learn More</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0">
+            <div class="col-xl-3 col-6 p-0">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/feature-1.jpg" alt="White Peony">
                     <img class="hover-img" src="img/home/feature-1-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
                         <p>Arrow Tree</p>
                         <h4>Elegant Treats from Japan</h4>
+                        <a href="" class="learn-more-button">Learn More</a>
                     </div>
                 </div>
             </div>
