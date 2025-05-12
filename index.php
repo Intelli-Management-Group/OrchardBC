@@ -1,47 +1,7 @@
 <?php include 'inc/header.php'; ?>
 
 <body class="overflowX-hidden">
-    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
-        <!-- Dot indicators -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <!-- <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
-        </div>
-
-        <div class="carousel-inner">
-            <!-- Slide 1 -->
-            <div class="carousel-item active">
-                <div class="home-slider" style="background-image: url('img/home/slider_1.jpg');">
-                    <div class="slider-content">
-                        <div class="upper-header">PURE COCONUT WATER</div>
-                        <h1>100% Coconut <br>
-                            Nothing More,<br>
-                            Nothing Less</h1>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="carousel-item">
-                <div class="home-slider" style="background-image: url('img/home/slider_2.jpg');">
-                    <div class="slider-content">
-                        <div class="upper-header">CRAFTED TO DELIGHT</div>
-                        <h1>Handcrafted in Japan for Moments That Matter</h1>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="carousel-item">
-                <div class="home-slider" style="background-image: url('img/home/slider_2_1.jpg');">
-                    <div class="slider-content">
-                        <div class="upper-header">CRAFTED TO DELIGHT</div>
-                        <h1>Handcrafted in Japan for Moments That Matter</h1>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
+    <?php include 'inc/slider.php'; ?>
 
     <div class="container-fluid">
         <div class="row">
