@@ -95,7 +95,6 @@
         </div>
     </div>
 
-    <!-- <div class="custom-container container"> -->
     <div class="container-fluid bottom-margin" style="padding-left: 20px; padding-right: 20px;">
         <div class="row">
             <div class="col-xl-3 col-6 d-flex justify-content-center p-0 border-end">
@@ -110,9 +109,9 @@
             <div class="col-xl-3 col-6 p-0 border-end">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/bco_feature-1.jpg" alt="White Peony">
-                    <img class="hover-img" src="img/home/bco_feature-1-hover.png" alt="White Peony Hover">
+                    <img class="hover-img" src="img/home/bco_feature-1-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
-                        <p>BC Orchard</p>
+                        <div class="brand-name">BC Orchard</div>
                         <h4>100% Pure Coconut Water</h4>
                         <a href="" class="learn-more-button">Learn More</a>
                     </div>
@@ -124,7 +123,7 @@
                     <img class="main-img" src="img/home/bco_feature-2.jpg" alt="White Peony">
                     <img class="hover-img" src="img/home/bco_feature-2-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
-                        <p>Arrow Tree</p>
+                        <div class="brand-name">Arrow Tree</div>
                         <h4>Strawberry Financier</h4>
                         <a href="" class="learn-more-button">Learn More</a>
                     </div>
@@ -136,7 +135,7 @@
                     <img class="main-img" src="img/home/bco_feature-3.jpg" alt="White Peony">
                     <img class="hover-img" src="img/home/bco_feature-3-hover.jpg" alt="White Peony Hover">
                     <div class="product-name">
-                        <p>Arrow Tree</p>
+                        <div class="brand-name">Arrow Tree</div>
                         <h4>ICHI-HA</h4>
                         <a href="" class="learn-more-button">Learn More</a>
                     </div>
@@ -187,7 +186,7 @@
         <div class="row">
             <div class="col-lg-6 p-0 d-flex align-items-stretch">
                 <div class="img-container">
-                    <img src="img/home/contact.png" alt="" class="img-fluid">
+                    <img src="img/home/contact.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">

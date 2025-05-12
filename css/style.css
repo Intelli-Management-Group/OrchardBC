@@ -46,6 +46,7 @@ h5 {
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 12px;
+    letter-spacing: 1px;
 }
 
 .section-padding {
@@ -165,11 +166,13 @@ a {
 }
 
 .product-card-content {
-    /* width: 192px; */
     position: absolute;
     top: 50%;
     right: 10%;
     transform: translateY(-50%);
+    z-index: 1;
+    will-change: transform;
+    backface-visibility: hidden;
 }
 
 .masked-image {
@@ -192,21 +195,21 @@ a {
 }
 
 .masked-image-1 {
-    background-image: url('../img/home/bco_arrow_tree.png');
-    -webkit-mask-image: url('../img/home/letter_b.svg');
-    mask-image: url('../img/home/letter_b.svg');
+    background-image: url('../img/home/bco_about.jpg');
+    -webkit-mask-image: url('../img/home/mask_bco_letter_b.svg');
+    mask-image: url('../img/home/mask_bco_letter_b.svg');
 }
 
 .masked-image-2 {
     background-color: #e3e9de;
-    -webkit-mask-image: url('../img/home/letter_c.svg');
-    mask-image: url('../img/home/letter_c.svg');
+    -webkit-mask-image: url('../img/home/mask_bco_letter_c.svg');
+    mask-image: url('../img/home/mask_bco_letter_c.svg');
 }
 
 .masked-image-3 {
     background-color: #e3e9de;
-    -webkit-mask-image: url('../img/home/letter_o.svg');
-    mask-image: url('../img/home/letter_o.svg');
+    -webkit-mask-image: url('../img/home/mask_bco_letter_o.svg');
+    mask-image: url('../img/home/mask_bco_letter_o.svg');
 }
 
 .masked-image-content {
@@ -348,6 +351,17 @@ a {
     transform: translateY(-30px);
 }
 
+.product-name > *:hover {
+    color: #a8cc3c;
+}
+
+.brand-name {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #a8a8a8;
+}
+
 .learn-more-button {
     display: block;
     margin: 0;
@@ -364,7 +378,7 @@ a {
 }
 
 .testimonials-container {
-    background: url('../img/home/home-footer.jpg') no-repeat center center/cover;
+    background: url('../img/home/bg_testimonial_2.jpg') no-repeat center center/cover;
     background-attachment: fixed;
     width: 100%;
     height: 675px;

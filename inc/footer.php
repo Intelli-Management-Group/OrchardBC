@@ -8,7 +8,7 @@
                 </a>
             </div> -->
 
-            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center border-end">
+            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center text-center border-end">
                 <p class="mb-0">200 - 3071 No.5 Rd,<br>Richmond, BC, V6X 2T4</p>
             </div>
 
@@ -21,7 +21,6 @@
                 <div class="social-icons">
                     <i class="fa-brands fa-square-facebook"></i>
                     <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-x-twitter"></i>
                 </div>
             </div>
         </div>
