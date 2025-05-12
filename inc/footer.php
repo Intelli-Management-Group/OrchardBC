@@ -1,4 +1,5 @@
 <footer>
+    <hr>
     <div class="container">
         <div class="row my-5">
             <!-- <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center align-items-center border-end">

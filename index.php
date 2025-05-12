@@ -9,7 +9,7 @@
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_premium.svg'; ?>
                     <div class="upper-header">Premium Selection</div>
-                    <p>Finest in Local and Global</p>
+                    <p class="mb-0">Finest in Local and Global</p>
                 </div>
             </div>
 
@@ -17,7 +17,7 @@
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_wellness.svg'; ?>
                     <div class="upper-header">Healthy Lifestyle</div>
-                    <p>Everyday Wellness, Naturally</p>
+                    <p class="mb-0">Everyday Wellness, Naturally</p>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_canada.svg'; ?>
                     <div class="upper-header">Proudly Canadian</div>
-                    <p>Rooted in Local Values</p>
+                    <p class="mb-0">Rooted in Local Values</p>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_wholesome.svg'; ?>
                     <div class="upper-header">Full of Flavor</div>
-                    <p>Healthy Can Still Be Delicious</p>
+                    <p class="mb-0">Healthy Can Still Be Delicious</p>
                 </div>
             </div>
         </div>
@@ -110,7 +110,7 @@
             <div class="col-xl-3 col-6 p-0 border-end">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/bco_feature-1.jpg" alt="White Peony">
-                    <img class="hover-img" src="img/home/feature-1-hover.jpg" alt="White Peony Hover">
+                    <img class="hover-img" src="img/home/bco_feature-1-hover.png" alt="White Peony Hover">
                     <div class="product-name">
                         <p>BC Orchard</p>
                         <h4>100% Pure Coconut Water</h4>
@@ -145,10 +145,41 @@
         </div>
     </div>
 
-    <section class="home-footer bottom-margin">
-        <div class="home-footer-content">
+    <section class="testimonials-container bottom-margin">
+        <div class="testimonials-content carousel slide" id="testimonialCarousel">
             <div class="upper-header">Client Testimonials</div>
-            <h2>This tea is absolutely amazing! I feel immediate uplifting effects after consuming. That I have found on any shelf thus far.</h2>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="testimonial-content-box">
+                        <h2>"Finally, a coconut water that tastes clean and real—just like cracking open a fresh coconut. No weird aftertaste, no sugar. Just perfect."</h2>
+                        <div class="upper-header pt-5">John Doe</div>
+                        <p class="mb-0">100% Pure Coconut water</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-content-box">
+                        <h2>"I drink it after my workouts and it’s a total game changer. It rehydrates without any of the junk in sports drinks."</h2>
+                        <div class="upper-header pt-5">John Doe</div>
+                        <p class="mb-0">100% Pure Coconut water</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-content-box">
+                        <h2>"It’s the only coconut water my kids will actually drink. Smooth, naturally sweet, and I feel good knowing there’s nothing added."</h2>
+                        <div class="upper-header pt-5">John Doe</div>
+                        <p class="mb-0">100% Pure Coconut water</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="fa fa-chevron-left carousel-control-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="fa fa-chevron-right carousel-control-icon"></span>
+            </button>
         </div>
     </section>
 
@@ -156,7 +187,7 @@
         <div class="row">
             <div class="col-lg-6 p-0 d-flex align-items-stretch">
                 <div class="img-container">
-                    <img src="img/home/contact.jpg" alt="" class="img-fluid">
+                    <img src="img/home/contact.png" alt="" class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
@@ -178,5 +209,13 @@
         </div>
     </section>
 </body>
+
+<script>
+    document.querySelectorAll('.carousel-control-next, .carousel-control-prev').forEach(function(control) {
+        control.addEventListener('mouseup', function() {
+            this.blur();
+        });
+    });
+</script>
 
 <?php include 'inc/footer.php'; ?>

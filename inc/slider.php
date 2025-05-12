@@ -43,8 +43,8 @@
         }
 
         .swiper-pagination {
-            bottom: 15% !important;
-            left: 10% !important;
+            bottom: 10% !important;
+            left: 8% !important;
             right: auto;
             text-align: left;
             display: flex;
@@ -54,6 +54,7 @@
         .swiper-pagination-bullet {
             background: white;
             opacity: 0.6;
+            margin-right: 15px !important;
         }
 
         .swiper-pagination-bullet-active {
