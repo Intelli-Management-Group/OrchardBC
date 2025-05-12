@@ -399,6 +399,7 @@ a {
 }
 
 .testimonials-content {
+    min-height: 320px;
     color: white;
     position: absolute;
     top: 50%;
