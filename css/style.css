@@ -2,7 +2,13 @@
     --bs-gutter-x: 30px;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
     --bs-gutter-x: 30px;
 }
 
@@ -60,6 +66,9 @@ h5 {
 .navbar {
     z-index: 1030;
     padding: 20px 0;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
 }
 
 .nav-link {
@@ -70,19 +79,16 @@ h5 {
     height: 50px;
 }
 
-/* Show Dropdown on Hover */
-.navbar .dropdown:hover>.dropdown-menu {
-    display: block;
-    margin-top: 0;
-}
-
 .navbar .nav-link:hover {
     color: #a8cc3c;
 }
 
-/* Green text when active */
 .navbar .nav-link.active {
     color: #a8cc3c;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
 }
 
 a {
@@ -115,12 +121,38 @@ a {
     stroke: #a8cc3c;
 }
 
-.highlight-wrap {
-    border-left: 1px solid #566c00;
+.custom-border {
+    border-right: 1px solid #566c00;
+    border-bottom: none;
 }
 
-.row .col-lg-3:first-child .highlight-wrap {
-    border-left: none;
+@media (min-width: 992px) {
+    .custom-border:nth-child(4) {
+        border-right: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .custom-border:nth-child(2),
+    .custom-border:nth-child(4) {
+        border-right: none;
+    }
+
+    .custom-border:nth-child(1),
+    .custom-border:nth-child(2) {
+        border-bottom: 1px solid #566c00;
+    }
+}
+
+@media (max-width: 575px) {
+    .custom-border {
+        border-right: none;
+        border-bottom: 1px solid #566c00;
+    }
+
+    .custom-border:nth-child() {
+        border-bottom: none;
+    }
 }
 
 .product-card {
@@ -145,7 +177,7 @@ a {
 
 .product-card-1::before {
     background-image: url('../img/home/bco_brand_coconut_water.jpg');
-    /* background-position: 20% center; */
+    background-position: 40% center;
 }
 
 .product-card-2::before {
@@ -154,6 +186,7 @@ a {
 
 .product-card-3::before {
     background-image: url('../img/home/bco_brand_ arrow_tree_snacks.jpg');
+    background-position: 70% center;
 }
 
 .product-card:hover::before {
@@ -351,7 +384,7 @@ a {
     transform: translateY(-30px);
 }
 
-.product-name > *:hover {
+.product-name>*:hover {
     color: #a8cc3c;
 }
 
@@ -378,7 +411,7 @@ a {
 }
 
 .testimonials-container {
-    background: url('../img/home/bg_testimonial_2.jpg') no-repeat center center/cover;
+    background: url('../img/home/Archive/bg_testimonial_3.jpg') no-repeat center center/cover;
     background-attachment: fixed;
     width: 100%;
     height: 675px;
@@ -386,16 +419,17 @@ a {
 }
 
 .testimonials-container::before {
-  content: '';
-  position: absolute;
-  inset: 0; /* shorthand for top:0; right:0; bottom:0; left:0; */
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
+    content: '';
+    position: absolute;
+    inset: 0;
+    /* shorthand for top:0; right:0; bottom:0; left:0; */
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
-.testimonials-container > * {
-  position: relative;
-  z-index: 2;
+.testimonials-container>* {
+    position: relative;
+    z-index: 2;
 }
 
 .testimonials-content {

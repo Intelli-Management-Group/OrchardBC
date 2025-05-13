@@ -5,7 +5,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-6 p-0">
+            <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_premium.svg'; ?>
                     <div class="upper-header">Premium Selection</div>
@@ -13,7 +13,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0">
+            <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_wellness.svg'; ?>
                     <div class="upper-header">Healthy Lifestyle</div>
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0">
+            <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_canada.svg'; ?>
                     <div class="upper-header">Proudly Canadian</div>
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0">
+            <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_wholesome.svg'; ?>
                     <div class="upper-header">Full of Flavor</div>
@@ -40,8 +40,8 @@
     </div>
 
     <div class="container-fluid bottom-margin" style="margin-top: 30px; padding-left: 20px; padding-right: 20px;">
-        <div class="row gy-3">
-            <div class="col-lg-4 col-md-6">
+        <div class="row gy-4">
+            <div class="col-xl-4 col-md-6">
                 <div class="product-card product-card-1">
                     <div class="product-card-content">
                         <div class="upper-header">Coconut Water</div>
@@ -51,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-xl-4 col-md-6">
                 <div class="product-card product-card-2">
                     <div class="product-card-content">
                         <div class="upper-header">BC Juices</div>
@@ -61,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-xl-4">
                 <div class="product-card product-card-3">
                     <div class="product-card-content">
                         <div class="upper-header">ArrowTree Snacks</div>
@@ -108,8 +108,8 @@
 
             <div class="col-xl-3 col-6 p-0 border-end">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/bco_feature-1.jpg" alt="White Peony">
-                    <img class="hover-img" src="img/home/bco_feature-1-hover.jpg" alt="White Peony Hover">
+                    <img class="main-img" src="img/home/bco_feature-1.jpg" alt="BC Orchard 100% Pure Coconut Water">
+                    <img class="hover-img" src="img/home/bco_feature-1-hover.jpg" alt="BC Orchard 100% Pure Coconut Water">
                     <div class="product-name">
                         <div class="brand-name">BC Orchard</div>
                         <h4>100% Pure Coconut Water</h4>
@@ -120,8 +120,8 @@
 
             <div class="col-xl-3 col-6 p-0 border-end">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/bco_feature-2.jpg" alt="White Peony">
-                    <img class="hover-img" src="img/home/bco_feature-2-hover.jpg" alt="White Peony Hover">
+                    <img class="main-img" src="img/home/bco_feature-3.jpg" alt="Arrow Tree Strawberry Financier">
+                    <img class="hover-img" src="img/home/bco_feature-3-hover.jpg" alt="Arrow Tree Strawberry Financier">
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
                         <h4>Strawberry Financier</h4>
@@ -132,8 +132,8 @@
 
             <div class="col-xl-3 col-6 p-0">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/bco_feature-3.jpg" alt="White Peony">
-                    <img class="hover-img" src="img/home/bco_feature-3-hover.jpg" alt="White Peony Hover">
+                    <img class="main-img" src="img/home/bco_feature-2.jpg" alt="Arrow Tree ICHI-HA">
+                    <img class="hover-img" src="img/home/bco_feature-2-hover.jpg" alt="Arrow Tree ICHI-HA">
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
                         <h4>ICHI-HA</h4>

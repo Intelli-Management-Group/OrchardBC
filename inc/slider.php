@@ -102,71 +102,73 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
     <script>
-        const swiper = new Swiper(".homeSwiper", {
-            loop: true,
-            allowTouchMove: true,
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            speed: 0, // make swiper instantly switch slide (0 transition)
-            on: {
-                init: function() {
-                    gsap.set(this.slides[this.activeIndex].querySelector('.bg-image'), {
-                        scale: 1,
-                        opacity: 1
-                    });
-                    animateText(this.slides[this.activeIndex]);
+        window.addEventListener('load', function() {
+            const swiper = new Swiper(".homeSwiper", {
+                loop: true,
+                allowTouchMove: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
                 },
-                slideChangeTransitionStart: function() {
-                    const previousSlide = this.slides[this.previousIndex];
-                    const bgPrev = previousSlide.querySelector('.bg-image');
-                    gsap.to(bgPrev, {
-                        scale: 1.5, // More zoom out
-                        opacity: 0,
-                        duration: 2.5, // Longer duration
-                        ease: "power3.out"
-                    });
-
-                    gsap.set(".slider-content", {
-                        autoAlpha: 0,
-                        y: 200
-                    });
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
                 },
-                slideChangeTransitionEnd: function() {
-                    const activeSlide = this.slides[this.activeIndex];
-                    const bgActive = activeSlide.querySelector('.bg-image');
-                    gsap.fromTo(bgActive, {
-                        scale: 1.5, // Start more zoomed out
-                        opacity: 0
-                    }, {
-                        scale: 1,
-                        opacity: 1,
-                        duration: 2.5, // Longer duration
-                        ease: "power3.out"
-                    });
+                speed: 0, // make swiper instantly switch slide (0 transition)
+                on: {
+                    init: function() {
+                        gsap.set(this.slides[this.activeIndex].querySelector('.bg-image'), {
+                            scale: 1,
+                            opacity: 1
+                        });
+                        animateText(this.slides[this.activeIndex]);
+                    },
+                    slideChangeTransitionStart: function() {
+                        const previousSlide = this.slides[this.previousIndex];
+                        const bgPrev = previousSlide.querySelector('.bg-image');
+                        gsap.to(bgPrev, {
+                            scale: 1.5, // More zoom out
+                            opacity: 0,
+                            duration: 2.5, // Longer duration
+                            ease: "power3.out"
+                        });
 
-                    animateText(activeSlide);
+                        gsap.set(".slider-content", {
+                            autoAlpha: 0,
+                            y: 200
+                        });
+                    },
+                    slideChangeTransitionEnd: function() {
+                        const activeSlide = this.slides[this.activeIndex];
+                        const bgActive = activeSlide.querySelector('.bg-image');
+                        gsap.fromTo(bgActive, {
+                            scale: 1.5, // Start more zoomed out
+                            opacity: 0
+                        }, {
+                            scale: 1,
+                            opacity: 1,
+                            duration: 2.5, // Longer duration
+                            ease: "power3.out"
+                        });
+
+                        animateText(activeSlide);
+                    }
+                }
+            });
+
+            function animateText(slide) {
+                const content = slide.querySelector(".slider-content");
+                if (content) {
+                    gsap.to(content, {
+                        autoAlpha: 1,
+                        y: 0,
+                        duration: 1.5,
+                        ease: "power2.out",
+                        delay: 0.5
+                    });
                 }
             }
         });
-
-        function animateText(slide) {
-            const content = slide.querySelector(".slider-content");
-            if (content) {
-                gsap.to(content, {
-                    autoAlpha: 1,
-                    y: 0,
-                    duration: 1.5,
-                    ease: "power2.out",
-                    delay: 0.5
-                });
-            }
-        }
     </script>
 </body>
 

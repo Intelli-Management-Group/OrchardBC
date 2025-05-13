@@ -13,10 +13,9 @@ $config = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BC Orchard</title>
-    <!-- <meta name="description" content="@yield('meta_description', 'KINGSMAN')"> -->
+    <!-- <meta name="description" content=""> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <base href="<?php echo $config['base_url']; ?>">
-    <!-- <base href="http://192.168.0.47/BCOrchard/"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -27,15 +26,15 @@ $config = [
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
     <!-- <script src="" defer></script> -->
 </head>
 
 <header>
-    <nav class="navbar navbar-expand-lg bg-transparent position-absolute w-100">
+    <nav class="navbar navbar-expand-lg">
         <div class="custom-container container d-flex justify-content-between align-items-center">
             <!-- Logo -->
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="index.php">
                 <img src="img/home/logo.png" alt="logo" class="logo">
             </a>
             <!-- Toggle Button -->
