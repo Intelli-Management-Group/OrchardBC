@@ -58,7 +58,7 @@ $config = [
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">Our Purpose</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Store Location</a></li>
+                    <li class="nav-item"><a class="nav-link" href="locations.php">Store Locations</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
             </div>

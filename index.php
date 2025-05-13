@@ -198,7 +198,7 @@
             </div>
 
             <div class="col-lg-6 pe-0 d-flex flex-column justify-content-center align-items-center text-center">
-                <div class="px-5">
+                <div style="max-width: 500px;">
                     <div class="upper-header">We’re Listening</div>
                     <h2>Get In Touch Now</h2>
                     <p>Have a question, idea, or request? Reach out—our team is ready to support you and explore new opportunities.</p>

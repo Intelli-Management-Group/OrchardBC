@@ -1,5 +1,11 @@
 .row {
     --bs-gutter-x: 30px;
+    --bs-border-color: #eee;
+}
+
+hr {
+    color: #eee;
+    opacity: 1;
 }
 
 .container,
@@ -10,6 +16,13 @@
 .container-xl,
 .container-xxl {
     --bs-gutter-x: 30px;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url('font/CircularStd-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -47,7 +60,7 @@ h5 {
 }
 
 .upper-header {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Circular Std", sans-serif;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -72,7 +85,7 @@ h5 {
 }
 
 .nav-link {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Circular Std", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -254,7 +267,7 @@ a {
 }
 
 .button {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Circular Std", sans-serif;
     font-size: 14px;
     position: relative;
     display: inline-block;
@@ -290,7 +303,7 @@ a {
 }
 
 .button-white {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Circular Std", sans-serif;
     font-size: 14px;
     color: black;
     position: relative;
@@ -376,7 +389,7 @@ a {
     left: 30px;
     right: 30px;
     background: transparent;
-    padding: 22px 8px 16px;
+    padding: 22px 0 16px;
     z-index: 2;
     transform: translateY(0);
     transition: all 0.5s ease;
@@ -388,14 +401,23 @@ a {
     transform: translateY(-30px);
 }
 
-.product-name>*:hover {
+.product-name h4 {
+    margin: 0 8px 8px;
+}
+
+.product-name>a {
+    font-family: "Circular Std", sans-serif;
+    font-size: 14px;
+}
+
+.product-name>a:hover {
     color: #a8cc3c;
 }
 
 .brand-name {
     display: inline-block;
     font-size: 14px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     color: #a8a8a8;
 }
 
@@ -437,7 +459,7 @@ a {
 }
 
 .testimonials-content {
-    min-height: 320px;
+    /* min-height: 320px; */
     color: white;
     position: absolute;
     top: 50%;
@@ -514,7 +536,7 @@ a {
     width: 118px;
     height: 560px;
     overflow: hidden;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #eee;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -545,4 +567,16 @@ a {
     100% {
         transform: translateY(0);
     }
+}
+
+footer {
+    background-color: #e3e9de;
+}
+
+footer .row {
+    --bs-border-color: #d2dbbf;
+}
+
+footer hr {
+    color: #d2dbbf;
 }
