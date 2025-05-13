@@ -8,7 +8,7 @@
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_premium.svg'; ?>
-                    <div class="upper-header">Premium Selection</div>
+                    <div class="upper-header" style="font-size: 12px;">Premium Selection</div>
                     <p class="mb-0">Finest in Local and Global</p>
                 </div>
             </div>
@@ -16,7 +16,7 @@
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_wellness.svg'; ?>
-                    <div class="upper-header">Healthy Lifestyle</div>
+                    <div class="upper-header" style="font-size: 12px;">Healthy Lifestyle</div>
                     <p class="mb-0">Everyday Wellness, Naturally</p>
                 </div>
             </div>
@@ -24,7 +24,7 @@
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_canada.svg'; ?>
-                    <div class="upper-header">Proudly Canadian</div>
+                    <div class="upper-header" style="font-size: 12px;">Proudly Canadian</div>
                     <p class="mb-0">Rooted in Local Values</p>
                 </div>
             </div>
@@ -32,7 +32,7 @@
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <?php include 'img/home/icons/icon_wholesome.svg'; ?>
-                    <div class="upper-header">Full of Flavor</div>
+                    <div class="upper-header" style="font-size: 12px;">Full of Flavor</div>
                     <p class="mb-0">Healthy Can Still Be Delicious</p>
                 </div>
             </div>
