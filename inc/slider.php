@@ -40,6 +40,10 @@
             top: 50%;
             transform: translateY(-50%);
             width: 50%;
+            height: 470px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .swiper-pagination {
@@ -105,7 +109,7 @@
         window.addEventListener('load', function() {
             const swiper = new Swiper(".homeSwiper", {
                 loop: true,
-                allowTouchMove: true,
+                allowTouchMove: false,
                 autoplay: {
                     delay: 5000,
                     disableOnInteraction: false,
@@ -133,10 +137,10 @@
                             ease: "power3.out"
                         });
 
-                        gsap.set(".slider-content", {
-                            autoAlpha: 0,
-                            y: 200
-                        });
+                        // gsap.set(".slider-content", {
+                        //     autoAlpha: 0,
+                        //     y: 200
+                        // });
                     },
                     slideChangeTransitionEnd: function() {
                         const activeSlide = this.slides[this.activeIndex];
@@ -159,7 +163,10 @@
             function animateText(slide) {
                 const content = slide.querySelector(".slider-content");
                 if (content) {
-                    gsap.to(content, {
+                    gsap.fromTo(content, {
+                        autoAlpha: 0,
+                        y: 200
+                    }, {
                         autoAlpha: 1,
                         y: 0,
                         duration: 1.5,
