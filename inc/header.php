@@ -57,7 +57,7 @@ $config = [
                             <li><a class="dropdown-item" href="#">Arrow Tree Snacks</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Our Purpose</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="locations.php">Store Locations</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
