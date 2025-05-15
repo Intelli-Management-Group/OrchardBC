@@ -45,7 +45,7 @@
                 <div class="product-card product-card-1">
                     <div class="product-card-content">
                         <div class="upper-header">Coconut Water</div>
-                        <h4>Refresh. <br>Rehydrate. <br>Replenish.</h4>
+                        <h4>Refresh <br>Rehydrate <br>Replenish</h4>
                         <button class="button">SHOP NOW</button>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                 <div class="product-card product-card-2">
                     <div class="product-card-content">
                         <div class="upper-header">BC Juices</div>
-                        <h4>BC-Grown. <br>Vibrant. <br>Flavourful.</h4>
+                        <h4>BC-Grown <br>Vibrant <br>Flavourful</h4>
                         <button class="button">SHOP NOW</button>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                 <div class="product-card product-card-3">
                     <div class="product-card-content">
                         <div class="upper-header">Arrow Tree Snacks</div>
-                        <h4>Handcrafted. <br>Delightful. <br>Elegant.</h4>
+                        <h4>Curated <br>Delightful <br>Elegant</h4>
                         <button class="button">SHOP NOW</button>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
             <div class="col-lg-3 col-6 p-0 border-end-lg">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/bco_feature-1.jpg" alt="BC Orchard 100% Pure Coconut Water">
-                    <img class="hover-img" src="img/home/bco_feature-1-hover.png" alt="BC Orchard 100% Pure Coconut Water">
+                    <img class="hover-img" src="img/home/bco_feature-1-hover.jpg" alt="BC Orchard 100% Pure Coconut Water">
                     <div class="product-name">
                         <div class="brand-name">BC Orchard</div>
                         <h6 class="px-2">100% Pure Coconut Water</h6>
