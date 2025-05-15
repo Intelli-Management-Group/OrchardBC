@@ -80,8 +80,8 @@
             </div>
             <div class="col-28">
                 <div class="masked-image masked-image-2">
-                    <div class="masked-image-content">
-                        <h4>More Than a Business – A Passion for Healthy Living</h4>
+                    <div class="masked-image-content text-center">
+                        <h4 style="line-height: 1.5;">More Than a Business – A Passion for Healthy Living</h4>
                         <a href="about.php" class="button mt-3">ABOUT US</a>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
             <div class="col-lg-3 col-6 p-0 border-end-lg">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/bco_feature-1.jpg" alt="BC Orchard 100% Pure Coconut Water">
-                    <img class="hover-img" src="img/home/bco_feature-1-hover.jpg" alt="BC Orchard 100% Pure Coconut Water">
+                    <img class="hover-img" src="img/home/bco_feature-1-hover.png" alt="BC Orchard 100% Pure Coconut Water">
                     <div class="product-name">
                         <div class="brand-name">BC Orchard</div>
                         <h6 class="px-2">100% Pure Coconut Water</h6>

@@ -1,19 +1,19 @@
 <footer>
     <div class="container">
         <div class="row py-5">
-            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
                 <p class="mb-0">200 - 3071 No.5 Rd,<br>Richmond, BC, V6X 2T4</p>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center border-start border-end">
+            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center border-start border-end">
                 <a href="mailto:contact@example.com">contact@example.com</a>
                 <a href="tel:+17782977108">+1 (778) 297-7108</a>
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
                 <div class="social-icons">
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
+                    <img src="img/home/icons/facebook.svg" alt="" class="social-icon">
+                    <img src="img/home/icons/instagram.svg" alt="" class="social-icon">
                 </div>
             </div>
         </div>

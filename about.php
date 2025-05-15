@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row gy-5 gy-lg-0">
                 <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end">
                     <img src="https://demo2.themelexus.com/gintea/wp-content/uploads/2024/08/about-image-4.jpg" alt="" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Excellence</div>

@@ -617,6 +617,11 @@ footer hr {
     color: #d2dbbf;
 }
 
+.social-icon {
+    width: 25px;
+    height: 25px;
+}
+
 .banner-container {
     width: 100%;
     height: 300px;
