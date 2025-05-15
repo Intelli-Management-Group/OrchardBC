@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div style="background-color: #f9f6ee;" class="bottom-margin overflow-x-hidden">
+    <div style="background-color: #f9f6ee;" class="bottom-margin">
         <div class="custom-container container section-padding">
             <div class="row text-center mb-5">
                 <div class="col-12">

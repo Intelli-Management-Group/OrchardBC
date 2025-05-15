@@ -64,7 +64,7 @@
             <div class="col-xl-4">
                 <div class="product-card product-card-3">
                     <div class="product-card-content">
-                        <div class="upper-header">ArrowTree Snacks</div>
+                        <div class="upper-header">Arrow Tree Snacks</div>
                         <h4>Handcrafted. <br>Delightful. <br>Elegant.</h4>
                         <button class="button">SHOP NOW</button>
                     </div>

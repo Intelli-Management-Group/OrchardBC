@@ -24,7 +24,7 @@ body {
 
 h1 {
     font-family: "Gilda Display", serif;
-    font-size: clamp(4rem, 6vw, 5rem);
+    font-size: clamp(3.5rem, 6vw, 5rem);
     font-weight: 300;
 }
 
@@ -48,7 +48,7 @@ h4 {
 
 h5 {
     font-family: "Gilda Display", serif;
-    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-size: clamp(1.5rem, 3vw, 1.75rem);
     font-weight: 300;
 }
 
@@ -68,7 +68,8 @@ h6 {
 }
 
 .section-padding {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .bottom-margin {
@@ -106,6 +107,10 @@ h6 {
 
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0;
+}
+
+nav .nav-link.show {
+    color: #a8cc3c !important;
 }
 
 .dropdown-menu {

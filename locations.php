@@ -26,7 +26,7 @@
                 <div class="location-card" data-category="coconut">
                     <div>
                         <p>Coconut Water</p>
-                        <h5>Brandon & Joanny’s NoFrills</h5>
+                        <h5>Brandon & Joanny’s<br> NoFrills</h5>
                         <div>101-1030 Denman St, Vancouver</div>
                     </div>
                     <div>
@@ -40,7 +40,7 @@
                 <div class="location-card" data-category="coconut juice">
                     <div>
                         <p>Coconut Water / Juice</p>
-                        <h5>Big Crazy Supermarket (柏仁超市)</h5>
+                        <h5>Big Crazy Supermarket<br> (柏仁超市)</h5>
                         <div>180-4551 No 3 Rd, Richmond</div>
                     </div>
                     <div>
