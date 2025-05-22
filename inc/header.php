@@ -30,7 +30,7 @@ $config = [
 </head>
 
 <header>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-sm">
         <div class="custom-container container d-flex justify-content-between align-items-center">
             <!-- Logo -->
             <a class="navbar-brand" href="index.php">

@@ -44,7 +44,7 @@
 
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h4>Grab Your Favorites In-Store —we’re expanding, stay tuned for more.</h4>
+                <h4 class="text-center">Grab Your Favorites In-Store —we’re expanding, stay tuned for more.</h4>
             </div>
         </div>
 

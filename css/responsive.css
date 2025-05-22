@@ -16,8 +16,7 @@
     }
 }
 
-@media only screen and (min-width: 992px) {
-
+@media only screen and (min-width: 576px) {
     /* Show Dropdown on Hover */
     .navbar .dropdown:hover>.dropdown-menu {
         display: block;
@@ -34,20 +33,6 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .navbar {
-        position: static;
-        background-color: white;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .nav-link {
-        color: black;
-    }
-
-    .navbar {
-        padding: 10px 0;
-    }
-
     .slider-content {
         width: 75% !important;
     }
@@ -84,5 +69,19 @@
 
     .highlight-wrap {
         height: 200px;
+    }
+
+    .navbar {
+        position: static;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .navbar {
+        padding: 10px 0;
     }
 }
