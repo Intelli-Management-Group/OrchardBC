@@ -91,8 +91,8 @@
                 <div class="home-slider">
                     <div class="bg-image" style="background-image: url('img/home/slider_2.jpg');"></div>
                     <div class="slider-content">
-                        <div class="upper-header">CRAFTED TO DELIGHT</div>
-                        <h1>Handcrafted in Japan for Moments That Matter</h1>
+                        <div class="upper-header">CRAFTED IN JAPAN</div>
+                        <h1>Make the<br> Moment Sweeter</h1>
                         <button class="button-white">LEARN MORE</button>
                     </div>
                 </div>
