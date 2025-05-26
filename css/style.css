@@ -68,8 +68,8 @@ h6 {
 }
 
 .section-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .bottom-margin {
@@ -280,6 +280,10 @@ a {
 
 .masked-image-content {
     padding: 0 50px;
+}
+
+.masked-image-content h4 {
+    font-size: clamp(1.75rem, 2.5vw, 2.25rem);
 }
 
 .col-44 {

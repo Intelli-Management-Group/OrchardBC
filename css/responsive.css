@@ -30,12 +30,6 @@
     .highlight-wrap {
         height: 250px;
     }
-}
-
-@media only screen and (max-width: 991px) {
-    .slider-content {
-        width: 75% !important;
-    }
 
     .col-44 {
         flex: 0 0 auto;
@@ -50,7 +44,26 @@
     }
 
     .masked-image {
-        height: 400px;
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section-padding {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .bottom-margin {
+        margin-bottom: 100px;
+    }
+
+    .slider-content {
+        width: 75% !important;
+    }
+
+    .masked-image {
+        height: 500px;
     }
 }
 
@@ -63,6 +76,15 @@
 }
 
 @media only screen and (max-width: 575px) {
+    .section-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .bottom-margin {
+        margin-bottom: 70px;
+    }
+
     .slider-content {
         width: 100% !important;
     }
