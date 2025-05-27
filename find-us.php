@@ -1,9 +1,9 @@
 <?php include 'inc/header.php'; ?>
 
 <body>
-    <div class="banner-container locations-banner">
+    <div class="banner-container find-us-banner">
         <div class="banner-content">
-            <h1>Where to Find Us</h1>
+            <h1 class="text-white">Find Us</h1>
         </div>
     </div>
 

@@ -54,9 +54,9 @@
             <div class="col-xl-4 col-md-6">
                 <div class="product-card product-card-2">
                     <div class="product-card-content">
-                        <div class="upper-header">BC Juices</div>
-                        <h4>BC-Grown <br>Vibrant <br>Flavourful</h4>
-                        <button class="button">LEARN MORE</button>
+                        <div class="upper-header text-white">BC Juices</div>
+                        <h4 class="text-white">BC-Grown <br>Vibrant <br>Flavourful</h4>
+                        <button class="button-white">LEARN MORE</button>
                     </div>
                 </div>
             </div>
@@ -187,7 +187,7 @@
         <div class="row gy-5 gy-lg-0">
             <div class="col-lg-6 p-0 d-flex align-items-stretch">
                 <div class="img-container">
-                    <img src="img/home/contact.jpg" alt="" class="img-fluid">
+                    <img src="img/home/contact_2.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">

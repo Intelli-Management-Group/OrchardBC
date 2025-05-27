@@ -214,7 +214,7 @@ a {
 }
 
 .product-card-2::before {
-    background-image: url('../img/home/bco_brand_ bc_juice.jpg');
+    background-image: url('../img/home/bco_brand_ bc_juice_2.jpg');
 }
 
 .product-card-3::before {
@@ -296,7 +296,8 @@ a {
     width: 28%;
 }
 
-.button {
+.button,
+.button-white {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -314,7 +315,8 @@ a {
     width: auto;
 }
 
-.button::before {
+.button::before,
+.button-white::before {
     content: "";
     position: absolute;
     top: 0;
@@ -326,7 +328,8 @@ a {
     transition: width 0.4s ease;
 }
 
-.button:hover::before {
+.button:hover::before,
+.button-white:hover::before {
     width: 100%;
 }
 
@@ -340,6 +343,24 @@ a {
 }
 
 .button-white {
+    border: 1px solid white;
+    color: white;
+}
+
+.button-white::before {
+    background-color: white;
+}
+
+.button-white:hover {
+    color: black;
+}
+
+.button.active {
+    background-color: white;
+    color: black;
+}
+
+.button-white-fill {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -357,7 +378,7 @@ a {
     width: auto;
 }
 
-.button-white::before {
+.button-white-fill::before {
     content: "";
     position: absolute;
     top: 0;
@@ -369,11 +390,11 @@ a {
     transition: width 0.4s ease;
 }
 
-.button-white:hover::before {
+.button-white-fill:hover::before {
     width: 100%;
 }
 
-.button-white:hover {
+.button-white-fill:hover {
     color: white;
 }
 
@@ -477,7 +498,7 @@ a {
 }
 
 .testimonials-container {
-    background: url('../img/home/Archive/bg_testimonial_3.jpg') no-repeat center center/cover;
+    background: url('../img/home/bg_testimonial.jpg') no-repeat center center/cover;
     background-attachment: fixed;
     width: 100%;
     height: 675px;
@@ -631,8 +652,8 @@ footer hr {
     position: relative;
 }
 
-.locations-banner {
-    background: url('../img/home/Archive/slider_2_1.jpg') no-repeat center center/cover;
+.find-us-banner {
+    background: url('../img/find-us/banner_find_us_2.jpg') no-repeat center center/cover;
 }
 
 .about-banner {

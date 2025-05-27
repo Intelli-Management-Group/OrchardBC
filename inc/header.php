@@ -58,7 +58,7 @@ $config = [
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'about.php' ? 'active' : ''; ?>" href="about.php">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'locations.php' ? 'active' : ''; ?>" href="locations.php">Find Us</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'find-us.php' ? 'active' : ''; ?>" href="find-us.php">Find Us</a></li>
                 </ul>
             </div>
         </div>

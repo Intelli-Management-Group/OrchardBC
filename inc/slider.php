@@ -81,7 +81,7 @@
                     <div class="slider-content">
                         <div class="upper-header">PURE COCONUT WATER</div>
                         <h1>100% Coconut <br> Nothing More,<br> Nothing Less</h1>
-                        <button class="button-white">LEARN MORE</button>
+                        <button class="button-white-fill">LEARN MORE</button>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     <div class="slider-content">
                         <div class="upper-header">CRAFTED IN JAPAN</div>
                         <h1>Make the<br> Moment Sweeter</h1>
-                        <button class="button-white">LEARN MORE</button>
+                        <button class="button-white-fill">LEARN MORE</button>
                     </div>
                 </div>
             </div>
