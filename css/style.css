@@ -214,7 +214,7 @@ a {
 }
 
 .product-card-2::before {
-    background-image: url('../img/home/bco_brand_ bc_juice_2.jpg');
+    background-image: url('../img/home/bco_brand_ bc_juice.jpg');
 }
 
 .product-card-3::before {
@@ -657,7 +657,7 @@ footer hr {
 }
 
 .about-banner {
-    background: url('../img/about/about-image-1.jpg') no-repeat center center/cover;
+    background: url('../img/about/banner_about_2.jpg') no-repeat center center/cover;
 }
 
 .banner-content {

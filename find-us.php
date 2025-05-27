@@ -1,14 +1,14 @@
 <?php include 'inc/header.php'; ?>
 
 <body>
-    <div class="banner-container find-us-banner">
+    <div class="banner-container find-us-banner bottom-margin">
         <div class="banner-content">
             <h1 class="text-white">Find Us</h1>
         </div>
     </div>
 
     <div class="container">
-        <div class="row section-padding">
+        <div class="row">
             <div class="col-lg-8 mx-auto">
                 <h4 class="text-center">Looking to purchase in bulk or explore a retail partnership? Reach us directly today.</h4>
             </div>
@@ -21,7 +21,7 @@
             <button class="button" data-filter="arrow">Arrow Tree</button>
         </div> -->
 
-        <div class="row bottom-margin">
+        <div class="row mt-5 bottom-margin">
             <div class="col-md-4 d-flex flex-column align-items-center text-center">
                 <div class="upper-header">Our Office</div>
                 <p class="mb-0">200 - 3071 No.5 Rd,<br>Richmond, BC, V6X 2T4</p>
@@ -44,7 +44,7 @@
 
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h4 class="text-center">Grab Your Favorites In-Store —we’re expanding, stay tuned for more.</h4>
+                <h4 class="text-center mb-0">Grab Your Favorites In-Store —we’re expanding,<br class="d-xxl-block d-none"> stay tuned for more.</h4>
             </div>
         </div>
 
@@ -58,7 +58,7 @@
                     </div>
                     <div>
                         <div class="devider"></div>
-                        <a href="https://www.google.com/maps/place/Brandon+%26+Joanny's+NOFRILLS+Vancouver/@49.2887289,-123.1382003,17z/data=!3m1!4b1!4m6!3m5!1s0x5486722886d4e1df:0xf0668965f385a62b!8m2!3d49.2887289!4d-123.1382003!16s%2Fg%2F1tfmhhqc!5m1!1e1?entry=tts&g_ep=EgoyMDI1MDUxMS4wIPu8ASoASAFQAw%3D%3D&skid=94aeb5ac-b08d-4690-9aee-e18992e16923" target="_blank" rel="noopener noreferrer">More Info</a>
+                        <a href="https://www.google.com/maps/place/Brandon+%26+Joanny's+NOFRILLS+Vancouver/@49.2887289,-123.1382003,17z/data=!3m1!4b1!4m6!3m5!1s0x5486722886d4e1df:0xf0668965f385a62b!8m2!3d49.2887289!4d-123.1382003!16s%2Fg%2F1tfmhhqc!5m1!1e1?entry=tts&g_ep=EgoyMDI1MDUxMS4wIPu8ASoASAFQAw%3D%3D&skid=94aeb5ac-b08d-4690-9aee-e18992e16923" target="_blank" rel="noopener noreferrer">Get Direction</a>
                     </div>
                 </div>
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5204.6982870686825!2d-123.1382003!3d49.288728899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486722886d4e1df%3A0xf0668965f385a62b!2sBrandon%20%26%20Joanny&#39;s%20NOFRILLS%20Vancouver!5e0!3m2!1sen!2sca!4v1747342506141!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
@@ -73,7 +73,7 @@
                     </div>
                     <div>
                         <div class="devider"></div>
-                        <a href="https://www.google.com/maps/place/Big+Crazy+Supermarket/@49.1805006,-123.1381608,17z/data=!3m1!4b1!4m6!3m5!1s0x5486752e7b7d7181:0xcbf087954704aced!8m2!3d49.1805006!4d-123.1381608!16s%2Fg%2F1w96gfgg!5m1!1e1?entry=tts&g_ep=EgoyMDI1MDUxMi4wIPu8ASoASAFQAw%3D%3D&skid=debaa0ed-3a44-47d8-8d85-19149ce25b79" target="_blank" rel="noopener noreferrer">More Info</a>
+                        <a href="https://www.google.com/maps/place/Big+Crazy+Supermarket/@49.1805006,-123.1381608,17z/data=!3m1!4b1!4m6!3m5!1s0x5486752e7b7d7181:0xcbf087954704aced!8m2!3d49.1805006!4d-123.1381608!16s%2Fg%2F1w96gfgg!5m1!1e1?entry=tts&g_ep=EgoyMDI1MDUxMi4wIPu8ASoASAFQAw%3D%3D&skid=debaa0ed-3a44-47d8-8d85-19149ce25b79" target="_blank" rel="noopener noreferrer">Get Direction</a>
                     </div>
                 </div>
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2608.0572312846216!2d-123.13816079999998!3d49.1805006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486752e7b7d7181%3A0xcbf087954704aced!2sBig%20Crazy%20Supermarket!5e0!3m2!1sen!2sca!4v1747342600524!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->

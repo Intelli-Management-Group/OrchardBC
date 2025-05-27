@@ -31,7 +31,7 @@
 
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
-                    <?php include 'img/home/icons/icon_wholesome.svg'; ?>
+                    <?php include 'img/home/icons/icon_flavour.svg'; ?>
                     <div class="upper-header" style="font-size: 12px;">Full of Flavor</div>
                     <p class="mb-0">Healthy Can Still Be Delicious</p>
                 </div>
