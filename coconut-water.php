@@ -6,6 +6,7 @@
         border-top-right-radius: 24px;
     }
 </style>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 <body>
     <div class="product-coconut-bg">
@@ -33,17 +34,17 @@
         <div class="section-padding-sm">
             <h1 class="text-center">Effortless Nutrition on the go</h1>
             <div class="row mt-5">
-                <div class="col-lg-4 d-flex flex-column align-items-center text-center">
+                <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
                     <div id="lottie1" class="lottie-container"></div>
                     <h5 class="mt-3">prebiotics for gut health</h5>
                     <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column align-items-center text-center">
+                <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
                     <div id="lottie2" class="lottie-container"></div>
                     <h5 class="mt-3">prebiotics for gut health</h5>
                     <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
                 </div>
-                <div class="col-lg-4 d-flex flex-column align-items-center text-center">
+                <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
                     <div id="lottie3" class="lottie-container"></div>
                     <h5 class="mt-3">prebiotics for gut health</h5>
                     <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
@@ -68,7 +69,7 @@
                     </div>
 
                     <div class="col-lg-5">
-                        <div class="row" style="margin-bottom: 30px;">
+                        <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="0">
                             <div class="col-4">
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
@@ -79,7 +80,7 @@
                             </div>
                         </div>
 
-                        <div class="row" style="margin-bottom: 30px;">
+                        <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="100">
                             <div class="col-4">
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
@@ -90,7 +91,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row" data-aos="fade-up" data-aos-delay="200">
                             <div class="col-4">
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
@@ -108,82 +109,108 @@
                 <div class="col-lg-4 text-white">
                     <h2>a wellness wonder</h2>
                     <h6 class="mb-5">blended with your health in mind</h6>
-                    <div class="d-flex justify-content-start align-items-center gap-3">
-                        <div class="nutrition-circle">5g</div>
-                        <h5 class="mb-0">5g prebiotic fiber</h5>
+                    <div data-aos="fade-up" data-aos-delay="0">
+                        <div class="d-flex justify-content-start align-items-center gap-3">
+                            <div class="nutrition-circle">5g</div>
+                            <h5 class="mb-0">5g prebiotic fiber</h5>
+                        </div>
+                        <hr>
                     </div>
-                    <hr>
 
-                    <div class="d-flex justify-content-start align-items-center gap-3">
-                        <div class="nutrition-circle">5g</div>
-                        <h5 class="mb-0">5g prebiotic fiber</h5>
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <div class="d-flex justify-content-start align-items-center gap-3">
+                            <div class="nutrition-circle">5g</div>
+                            <h5 class="mb-0">5g prebiotic fiber</h5>
+                        </div>
+                        <hr>
                     </div>
-                    <hr>
 
-                    <div class="d-flex justify-content-start align-items-center gap-3">
-                        <div class="nutrition-circle">5g</div>
-                        <h5 class="mb-0">5g prebiotic fiber</h5>
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <div class="d-flex justify-content-start align-items-center gap-3">
+                            <div class="nutrition-circle">5g</div>
+                            <h5 class="mb-0">5g prebiotic fiber</h5>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="fade-up">
                     <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="" class="img-fluid">
                 </div>
 
                 <div class="col-lg-4">
                     <div class="bg-white rounded-5 p-4">
-                        <h6>Noka has what you need</h6>
-                        <hr>
-
-                        <div class="d-flex justify-content-between">
-                            <div>calories</div>
-                            <div>120</div>
+                        <div id="aos-anchor" data-aos="fade-up" data-aos-delay="0">
+                            <h6>Noka has what you need</h6>
+                            <hr>
                         </div>
-                        <hr>
 
-                        <div class="d-flex justify-content-between">
-                            <div>calories</div>
-                            <div>120</div>
+                        <div data-aos="fade-up" data-aos-delay="50" data-aos-anchor="#aos-anchor">
+                            <div class="d-flex justify-content-between">
+                                <div>calories</div>
+                                <div>120</div>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
 
-                        <div class="d-flex justify-content-between">
-                            <div>calories</div>
-                            <div>120</div>
+                        <div data-aos="fade-up" data-aos-delay="100" data-aos-anchor="#aos-anchor">
+                            <div class="d-flex justify-content-between">
+                                <div>calories</div>
+                                <div>120</div>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
 
-                        <div class="d-flex justify-content-between">
-                            <div>calories</div>
-                            <div>120</div>
+                        <div data-aos="fade-up" data-aos-delay="150" data-aos-anchor="#aos-anchor">
+                            <div class="d-flex justify-content-between">
+                                <div>calories</div>
+                                <div>120</div>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
 
-                        <div class="d-flex justify-content-between">
-                            <div>calories</div>
-                            <div>120</div>
+                        <div data-aos="fade-up" data-aos-delay="200" data-aos-anchor="#aos-anchor">
+                            <div class="d-flex justify-content-between">
+                                <div>calories</div>
+                                <div>120</div>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
 
-                        <div class="d-flex justify-content-between">
-                            <div>calories</div>
-                            <div>120</div>
+                        <div data-aos="fade-up" data-aos-delay="250" data-aos-anchor="#aos-anchor">
+                            <div class="d-flex justify-content-between">
+                                <div>calories</div>
+                                <div>120</div>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
 
-                        <div class="d-flex justify-content-between">
-                            <div>calories</div>
-                            <div>120</div>
+                        <div data-aos="fade-up" data-aos-delay="300" data-aos-anchor="#aos-anchor">
+                            <div class="d-flex justify-content-between">
+                                <div>calories</div>
+                                <div>120</div>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
 
-                        <div class="d-flex justify-content-between">
-                            <div>calories</div>
-                            <div>120</div>
+                        <div data-aos="fade-up" data-aos-delay="350" data-aos-anchor="#aos-anchor">
+                            <div class="d-flex justify-content-between">
+                                <div>calories</div>
+                                <div>120</div>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
 
-                        <button class="button" data-bs-toggle="modal" data-bs-target="#nutritionModal">view nutrition facts</button>
+                        <div data-aos="fade-up" data-aos-delay="400" data-aos-anchor="#aos-anchor">
+                            <div class="d-flex justify-content-between">
+                                <div>calories</div>
+                                <div>120</div>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div data-aos="fade-up" data-aos-delay="450" data-aos-anchor="#aos-anchor">
+                            <button class="button" data-bs-toggle="modal" data-bs-target="#nutritionModal">view nutrition facts</button>
+                        </div>
 
                         <!-- Modal -->
                         <div class="modal fade" id="nutritionModal" tabindex="-1" aria-labelledby="nutritionModalLabel" aria-hidden="true">
@@ -212,7 +239,7 @@
     <div class="container-xxl section-padding">
         <h2 class="text-center mb-5">The Choice is Simple</h2>
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
                 <div class="product-comparison-card">
                     <div class="product-comparison-inner-card">
                         <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
@@ -225,7 +252,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="product-comparison-card">
                     <div class="product-comparison-inner-card">
                         <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
@@ -238,7 +265,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="product-comparison-card">
                     <div class="product-comparison-inner-card">
                         <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
@@ -251,7 +278,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="product-comparison-card">
                     <div class="product-comparison-inner-card">
                         <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
@@ -291,6 +318,15 @@
             loop: true,
             autoplay: true,
             path: 'https://www.nokaorganics.com/cdn/shop/files/icon-for-all-ages.json?v=11389779386743926115'
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 300,
+            easing: 'ease-in-out',
+            once: false
         });
     </script>
 </body>
