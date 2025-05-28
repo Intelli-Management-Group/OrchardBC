@@ -9,52 +9,58 @@
 
 <body>
     <div class="product-coconut-bg">
-        <div class="custom-container container position-relative">
-            <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img">
-            <img src="https://www.nokaorganics.com/cdn/shop/files/strawberry-pineapple-accent-graphics-1.png" alt="Strawberry Pineapple Accent" class="floating-accent-1">
-            <img src="https://www.nokaorganics.com/cdn/shop/files/strawberry-pineapple-accent-graphics-2.png" alt="Strawberry Pineapple Accent" class="floating-accent-2">
+        <div class="container position-relative section-padding-sm">
+            <div>
+                <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img">
+                <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img-2">
+                <img src="img/coconut/ice_cube_1.png" alt="" class="floating-accent-1">
+                <img src="img/coconut/ice_cube_2.png" alt="" class="floating-accent-2">
+                <img src="img/coconut/ice_cube_3.png" alt="" class="floating-accent-3">
+            </div>
+
             <div class="product-coconut-content">
                 <h3 class="mb-5">strawberry<br>pineapple</h3>
                 <p>Bright and energizing strawberries and pineapple deliver vitamin C and an instant mood boost in one convenient, on-the-go pouch. Sweet enough for palates of all ages, this blend packs antioxidants and vitamins from five fruits, protein from plants and omega-3s from flax. Stash one in your bag for a nourishing tropical treat anytime, anywhere.</p>
             </div>
         </div>
     </div>
+
     <svg viewBox="0 0 1440 100" style="display: block; width: 100%; height: auto;">
-        <path fill="#8dac90" d="M0,100 Q720,0 1440,100 L1440,0 L0,0 Z"></path>
+        <path fill="#74b05c" d="M0,100 Q720,0 1440,100 L1440,0 L0,0 Z"></path>
     </svg>
 
     <div class="container">
-        <h1 class="text-center">Effortless Nutrition on the go</h1>
-        <div class="row mt-5">
-            <div class="col-lg-4 d-flex flex-column align-items-center text-center">
-                <div id="lottie1" class="lottie-container"></div>
-                <h5 class="mt-3">prebiotics for gut health</h5>
-                <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
-            </div>
-
-            <div class="col-lg-4 d-flex flex-column align-items-center text-center">
-                <div id="lottie2" class="lottie-container"></div>
-                <h5 class="mt-3">prebiotics for gut health</h5>
-                <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
-            </div>
-
-            <div class="col-lg-4 d-flex flex-column align-items-center text-center">
-                <div id="lottie3" class="lottie-container"></div>
-                <h5 class="mt-3">prebiotics for gut health</h5>
-                <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
+        <div class="section-padding-sm">
+            <h1 class="text-center">Effortless Nutrition on the go</h1>
+            <div class="row mt-5">
+                <div class="col-lg-4 d-flex flex-column align-items-center text-center">
+                    <div id="lottie1" class="lottie-container"></div>
+                    <h5 class="mt-3">prebiotics for gut health</h5>
+                    <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column align-items-center text-center">
+                    <div id="lottie2" class="lottie-container"></div>
+                    <h5 class="mt-3">prebiotics for gut health</h5>
+                    <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column align-items-center text-center">
+                    <div id="lottie3" class="lottie-container"></div>
+                    <h5 class="mt-3">prebiotics for gut health</h5>
+                    <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
+                </div>
             </div>
         </div>
     </div>
 
     <svg viewBox="0 0 1440 100" style="display: block; width: 100%; height: auto; margin-bottom: -1px;">
-        <path fill="#e3e9de" d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z"></path>
+        <path fill="#a4de8c" d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z"></path>
     </svg>
 
     <div class="product-coconut-bg-2 position-relative">
-        <img src="img/coconut/coconut_water_1.png" alt="" class="floating-coconut-1">
-        <img src="img/coconut/coconut_water_2.png" alt="" class="floating-coconut-2">
+        <img src="img/coconut/young_coconut_1.png" alt="" class="floating-coconut-1">
+        <img src="img/coconut/young_coconut_2.png" alt="" class="floating-coconut-2">
         <div class="container-xxl section-padding">
-            <h1 class="text-center text-white mb-5">picked at the peak of ripeness</h1>
+            <h2 class="text-center text-white mb-5">picked at the peak of ripeness</h2>
             <div class="bg-white rounded-5 p-3">
                 <div class="row">
                     <div class="col-lg-7">
@@ -121,7 +127,7 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <img src="https://www.nokaorganics.com/cdn/shop/files/Noka_Shopify_Product_StrawberryPineapple.png" alt="" class="img-fluid">
+                    <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="" class="img-fluid">
                 </div>
 
                 <div class="col-lg-4">
@@ -177,7 +183,26 @@
                         </div>
                         <hr>
 
-                        <button class="button">view nutrition facts</button>
+                        <button class="button" data-bs-toggle="modal" data-bs-target="#nutritionModal">view nutrition facts</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="nutritionModal" tabindex="-1" aria-labelledby="nutritionModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="nutritionModalLabel">Nutrition Facts</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- <p>Here are the nutrition facts for this product. It contains 200 calories per serving, 10g of protein, 15g of carbohydrates, and 8g of fat. It is a good source of fiber and contains essential vitamins and minerals.</p> -->
+                                        <img src="img/coconut/nutrition_label.jpg" class="img-fluid" alt="Nutrition Label">
+                                    </div>
+                                    <!-- <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

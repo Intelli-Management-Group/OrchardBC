@@ -72,6 +72,11 @@ h6 {
     padding-bottom: 140px;
 }
 
+.section-padding-sm {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .top-margin {
     margin-top: 140px;
 }
@@ -702,36 +707,93 @@ iframe {
 
 @keyframes float-z {
     0% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(30deg) scale(1);
+        transform: translate(-50%, -50%) translateZ(0) rotate(-10deg) scale(1);
     }
 
     50% {
-        transform: translate(-50%, -50%) translateZ(50px) rotate(30deg) scale(1.03);
+        transform: translate(-50%, -50%) translateZ(50px) rotate(-10deg) scale(1.03);
     }
 
     100% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(30deg) scale(1);
+        transform: translate(-50%, -50%) translateZ(0) rotate(-10deg) scale(1);
+    }
+}
+
+@keyframes float-z-2 {
+    0% {
+        transform: translate(-50%, -50%) translateZ(0) rotate(20deg) scale(1);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) translateZ(50px) rotate(20deg) scale(1.03);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) translateZ(0) rotate(20deg) scale(1);
     }
 }
 
 .product-coconut-bg {
-    width: 100%;
-    height: 800px;
-    background: #8dac90;
+    min-height: 690px;
+    background: #74b05c;
     display: flex;
     align-items: center;
     justify-content: center;
     /* perspective: 1000px; */
 }
 
-.product-coconut-img {
+.product-coconut-img,
+.product-coconut-img-2 {
     height: 500px;
     position: absolute;
     top: 50%;
-    left: 65%;
-    animation: float-z 4s ease-in-out infinite;
+    left: 60%;
+    animation: float-z 3s ease-in-out infinite;
     transform-style: preserve-3d;
     will-change: transform;
+}
+
+.product-coconut-img-2 {
+    top: 60%;
+    left: 73%;
+    animation: float-z-2 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floating-accent-1,
+.floating-accent-2,
+.floating-accent-3 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    animation: float 4s ease-in-out infinite;
+}
+
+.floating-accent-2 {
+    top: 60%;
+    left: 40%;
+    animation: float 5s ease-in-out infinite;
+}
+
+.floating-accent-3 {
+    top: 50%;
+    left: 85%;
+    animation: float 6s ease-in-out infinite;
 }
 
 .product-coconut-content {
@@ -747,7 +809,7 @@ iframe {
 .product-coconut-bg-2 {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(180deg, #e3e9de 0%, #8dac90 100%);
+    background-image: linear-gradient(180deg, #a4de8c 0%, #134b13 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -816,41 +878,11 @@ iframe {
     padding: 15px 25px;
 }
 
-@keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(-20px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-.floating-accent-1,
-.floating-accent-2 {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    width: 100px;
-    animation: float 5s ease-in-out infinite;
-}
-
-.floating-accent-2 {
-    top: 20%;
-    left: 80%;
-    animation: float 4s ease-in-out infinite;
-}
-
 .floating-coconut-1,
 .floating-coconut-2 {
     position: absolute;
     top: -3%;
-    right: 2%;
+    right: 20px;
     transform: translate(-50%, -50%);
     width: 150px;
     animation: float 5s ease-in-out infinite;
@@ -858,6 +890,6 @@ iframe {
 
 .floating-coconut-2 {
     top: -1%;
-    right: 10%;
+    right: 140px;
     animation: float 4s ease-in-out infinite;
 }

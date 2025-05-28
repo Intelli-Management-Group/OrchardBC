@@ -46,7 +46,7 @@
                     <div class="product-card-content">
                         <div class="upper-header">Coconut Water</div>
                         <h4>Refresh <br>Rehydrate <br>Replenish</h4>
-                        <button class="button">LEARN MORE</button>
+                        <a href="coconut-water.php"><button class="button">LEARN MORE</button></a>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@
                     <div class="product-name">
                         <div class="brand-name">BC Orchard</div>
                         <h6 class="px-2">100% Pure Coconut Water</h6>
-                        <a href="" class="learn-more-button">Learn More</a>
+                        <a href="coconut-water.php" class="learn-more-button">Learn More</a>
                     </div>
                 </div>
             </div>

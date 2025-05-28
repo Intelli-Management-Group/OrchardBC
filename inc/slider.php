@@ -81,7 +81,7 @@
                     <div class="slider-content">
                         <div class="upper-header">PURE COCONUT WATER</div>
                         <h1>100% Coconut <br> Nothing More,<br> Nothing Less</h1>
-                        <button class="button-white-fill">LEARN MORE</button>
+                        <a href="coconut-water.php"><button class="button-white-fill">LEARN MORE</button></a>
                     </div>
                 </div>
             </div>
