@@ -20,8 +20,9 @@
             </div>
 
             <div class="product-coconut-content">
-                <h3 class="mb-5">strawberry<br>pineapple</h3>
-                <p>Bright and energizing strawberries and pineapple deliver vitamin C and an instant mood boost in one convenient, on-the-go pouch. Sweet enough for palates of all ages, this blend packs antioxidants and vitamins from five fruits, protein from plants and omega-3s from flax. Stash one in your bag for a nourishing tropical treat anytime, anywhere.</p>
+                <h3 class="mb-5">100% Pure<br>Coconut Water</h3>
+                <p>Nothing added. Nothing taken away.</p>
+                <p>Our coconut water is bottled straight from young Vietnamese coconuts—capturing nature’s hydration at its peak. Naturally sweet, packed with essential electrolytes, and free from additives, it’s the cleanest way to refresh your day. From workouts to winddowns, this is hydration as it should be.</p>
             </div>
         </div>
     </div>
@@ -32,22 +33,24 @@
 
     <div class="container">
         <div class="section-padding-sm">
-            <h1 class="text-center">Effortless Nutrition on the go</h1>
+            <h2 class="text-center">A Little Can with a Lot to Give</h2>
             <div class="row mt-5">
                 <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
                     <div id="lottie1" class="lottie-container"></div>
-                    <h5 class="mt-3">prebiotics for gut health</h5>
-                    <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
+                    <h5 class="mt-3">Electrolyte-Rich Hydration</h5>
+                    <p>Rich in natural electrolytes to replenish fluids after workouts, sports, or even a rough night out.</p>
                 </div>
+
                 <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
                     <div id="lottie2" class="lottie-container"></div>
-                    <h5 class="mt-3">prebiotics for gut health</h5>
-                    <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
+                    <h5 class="mt-3">Boosts Immunity</h5>
+                    <p>Delivers 20% of your daily vitamin C, strengthening your immune system in a light, refreshing way.</p>
                 </div>
+
                 <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
                     <div id="lottie3" class="lottie-container"></div>
-                    <h5 class="mt-3">prebiotics for gut health</h5>
-                    <p>The gut friendly goodness of prebiotic fiber in every squeeze.</p>
+                    <h5 class="mt-3">Supports Skin & Recovery</h5>
+                    <p>Helps your skin retain moisture and provides natural antioxidants to fight signs of aging and oxidative stress.</p>
                 </div>
             </div>
         </div>
@@ -61,7 +64,7 @@
         <img src="img/coconut/young_coconut_1.png" alt="coconut" class="floating-coconut-1">
         <img src="img/coconut/young_coconut_2.png" alt="coconut" class="floating-coconut-2">
         <div class="container-xxl section-padding">
-            <h2 class="text-center text-white mb-5">picked at the peak of ripeness</h2>
+            <h2 class="text-center text-white mb-5">The Secret? Young Vietnamese Coconuts.</h2>
             <div class="bg-white rounded-5 p-3">
                 <div class="row">
                     <div class="col-lg-7">
@@ -73,10 +76,9 @@
                             <div class="col-4">
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
-
                             <div class="col-8">
-                                <h6 class="mt-3">Strawberry</h6>
-                                <p>Bursting with antioxidants like Vitamin C, strawberries are your skin's best friend, helping boost collagen and fight free radicals.</p>
+                                <h6 class="mt-3">100% Pure</h6>
+                                <p>No added sugar is just the start. We don’t cut corners or dress it up—just honest, purecoconut water, exactly as nature made it.</p>
                             </div>
                         </div>
 
@@ -84,10 +86,9 @@
                             <div class="col-4">
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
-
                             <div class="col-8">
-                                <h6 class="mt-3">Strawberry</h6>
-                                <p>Bursting with antioxidants like Vitamin C, strawberries are your skin's best friend, helping boost collagen and fight free radicals.</p>
+                                <h6 class="mt-3">Naturally Sweet</h6>
+                                <p>Young coconuts are up to 30% sweeter than mature ones—so naturally sweet, you’ll think we added sugar (we didn’t).</p>
                             </div>
                         </div>
 
@@ -95,10 +96,9 @@
                             <div class="col-4">
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
-
                             <div class="col-8">
-                                <h6 class="mt-3">Strawberry</h6>
-                                <p>Bursting with antioxidants like Vitamin C, strawberries are your skin's best friend, helping boost collagen and fight free radicals.</p>
+                                <h6 class="mt-3">Rich in Nutrients</h6>
+                                <p>Packed with natural electrolytes—especially potassium—and often called the “Water of Life” for its balance and hydration benefits.</p>
                             </div>
                         </div>
                     </div>
@@ -107,28 +107,28 @@
 
             <div class="row top-margin">
                 <div class="col-lg-4 text-white">
-                    <h2>a wellness wonder</h2>
-                    <h6 class="mb-5">blended with your health in mind</h6>
+                    <h2>Proof in the Nutrition</h2>
+                    <h6 class="mb-5">What ‘Packed with Nutrition’ Really Means</h6>
                     <div data-aos="fade-up" data-aos-delay="0">
                         <div class="d-flex justify-content-start align-items-center gap-3">
-                            <div class="nutrition-circle">5g</div>
-                            <h5 class="mb-0">5g prebiotic fiber</h5>
+                            <div class="nutrition-circle">55</div>
+                            <h5 class="mb-0">Calories</h5>
                         </div>
                         <hr>
                     </div>
 
                     <div data-aos="fade-up" data-aos-delay="100">
                         <div class="d-flex justify-content-start align-items-center gap-3">
-                            <div class="nutrition-circle">5g</div>
-                            <h5 class="mb-0">5g prebiotic fiber</h5>
+                            <div class="nutrition-circle">340<br>mg</div>
+                            <h5 class="mb-0">Potassium</h5>
                         </div>
                         <hr>
                     </div>
 
                     <div data-aos="fade-up" data-aos-delay="200">
                         <div class="d-flex justify-content-start align-items-center gap-3">
-                            <div class="nutrition-circle">5g</div>
-                            <h5 class="mb-0">5g prebiotic fiber</h5>
+                            <div class="nutrition-circle">22%</div>
+                            <h5 class="mb-0">Daily Vitamin C</h5>
                         </div>
                     </div>
                 </div>
@@ -137,62 +137,62 @@
                     <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="BC Orchard Coconut Water" class="img-fluid">
                 </div>
 
-                <div class="col-lg-4">
-                    <div class="bg-white rounded-5 p-4">
+                <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                    <div class="bg-white rounded-5 p-4 w-100" style="max-width: 350px;">
                         <div id="aos-anchor" data-aos="fade-up" data-aos-delay="0">
-                            <h6>Noka has what you need</h6>
+                            <h6>Every Can Delivers</h6>
                             <hr>
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="50" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
                                 <div>calories</div>
-                                <div>120</div>
+                                <div>55</div>
                             </div>
                             <hr>
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="100" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
-                                <div>calories</div>
-                                <div>120</div>
+                                <div>Fat</div>
+                                <div>0</div>
                             </div>
                             <hr>
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="150" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
-                                <div>calories</div>
-                                <div>120</div>
+                                <div>Carbohydrate</div>
+                                <div>14 g</div>
                             </div>
                             <hr>
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="200" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
-                                <div>calories</div>
-                                <div>120</div>
+                                <div>Added Sugar</div>
+                                <div>0 g</div>
                             </div>
                             <hr>
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="250" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
-                                <div>calories</div>
-                                <div>120</div>
+                                <div>Potassium</div>
+                                <div>11% dv</div>
                             </div>
                             <hr>
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="300" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
-                                <div>calories</div>
-                                <div>120</div>
+                                <div>Vitamin C</div>
+                                <div>22% dv</div>
                             </div>
                             <hr>
                         </div>
 
-                        <div data-aos="fade-up" data-aos-delay="350" data-aos-anchor="#aos-anchor">
+                        <!-- <div data-aos="fade-up" data-aos-delay="350" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
                                 <div>calories</div>
                                 <div>120</div>
@@ -206,7 +206,7 @@
                                 <div>120</div>
                             </div>
                             <hr>
-                        </div>
+                        </div> -->
 
                         <div data-aos="fade-up" data-aos-delay="450" data-aos-anchor="#aos-anchor">
                             <button class="button" data-bs-toggle="modal" data-bs-target="#nutritionModal">view nutrition facts</button>
