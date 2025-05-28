@@ -72,6 +72,10 @@ h6 {
     padding-bottom: 140px;
 }
 
+.top-margin {
+    margin-top: 140px;
+}
+
 .bottom-margin {
     margin-bottom: 140px;
 }
@@ -694,4 +698,100 @@ footer hr {
 iframe {
     width: 100%;
     height: 600px;
+}
+
+.product-coconut-bg {
+    width: 100%;
+    height: 800px;
+    /* background: radial-gradient(circle, #f27a82 0%, #e9404f 40%); */
+    background: #e9404f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-coconut-img {
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+.product-coconut-content {
+    color: white;
+    width: 30%;
+}
+
+.product-coconut-bg-2 {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(180deg, rgb(255, 122, 31) 0%, #e9404f 100%);
+    /* background: #FF7A1F; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.product-highlight-img-bg {
+    height: 540px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.product-highlight-img-sm {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.nutrition-circle {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #37a6ca;
+}
+
+.button-blue {
+    background-color: #37a6ca;
+    color: white;
+    border-radius: 27px;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-comparison-card {
+    width: 100%;
+    height: 350px;
+    border-radius: 30px;
+    background-color: #f6f6f6;
+    padding: 15px 12px;
+    border: 1px solid rgba(42, 42, 42, 0.09);
+}
+
+.product-comparison-inner-card {
+    width: 100%;
+    height: 138px;
+    border-radius: 20px;
+    background-color: #BC459E;
+    padding: 28px 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.product-comparison-card-content {
+    padding: 15px 25px;
 }

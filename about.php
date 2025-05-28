@@ -25,7 +25,7 @@
             </div>
 
             <div class="col-lg-6 px-4 d-flex justify-content-center">
-                <img src="img/about/about-image-2.jpg" alt="" class="img-fluid">
+                <img src="img/about/img_1.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </div>

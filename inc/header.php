@@ -52,7 +52,7 @@ $config = [
                             Products <i class="fa-solid fa-angle-down"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Coconut Water</a></li>
+                            <li><a class="dropdown-item" href="coconut-water.php">Coconut Water</a></li>
                             <li><a class="dropdown-item" href="#">100% Pure Juice</a></li>
                             <li><a class="dropdown-item" href="#">Arrow Tree Snacks</a></li>
                         </ul>
