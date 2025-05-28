@@ -1,39 +1,48 @@
 <?php include 'inc/header.php'; ?>
 
 <body>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <?php include 'inc/slider.php'; ?>
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
-                    <?php include 'img/home/icons/icon_premium.svg'; ?>
-                    <div class="upper-header" style="font-size: 12px;">Premium Selection</div>
-                    <p class="mb-0">Finest in Local and Global</p>
+                    <div data-aos="fade-up" data-aos-delay="0">
+                        <?php include 'img/home/icons/icon_premium.svg'; ?>
+                        <div class="upper-header" style="font-size: 12px;">Premium Selection</div>
+                        <p class="mb-0">Finest in Local and Global</p>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
-                    <?php include 'img/home/icons/icon_wellness.svg'; ?>
-                    <div class="upper-header" style="font-size: 12px;">Healthy Lifestyle</div>
-                    <p class="mb-0">Everyday Wellness, Naturally</p>
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <?php include 'img/home/icons/icon_wellness.svg'; ?>
+                        <div class="upper-header" style="font-size: 12px;">Healthy Lifestyle</div>
+                        <p class="mb-0">Everyday Wellness, Naturally</p>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
-                    <?php include 'img/home/icons/icon_canada.svg'; ?>
-                    <div class="upper-header" style="font-size: 12px;">Proudly Canadian</div>
-                    <p class="mb-0">Rooted in Local Values</p>
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <?php include 'img/home/icons/icon_canada.svg'; ?>
+                        <div class="upper-header" style="font-size: 12px;">Proudly Canadian</div>
+                        <p class="mb-0">Rooted in Local Values</p>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
-                    <?php include 'img/home/icons/icon_flavour.svg'; ?>
-                    <div class="upper-header" style="font-size: 12px;">Full of Flavor</div>
-                    <p class="mb-0">Healthy Can Still Be Delicious</p>
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <?php include 'img/home/icons/icon_flavour.svg'; ?>
+                        <div class="upper-header" style="font-size: 12px;">Full of Flavor</div>
+                        <p class="mb-0">Healthy Can Still Be Delicious</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,7 +50,7 @@
 
     <div class="container-fluid bottom-margin" style="margin-top: 30px; padding-left: 20px; padding-right: 20px;">
         <div class="row gy-4">
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
                 <div class="product-card product-card-1">
                     <div class="product-card-content">
                         <div class="upper-header">Coconut Water</div>
@@ -51,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="product-card product-card-2">
                     <div class="product-card-content">
                         <div class="upper-header text-white">BC Juices</div>
@@ -61,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-4">
+            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="product-card product-card-3">
                     <div class="product-card-content">
                         <div class="upper-header">Arrow Tree Snacks</div>
@@ -75,10 +84,10 @@
 
     <div class="container-fluid bottom-margin" style="padding-left: 20px; padding-right: 20px;">
         <div class="row">
-            <div class="col-44">
+            <div class="col-44" data-aos="fade-up" data-aos-delay="0">
                 <div class="masked-image masked-image-1"></div>
             </div>
-            <div class="col-28">
+            <div class="col-28" data-aos="fade-up" data-aos-delay="100">
                 <div class="masked-image masked-image-2">
                     <div class="masked-image-content text-center">
                         <h4 style="line-height: 1.5;">More Than A Business - A Belief That Health Is Your Greatest Asset</h4>
@@ -86,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-28">
+            <div class="col-28" data-aos="fade-up" data-aos-delay="200">
                 <div class="masked-image masked-image-3">
                     <div class="masked-image-content">
                         <p style="line-height: 2;">Founded in 2016, BC Orchard is a Canadian company dedicated to crafting honest, great-tasting products made with clean, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe in thoughtful indulgence. That’s why we offer handcrafted premium snacks from Japan’s ArrowTree— elegant treats to enjoy or gifts.</p>
@@ -96,9 +105,9 @@
         </div>
     </div>
 
-    <div class="container-fluid bottom-margin" style="padding-left: 20px; padding-right: 20px;">
+    <div class="container-fluid bottom-margin overflow-x-hidden" style="padding-left: 20px; padding-right: 20px;">
         <div class="row">
-            <div class="col-lg-3 col-6 d-flex justify-content-center p-0 border-end">
+            <div class="col-lg-3 col-6 d-flex justify-content-center p-0 border-end" data-aos="fade-right">
                 <div class="feature-product-wrap">
                     <div class="upper-header">Our Top Picks</div>
                     <h2>Featured Products</h2>
@@ -107,7 +116,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0 border-end-lg">
+            <div class="col-lg-3 col-6 p-0 border-end-lg" data-aos="fade-left">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/bco_feature-1.jpg" alt="BC Orchard 100% Pure Coconut Water">
                     <img class="hover-img" src="img/home/bco_feature-1-hover.jpg" alt="BC Orchard 100% Pure Coconut Water">
@@ -119,7 +128,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0 border-end">
+            <div class="col-lg-3 col-6 p-0 border-end" data-aos="fade-left">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/bco_feature-3.jpg" alt="Arrow Tree Strawberry Financier">
                     <img class="hover-img" src="img/home/bco_feature-3-hover.jpg" alt="Arrow Tree Strawberry Financier">
@@ -131,7 +140,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0">
+            <div class="col-lg-3 col-6 p-0" data-aos="fade-left">
                 <div class="shop-wrap">
                     <img class="main-img" src="img/home/bco_feature-2.jpg" alt="Arrow Tree ICHI-HA">
                     <img class="hover-img" src="img/home/bco_feature-2-hover.jpg" alt="Arrow Tree ICHI-HA">
@@ -183,9 +192,9 @@
         </div>
     </section>
 
-    <section class="container-fluid bottom-margin">
+    <section class="container-fluid bottom-margin overflow-x-hidden">
         <div class="row gy-5 gy-lg-0">
-            <div class="col-lg-6 p-0 d-flex align-items-stretch">
+            <div class="col-lg-6 p-0 d-flex align-items-stretch" data-aos="fade-right">
                 <div class="img-container">
                     <img src="img/home/contact_2.jpg" alt="" class="img-fluid">
                 </div>
@@ -198,7 +207,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center" data-aos="fade-left">
                 <div style="max-width: 500px;">
                     <div class="upper-header">We’re Listening</div>
                     <h2>Get In Touch Now</h2>
@@ -208,14 +217,23 @@
             </div>
         </div>
     </section>
-</body>
 
-<script>
-    document.querySelectorAll('.carousel-control-next, .carousel-control-prev').forEach(function(control) {
-        control.addEventListener('mouseup', function() {
-            this.blur();
+    <script>
+        document.querySelectorAll('.carousel-control-next, .carousel-control-prev').forEach(function(control) {
+            control.addEventListener('mouseup', function() {
+                this.blur();
+            });
         });
-    });
-</script>
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500,
+            easing: 'ease-in-out',
+            once: false
+        });
+    </script>
+</body>
 
 <?php include 'inc/footer.php'; ?>

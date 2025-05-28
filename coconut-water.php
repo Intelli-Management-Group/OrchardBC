@@ -14,9 +14,9 @@
             <div>
                 <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img">
                 <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img-2">
-                <img src="img/coconut/ice_cube_1.png" alt="" class="floating-accent-1">
-                <img src="img/coconut/ice_cube_2.png" alt="" class="floating-accent-2">
-                <img src="img/coconut/ice_cube_3.png" alt="" class="floating-accent-3">
+                <img src="img/coconut/ice_cube_1.png" alt="ice cube" class="floating-accent-1">
+                <img src="img/coconut/ice_cube_2.png" alt="ice cube" class="floating-accent-2">
+                <img src="img/coconut/ice_cube_3.png" alt="ice cube" class="floating-accent-3">
             </div>
 
             <div class="product-coconut-content">
@@ -58,8 +58,8 @@
     </svg>
 
     <div class="product-coconut-bg-2 position-relative">
-        <img src="img/coconut/young_coconut_1.png" alt="" class="floating-coconut-1">
-        <img src="img/coconut/young_coconut_2.png" alt="" class="floating-coconut-2">
+        <img src="img/coconut/young_coconut_1.png" alt="coconut" class="floating-coconut-1">
+        <img src="img/coconut/young_coconut_2.png" alt="coconut" class="floating-coconut-2">
         <div class="container-xxl section-padding">
             <h2 class="text-center text-white mb-5">picked at the peak of ripeness</h2>
             <div class="bg-white rounded-5 p-3">
@@ -134,7 +134,7 @@
                 </div>
 
                 <div class="col-lg-4" data-aos="fade-up">
-                    <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="" class="img-fluid">
+                    <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="BC Orchard Coconut Water" class="img-fluid">
                 </div>
 
                 <div class="col-lg-4">
@@ -324,7 +324,7 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({
-            duration: 300,
+            duration: 500,
             easing: 'ease-in-out',
             once: false
         });
