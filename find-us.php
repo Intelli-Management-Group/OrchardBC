@@ -57,7 +57,7 @@
                         <div>101-1030 Denman St, Vancouver</div>
                     </div>
                     <div>
-                        <div class="devider"></div>
+                        <div class="divider"></div>
                         <a href="https://www.google.com/maps/place/Brandon+%26+Joanny's+NOFRILLS+Vancouver/@49.2887289,-123.1382003,17z/data=!3m1!4b1!4m6!3m5!1s0x5486722886d4e1df:0xf0668965f385a62b!8m2!3d49.2887289!4d-123.1382003!16s%2Fg%2F1tfmhhqc!5m1!1e1?entry=tts&g_ep=EgoyMDI1MDUxMS4wIPu8ASoASAFQAw%3D%3D&skid=94aeb5ac-b08d-4690-9aee-e18992e16923" target="_blank" rel="noopener noreferrer">Get Direction</a>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                         <div>180-4551 No 3 Rd, Richmond</div>
                     </div>
                     <div>
-                        <div class="devider"></div>
+                        <div class="divider"></div>
                         <a href="https://www.google.com/maps/place/Big+Crazy+Supermarket/@49.1805006,-123.1381608,17z/data=!3m1!4b1!4m6!3m5!1s0x5486752e7b7d7181:0xcbf087954704aced!8m2!3d49.1805006!4d-123.1381608!16s%2Fg%2F1w96gfgg!5m1!1e1?entry=tts&g_ep=EgoyMDI1MDUxMi4wIPu8ASoASAFQAw%3D%3D&skid=debaa0ed-3a44-47d8-8d85-19149ce25b79" target="_blank" rel="noopener noreferrer">Get Direction</a>
                     </div>
                 </div>
