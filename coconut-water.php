@@ -79,8 +79,8 @@
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
                             <div class="col-8">
-                                <h6 class="mt-3">100% Pure</h6>
-                                <p>No added sugar is just the start. We don’t cut corners or dress it up—just honest, purecoconut water, exactly as nature made it.</p>
+                                <h6 class="mt-2">100% Pure</h6>
+                                <p class="mb-0">No added sugar is just the start. We don’t cut corners or dress it up—just honest, purecoconut water, exactly as nature made it.</p>
                             </div>
                         </div>
 
@@ -89,8 +89,8 @@
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
                             <div class="col-8">
-                                <h6 class="mt-3">Naturally Sweet</h6>
-                                <p>Young coconuts are up to 30% sweeter than mature ones—so naturally sweet, you’ll think we added sugar (we didn’t).</p>
+                                <h6 class="mt-2">Naturally Sweet</h6>
+                                <p class="mb-0">Young coconuts are up to 30% sweeter than mature ones—so naturally sweet, you’ll think we added sugar (we didn’t).</p>
                             </div>
                         </div>
 
@@ -99,8 +99,8 @@
                                 <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
                             </div>
                             <div class="col-8">
-                                <h6 class="mt-3">Rich in Nutrients</h6>
-                                <p>Packed with natural electrolytes—especially potassium—and often called the “Water of Life” for its balance and hydration benefits.</p>
+                                <h6 class="mt-2">Rich in Nutrients</h6>
+                                <p class="mb-0">Packed with natural electrolytes—especially potassium—and often called the “Water of Life” for its balance and hydration benefits.</p>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
             </div>
 
             <div class="row top-margin">
-                <div class="col-lg-4 text-white">
+                <div class="col-lg-4 col-md-6 text-white order-lg-0 order-1">
                     <h2>Proof in the Nutrition</h2>
                     <h6 class="mb-5">What ‘Packed with Nutrition’ Really Means</h6>
                     <div data-aos="fade-up" data-aos-delay="0">
@@ -135,11 +135,11 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4" data-aos="fade-up">
-                    <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="BC Orchard Coconut Water" class="img-fluid">
+                <div class="col-lg-4 d-flex justify-content-center order-lg-1 order-0" data-aos="fade-up">
+                    <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="BC Orchard Coconut Water" class="img-fluid product-nutrition-img">
                 </div>
 
-                <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center order-lg-2 order-2">
                     <div class="bg-white rounded-5 p-4 w-100" style="max-width: 350px;">
                         <div id="aos-anchor" data-aos="fade-up" data-aos-delay="0">
                             <h6>Every Can Delivers</h6>
@@ -157,7 +157,7 @@
                         <div data-aos="fade-up" data-aos-delay="100" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
                                 <div>Fat</div>
-                                <div>0</div>
+                                <div>0 g</div>
                             </div>
                             <hr>
                         </div>
@@ -194,22 +194,6 @@
                             <hr>
                         </div>
 
-                        <!-- <div data-aos="fade-up" data-aos-delay="350" data-aos-anchor="#aos-anchor">
-                            <div class="d-flex justify-content-between">
-                                <div>calories</div>
-                                <div>120</div>
-                            </div>
-                            <hr>
-                        </div>
-
-                        <div data-aos="fade-up" data-aos-delay="400" data-aos-anchor="#aos-anchor">
-                            <div class="d-flex justify-content-between">
-                                <div>calories</div>
-                                <div>120</div>
-                            </div>
-                            <hr>
-                        </div> -->
-
                         <div data-aos="fade-up" data-aos-delay="450" data-aos-anchor="#aos-anchor">
                             <button class="button" data-bs-toggle="modal" data-bs-target="#nutritionModal">view nutrition facts</button>
                         </div>
@@ -222,13 +206,9 @@
                                         <h5 class="modal-title" id="nutritionModalLabel">Nutrition Facts</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
-                                        <!-- <p>Here are the nutrition facts for this product. It contains 200 calories per serving, 10g of protein, 15g of carbohydrates, and 8g of fat. It is a good source of fiber and contains essential vitamins and minerals.</p> -->
-                                        <img src="img/coconut/nutrition_label.jpg" class="img-fluid" alt="Nutrition Label">
+                                    <div class="modal-body d-flex justify-content-center">
+                                        <img src="img/coconut/nutrition_label.jpg" class="img-fluid" alt="Nutrition Label" style="max-height: 750px;">
                                     </div>
-                                    <!-- <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -247,7 +227,7 @@
                         <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
                         <div>
                             <h5 class="mb-0">BC Orchard</h5>
-                            v.s.<br>applesause pouches
+                            <div>v.s.<br>applesause pouches</div>
                         </div>
                     </div>
                     <div class="product-comparison-card-content">The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.</div>
@@ -260,7 +240,7 @@
                         <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
                         <div>
                             <h5 class="mb-0">BC Orchard</h5>
-                            v.s.<br>applesause pouches
+                            <div>v.s.<br>applesause pouches</div>
                         </div>
                     </div>
                     <div class="product-comparison-card-content">The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.</div>
@@ -273,7 +253,7 @@
                         <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
                         <div>
                             <h5 class="mb-0">BC Orchard</h5>
-                            v.s.<br>applesause pouches
+                            <div>v.s.<br>applesause pouches</div>
                         </div>
                     </div>
                     <div class="product-comparison-card-content">The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.</div>
@@ -286,7 +266,7 @@
                         <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
                         <div>
                             <h5 class="mb-0">BC Orchard</h5>
-                            v.s.<br>applesause pouches
+                            <div>v.s.<br>applesause pouches</div>
                         </div>
                     </div>
                     <div class="product-comparison-card-content">The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.</div>
