@@ -5,8 +5,30 @@
         border-top-left-radius: 24px;
         border-top-right-radius: 24px;
     }
+
+    .swiper {
+        padding-bottom: 60px !important;
+    }
+
+    @media screen and (max-width: 1399px) {
+        .swiper {
+            cursor: grab;
+        }
+    }
+
+    .swiper-slide {
+        width: 300px !important;
+    }
+
+    .swiper-pagination-bullet {
+        width: 12px !important;
+        height: 12px !important;
+        background-color: #2a2a2a !important;
+    }
 </style>
+
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <body>
     <div class="product-coconut-bg overflow-x-hidden">
@@ -218,59 +240,78 @@
         </div>
     </div>
 
-    <div class="container-xxl section-padding">
+    <div class="container section-padding">
         <h2 class="text-center mb-5">The Choice is Simple</h2>
         <div class="row">
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
-                <div class="product-comparison-card">
-                    <div class="product-comparison-inner-card">
-                        <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
-                        <div>
-                            <h5 class="mb-0">BC Orchard</h5>
-                            <div>v.s.<br>applesause pouches</div>
+            <!-- Swiper Container -->
+            <div class="swiper productSwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="product-comparison-card">
+                            <div class="product-comparison-inner-card-1">
+                                <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
+                                <div>
+                                    <h5 class="mb-0">BC Orchard</h5>
+                                    <div>v.s.<br>applesauce pouches</div>
+                                </div>
+                            </div>
+                            <div class="product-comparison-card-content">
+                                The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.
+                            </div>
                         </div>
                     </div>
-                    <div class="product-comparison-card-content">The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.</div>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="product-comparison-card">
-                    <div class="product-comparison-inner-card">
-                        <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
-                        <div>
-                            <h5 class="mb-0">BC Orchard</h5>
-                            <div>v.s.<br>applesause pouches</div>
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="product-comparison-card">
+                            <div class="product-comparison-inner-card-2">
+                                <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
+                                <div>
+                                    <h5 class="mb-0">BC Orchard</h5>
+                                    <div>v.s.<br>applesauce pouches</div>
+                                </div>
+                            </div>
+                            <div class="product-comparison-card-content">
+                                The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.
+                            </div>
                         </div>
                     </div>
-                    <div class="product-comparison-card-content">The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.</div>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="product-comparison-card">
-                    <div class="product-comparison-inner-card">
-                        <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
-                        <div>
-                            <h5 class="mb-0">BC Orchard</h5>
-                            <div>v.s.<br>applesause pouches</div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="product-comparison-card">
+                            <div class="product-comparison-inner-card-3">
+                                <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
+                                <div>
+                                    <h5 class="mb-0">BC Orchard</h5>
+                                    <div>v.s.<br>applesauce pouches</div>
+                                </div>
+                            </div>
+                            <div class="product-comparison-card-content">
+                                The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.
+                            </div>
                         </div>
                     </div>
-                    <div class="product-comparison-card-content">The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.</div>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="product-comparison-card">
-                    <div class="product-comparison-inner-card">
-                        <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
-                        <div>
-                            <h5 class="mb-0">BC Orchard</h5>
-                            <div>v.s.<br>applesause pouches</div>
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="product-comparison-card">
+                            <div class="product-comparison-inner-card-4">
+                                <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
+                                <div>
+                                    <h5 class="mb-0">BC Orchard</h5>
+                                    <div>v.s.<br>applesauce pouches</div>
+                                </div>
+                            </div>
+                            <div class="product-comparison-card-content">
+                                The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.
+                            </div>
                         </div>
                     </div>
-                    <div class="product-comparison-card-content">The same convenient pouch, but more elevated flavors, premium fruits and functional nutrition like plant protein, prebiotic fiber, flax and vitamins.</div>
                 </div>
+
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
@@ -309,6 +350,30 @@
             duration: 500,
             easing: 'ease-in-out',
             once: false
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.productSwiper', {
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            // breakpoints: {
+            //     768: {
+            //         slidesPerView: 2,
+            //     },
+            //     991: {
+            //         slidesPerView: 3,
+            //     },
+            //     1200: {
+            //         slidesPerView: 4,
+            //     },
+            // },
+            loop: false,
         });
     </script>
 </body>
