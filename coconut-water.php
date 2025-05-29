@@ -9,20 +9,22 @@
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 <body>
-    <div class="product-coconut-bg">
-        <div class="container position-relative section-padding-sm">
-            <div>
-                <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img">
-                <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img-2">
-                <img src="img/coconut/ice_cube_1.png" alt="ice cube" class="floating-accent-1">
-                <img src="img/coconut/ice_cube_2.png" alt="ice cube" class="floating-accent-2">
-                <img src="img/coconut/ice_cube_3.png" alt="ice cube" class="floating-accent-3">
-            </div>
+    <div class="product-coconut-bg overflow-x-hidden">
+        <div class="container section-padding-sm">
+            <div class="row">
+                <div class="product-coconut-img-wrap col-lg-8 position-relative order-1 order-lg-2">
+                    <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img">
+                    <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img-2">
+                    <img src="img/coconut/ice_cube_1.png" alt="ice cube" class="floating-ice-1">
+                    <img src="img/coconut/ice_cube_2.png" alt="ice cube" class="floating-ice-2">
+                    <img src="img/coconut/ice_cube_3.png" alt="ice cube" class="floating-ice-3">
+                </div>
 
-            <div class="product-coconut-content">
-                <h3 class="mb-5">100% Pure<br>Coconut Water</h3>
-                <p>Nothing added. Nothing taken away.</p>
-                <p>Our coconut water is bottled straight from young Vietnamese coconuts—capturing nature’s hydration at its peak. Naturally sweet, packed with essential electrolytes, and free from additives, it’s the cleanest way to refresh your day. From workouts to winddowns, this is hydration as it should be.</p>
+                <div class="col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
+                    <h3 class="mb-5">100% Pure<br>Coconut Water</h3>
+                    <p>Nothing added. Nothing taken away.</p>
+                    <p>Our coconut water is bottled straight from young Vietnamese coconuts—capturing nature’s hydration at its peak. Naturally sweet, packed with essential electrolytes, and free from additives, it’s the cleanest way to refresh your day. From workouts to wind-downs, this is hydration as it should be.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -34,20 +36,20 @@
     <div class="container">
         <div class="section-padding-sm">
             <h2 class="text-center">A Little Can with a Lot to Give</h2>
-            <div class="row mt-5">
-                <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
+            <div class="row mt-5 gy-md-0">
+                <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
                     <div id="lottie1" class="lottie-container"></div>
                     <h5 class="mt-3">Electrolyte-Rich Hydration</h5>
                     <p>Rich in natural electrolytes to replenish fluids after workouts, sports, or even a rough night out.</p>
                 </div>
 
-                <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
                     <div id="lottie2" class="lottie-container"></div>
                     <h5 class="mt-3">Boosts Immunity</h5>
                     <p>Delivers 20% of your daily vitamin C, strengthening your immune system in a light, refreshing way.</p>
                 </div>
 
-                <div class="col-lg-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
                     <div id="lottie3" class="lottie-container"></div>
                     <h5 class="mt-3">Supports Skin & Recovery</h5>
                     <p>Helps your skin retain moisture and provides natural antioxidants to fight signs of aging and oxidative stress.</p>
