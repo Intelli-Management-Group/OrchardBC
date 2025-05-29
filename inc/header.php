@@ -26,13 +26,11 @@ $config = [
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="img/favicon/site.webmanifest">
-    <!-- <script src="" defer></script> -->
 </head>
 
 <header>
     <nav class="navbar navbar-expand-sm">
         <div class="custom-container container d-flex justify-content-between align-items-center">
-            <!-- Logo -->
             <a class="navbar-brand" href="index.php">
                 <img src="img/home/logo.png" alt="logo" class="logo">
             </a>
@@ -47,7 +45,10 @@ $config = [
                         <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>" href="index.php">Home</a>
                     </li>
 
-                    <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'coconut-water.php' ? 'active' : ''; ?>" href="coconut-water.php">Coconut Water</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Products <i class="fa-solid fa-angle-down"></i>
                         </a>
@@ -56,7 +57,7 @@ $config = [
                             <li><a class="dropdown-item" href="#">100% Pure Juice</a></li>
                             <li><a class="dropdown-item" href="#">Arrow Tree Snacks</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li class="nav-item"><a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'about.php' ? 'active' : ''; ?>" href="about.php">About Us</a></li>
                     <li class="nav-item"><a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'find-us.php' ? 'active' : ''; ?>" href="find-us.php">Find Us</a></li>
                 </ul>

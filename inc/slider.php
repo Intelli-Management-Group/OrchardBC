@@ -26,7 +26,7 @@
             width: 100%;
             height: 100%;
             background-size: cover;
-            background-position: center;
+            background-position: 70% center;
             z-index: -1;
             transform: scale(1);
         }
@@ -93,7 +93,7 @@
                     <div class="slider-content">
                         <div class="upper-header">CRAFTED IN JAPAN</div>
                         <h1>Make the<br> Moment Sweeter</h1>
-                        <button class="button-white-fill">LEARN MORE</button>
+                        <button class="button-white-fill">COMING SOON</button>
                     </div>
                 </div>
             </div>
