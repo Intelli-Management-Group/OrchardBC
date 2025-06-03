@@ -769,7 +769,7 @@ iframe {
     height: 500px;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 38%;
     animation: float-z 3s ease-in-out infinite;
     transform-style: preserve-3d;
     will-change: transform;
@@ -777,7 +777,7 @@ iframe {
 
 .product-coconut-img-2 {
     top: 48%;
-    left: 65%;
+    left: 66%;
     animation: float-z-2 4s ease-in-out infinite;
 }
 
@@ -786,7 +786,7 @@ iframe {
 .floating-ice-3 {
     position: absolute;
     top: 40%;
-    left: 12%;
+    left: 10%;
     /* transform: translate(-50%, -50%); */
     width: 100px;
     animation: float 4s ease-in-out infinite;
@@ -794,13 +794,13 @@ iframe {
 
 .floating-ice-2 {
     top: 60%;
-    left: 17%;
+    left: 13%;
     animation: float 5s ease-in-out infinite;
 }
 
 .floating-ice-3 {
     top: 35%;
-    left: 78%;
+    left: 83%;
     animation: float 6s ease-in-out infinite;
 }
 
