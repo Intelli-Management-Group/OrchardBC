@@ -707,29 +707,32 @@ iframe {
 
 @keyframes float-z {
     0% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(-10deg) scale(1);
+        transform: translate(-50%, -50%) translateZ(0)  scale(1);
+        /* rotate(-10deg) */
     }
 
     50% {
-        transform: translate(-50%, -50%) translateZ(50px) rotate(-10deg) scale(1.03);
+        transform: translate(-50%, -50%) translateZ(50px)  scale(1.03);
+        /* rotate(-10deg) */
     }
 
     100% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(-10deg) scale(1);
+        transform: translate(-50%, -50%) translateZ(0)  scale(1);
+        /* rotate(-10deg) */
     }
 }
 
 @keyframes float-z-2 {
     0% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(20deg) scale(1);
+        transform: translate(-50%, -50%) translateZ(0) rotate(7deg) scale(1);
     }
 
     50% {
-        transform: translate(-50%, -50%) translateZ(50px) rotate(20deg) scale(1.03);
+        transform: translate(-50%, -50%) translateZ(50px) rotate(7deg) scale(1.03);
     }
 
     100% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(20deg) scale(1);
+        transform: translate(-50%, -50%) translateZ(0) rotate(7deg) scale(1);
     }
 }
 
@@ -753,7 +756,8 @@ iframe {
 
 .product-coconut-bg {
     min-height: 690px;
-    background: #74b05c;
+    /* background: #74b05c; */
+    background-image: linear-gradient(rgb(164, 222, 140) 0%, rgb(19, 75, 19) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -772,8 +776,8 @@ iframe {
 }
 
 .product-coconut-img-2 {
-    top: 60%;
-    left: 55%;
+    top: 48%;
+    left: 65%;
     animation: float-z-2 4s ease-in-out infinite;
 }
 
@@ -781,7 +785,7 @@ iframe {
 .floating-ice-2,
 .floating-ice-3 {
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 12%;
     /* transform: translate(-50%, -50%); */
     width: 100px;
@@ -790,13 +794,13 @@ iframe {
 
 .floating-ice-2 {
     top: 60%;
-    left: 15%;
+    left: 17%;
     animation: float 5s ease-in-out infinite;
 }
 
 .floating-ice-3 {
-    top: 45%;
-    left: 75%;
+    top: 35%;
+    left: 78%;
     animation: float 6s ease-in-out infinite;
 }
 

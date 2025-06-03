@@ -60,19 +60,28 @@
             <h2 class="text-center">A Little Can with a Lot to Give</h2>
             <div class="row mt-5 gy-md-0">
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
-                    <div id="lottie1" class="lottie-container"></div>
+                    <div id="" class="lottie-container">
+                        <!-- id="lottie1" -->
+                        <img src="img/coconut/BCO_icon_Hydration.png" alt="Electrolyte-Rich Hydration" class="lottie-container">
+                    </div>
                     <h5 class="mt-3">Electrolyte-Rich Hydration</h5>
                     <p>Rich in natural electrolytes to replenish fluids after workouts, sports, or even a rough night out.</p>
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
-                    <div id="lottie2" class="lottie-container"></div>
+                    <div id="" class="lottie-container">
+                        <!-- id="lottie2" -->
+                        <img src="img/coconut/BCO_icon_Immunity.png" alt="Boosts Immunity" class="lottie-container">
+                    </div>
                     <h5 class="mt-3">Boosts Immunity</h5>
                     <p>Delivers 20% of your daily vitamin C, strengthening your immune system in a light, refreshing way.</p>
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div id="lottie3" class="lottie-container"></div>
+                    <div id="" class="lottie-container">
+                        <!-- id="lottie3" -->
+                        <img src="img/coconut/BCO_icon_GoodforSkin.png" alt="Good for Skin" class="lottie-container">
+                    </div>
                     <h5 class="mt-3">Supports Skin & Recovery</h5>
                     <p>Helps your skin retain moisture and provides natural antioxidants to fight signs of aging and oxidative stress.</p>
                 </div>
@@ -92,13 +101,15 @@
             <div class="bg-white rounded-5 p-3">
                 <div class="row">
                     <div class="col-lg-7">
-                        <img src="https://www.nokaorganics.com/cdn/shop/files/AdobeStock_71166726_83c8afd8-eed0-4c02-9dbe-e0c7137457e9.jpg" alt="" class="product-highlight-img-bg">
+                        <img src="img/coconut/img_main.jpg" alt="" class="product-highlight-img-bg">
+                        <!-- https://www.nokaorganics.com/cdn/shop/files/AdobeStock_71166726_83c8afd8-eed0-4c02-9dbe-e0c7137457e9.jpg -->
                     </div>
 
                     <div class="col-lg-5">
                         <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="0">
                             <div class="col-4">
-                                <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
+                                <img src="img/coconut/img_electrolyte.jpg" alt="" class="product-highlight-img-sm">
+                                <!-- https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg -->
                             </div>
                             <div class="col-8">
                                 <h6 class="mt-2">100% Pure</h6>
@@ -108,7 +119,7 @@
 
                         <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="100">
                             <div class="col-4">
-                                <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
+                                <img src="img/coconut/img_immunity.jpg" alt="" class="product-highlight-img-sm">
                             </div>
                             <div class="col-8">
                                 <h6 class="mt-2">Naturally Sweet</h6>
@@ -118,7 +129,7 @@
 
                         <div class="row" data-aos="fade-up" data-aos-delay="200">
                             <div class="col-4">
-                                <img src="https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg" alt="" class="product-highlight-img-sm">
+                                <img src="img/coconut/img_hydration.jpg" alt="" class="product-highlight-img-sm">
                             </div>
                             <div class="col-8">
                                 <h6 class="mt-2">Rich in Nutrients</h6>
@@ -318,7 +329,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 
-    <script>
+    <!-- Replace With png Images -->
+    <!-- <script>
         lottie.loadAnimation({
             container: document.getElementById('lottie1'),
             renderer: 'svg',
@@ -342,7 +354,7 @@
             autoplay: true,
             path: 'https://www.nokaorganics.com/cdn/shop/files/icon-for-all-ages.json?v=11389779386743926115'
         });
-    </script>
+    </script> -->
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
