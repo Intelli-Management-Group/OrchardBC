@@ -65,7 +65,7 @@
                     <div class="product-card-content">
                         <div class="upper-header text-white">BC Juices</div>
                         <h4 class="text-white">BC-Grown <br>Vibrant <br>Flavourful</h4>
-                        <button class="button-white">LEARN MORE</button>
+                        <button class="button-white">COMING SOON</button>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                     <div class="product-card-content">
                         <div class="upper-header">Arrow Tree Snacks</div>
                         <h4>Curated <br>Delightful <br>Elegant</h4>
-                        <button class="button">LEARN MORE</button>
+                        <button class="button">COMING SOON</button>
                     </div>
                 </div>
             </div>
@@ -135,7 +135,7 @@
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
                         <h6 class="px-2">Strawberry Financier</h6>
-                        <a href="" class="learn-more-button">Learn More</a>
+                        <a href="" class="learn-more-button">Coming Soon</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
                         <h6 class="px-2">ICHI-HA</h6>
-                        <a href="" class="learn-more-button">Learn More</a>
+                        <a href="" class="learn-more-button">Coming Soon</a>
                     </div>
                 </div>
             </div>
@@ -212,7 +212,7 @@
                     <div class="upper-header">We’re Listening</div>
                     <h2>Get In Touch Now</h2>
                     <p>Have a question, idea, or request? Reach out—our team is ready to support you and explore new opportunities.</p>
-                    <button class="button">CONTACT US</button>
+                    <a href="find-us.php"><button class="button">CONTACT US</button></a>
                 </div>
             </div>
         </div>
