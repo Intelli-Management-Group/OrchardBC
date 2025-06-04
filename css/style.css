@@ -95,23 +95,23 @@ h6 {
 
 .nav-link {
     font-family: "Lato", sans-serif;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: white;
 }
 
 .logo {
-    height: 50px;
+    height: 70px;
 }
 
 .navbar .nav-link:hover {
-    color: #a8cc3c;
+    color: #296314;
 }
 
 .navbar .nav-link.active {
-    color: #a8cc3c;
+    color: #296314;
 }
 
 .navbar-toggler:focus {
@@ -119,7 +119,10 @@ h6 {
 }
 
 nav .nav-link.show {
-    color: #a8cc3c !important;
+    color: #296314 !important;
+}
+.navbar-brand{
+    margin-right:40px;
 }
 
 .dropdown-menu {
@@ -707,32 +710,32 @@ iframe {
 
 @keyframes float-z {
     0% {
-        transform: translate(-50%, -50%) translateZ(0)  scale(1);
+        transform: translate(-50%, -50%) translateZ(0)  scale(1)  rotate(-20deg);
         /* rotate(-10deg) */
     }
 
     50% {
-        transform: translate(-50%, -50%) translateZ(50px)  scale(1.03);
+        transform: translate(-50%, -50%) translateZ(50px)  scale(1.03) rotate(-20deg);
         /* rotate(-10deg) */
     }
 
     100% {
-        transform: translate(-50%, -50%) translateZ(0)  scale(1);
+        transform: translate(-50%, -50%) translateZ(0)  scale(1) rotate(-20deg);
         /* rotate(-10deg) */
     }
 }
 
 @keyframes float-z-2 {
     0% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(7deg) scale(1);
+        transform: translate(-50%, -50%) translateZ(0) rotate(10deg) scale(1);
     }
 
     50% {
-        transform: translate(-50%, -50%) translateZ(50px) rotate(7deg) scale(1.03);
+        transform: translate(-50%, -50%) translateZ(50px) rotate(10deg) scale(1.03);
     }
 
     100% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(7deg) scale(1);
+        transform: translate(-50%, -50%) translateZ(0) rotate(10deg) scale(1);
     }
 }
 
@@ -756,28 +759,42 @@ iframe {
 
 .product-coconut-bg {
     min-height: 690px;
-    /* background: #74b05c; */
-    background-image: linear-gradient(rgb(164, 222, 140) 0%, rgb(19, 75, 19) 100%);
+    /*background: #2f4912; */
+    /*background-image: linear-gradient(#658807 0%, #3a4810 100%);*/
+    background-image: url('../img/coconut/bcorchard_coconut_water_bg.jpg'); 
+   background-size: 100% auto; /* Ensures full width, proportional height, no crop */
+    background-position: top center; /* Aligns image to the top and center */
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     perspective: 1000px;
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        75% 96%,
+        50% 94%,
+        25% 96%,
+        0% 100%
+    );
+    
 }
 
 .product-coconut-img,
 .product-coconut-img-2 {
-    height: 500px;
+    height: 400px;
     position: absolute;
-    top: 50%;
-    left: 38%;
+    top: 56%;
+    left: 42%;
     animation: float-z 3s ease-in-out infinite;
     transform-style: preserve-3d;
     will-change: transform;
 }
 
 .product-coconut-img-2 {
-    top: 48%;
-    left: 66%;
+    top: 41%;
+    left: 64%;
     animation: float-z-2 4s ease-in-out infinite;
 }
 
@@ -785,22 +802,22 @@ iframe {
 .floating-ice-2,
 .floating-ice-3 {
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 20%;
+    left: 71%;
     /* transform: translate(-50%, -50%); */
-    width: 100px;
+    width: 150px;
     animation: float 4s ease-in-out infinite;
 }
 
 .floating-ice-2 {
     top: 60%;
-    left: 13%;
+    left: 78%;
     animation: float 5s ease-in-out infinite;
 }
 
 .floating-ice-3 {
-    top: 35%;
-    left: 83%;
+    top: 52%;
+    left: 14%;
     animation: float 6s ease-in-out infinite;
 }
 
@@ -828,7 +845,7 @@ iframe {
 .product-coconut-bg-2 {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(180deg, #a4de8c 0%, #134b13 100%);
+    background-image: linear-gradient(180deg, #516e32 0%, #134b13 100%);
     display: flex;
     align-items: center;
     justify-content: center;

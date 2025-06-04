@@ -51,9 +51,9 @@
         </div>
     </div>
 
-    <svg viewBox="0 0 1440 100" style="display: block; width: 100%; height: auto;">
-        <path fill="#74b05c" d="M0,100 Q720,0 1440,100 L1440,0 L0,0 Z"></path>
-    </svg>
+    <!--<svg viewBox="0 0 1440 100" style="display: block; width: 100%; height: auto;">-->
+    <!--    <path fill="#3a4810" d="M0,100 Q720,0 1440,100 L1440,0 L0,0 Z"></path>-->
+    <!--</svg>-->
 
     <div class="container">
         <div class="section-padding-sm">
@@ -90,7 +90,7 @@
     </div>
 
     <svg viewBox="0 0 1440 100" style="display: block; width: 100%; height: auto; margin-bottom: -1px;">
-        <path fill="#a4de8c" d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z"></path>
+        <path fill="#516e32" d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z"></path>
     </svg>
 
     <div class="product-coconut-bg-2 position-relative">
