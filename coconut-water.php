@@ -31,7 +31,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <body>
-    <div class="product-coconut-bg overflow-x-hidden">
+    <div class="product-coconut-bg overflow-x-hidden u-shape">
         <div class="container section-padding-sm">
             <div class="row">
                 <div class="product-coconut-img-wrap col-lg-8 position-relative order-1 order-lg-2">

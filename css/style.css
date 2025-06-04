@@ -121,8 +121,9 @@ h6 {
 nav .nav-link.show {
     color: #296314 !important;
 }
-.navbar-brand{
-    margin-right:40px;
+
+.navbar-brand {
+    margin-right: 40px;
 }
 
 .dropdown-menu {
@@ -710,17 +711,17 @@ iframe {
 
 @keyframes float-z {
     0% {
-        transform: translate(-50%, -50%) translateZ(0)  scale(1)  rotate(-20deg);
+        transform: translate(-50%, -50%) translateZ(0) scale(1) rotate(-20deg);
         /* rotate(-10deg) */
     }
 
     50% {
-        transform: translate(-50%, -50%) translateZ(50px)  scale(1.03) rotate(-20deg);
+        transform: translate(-50%, -50%) translateZ(50px) scale(1.03) rotate(-20deg);
         /* rotate(-10deg) */
     }
 
     100% {
-        transform: translate(-50%, -50%) translateZ(0)  scale(1) rotate(-20deg);
+        transform: translate(-50%, -50%) translateZ(0) scale(1) rotate(-20deg);
         /* rotate(-10deg) */
     }
 }
@@ -759,34 +760,45 @@ iframe {
 
 .product-coconut-bg {
     min-height: 690px;
-    /*background: #2f4912; */
+    /* background: #2f4912; */
     /*background-image: linear-gradient(#658807 0%, #3a4810 100%);*/
-    background-image: url('../img/coconut/bcorchard_coconut_water_bg.jpg'); 
-   background-size: 100% auto; /* Ensures full width, proportional height, no crop */
-    background-position: top center; /* Aligns image to the top and center */
+    background-image: url('../img/coconut/bcorchard_coconut_water_bg.jpg');
+    /* background-size: 100% auto;  */
+    background-position: top center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     perspective: 1000px;
-     clip-path: polygon(0% 0%,
-            100% 0%,
-            100% 100%,
-            95% 98%,
-            90% 96%,
-            80% 94%,
-            70% 92%,
-            60% 91%,
-            50% 90%,
-            40% 91%,
-            30% 92%,
-            20% 94%,
-            10% 96%,
-            5% 98%,
-            0% 100%
-        );
-    
+        /* clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        75% 96%,
+        50% 94%,
+        25% 96%,
+        0% 100%
+    ); */
 }
+
+.u-shape {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.u-shape::after {
+    content: '';
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    background: white;
+    border-top-left-radius: 100% 140px;
+    border-top-right-radius: 100% 140px;
+}
+
 
 .product-coconut-img,
 .product-coconut-img-2 {
