@@ -11,7 +11,7 @@
                     <div data-aos="fade-up" data-aos-delay="0">
                         <?php include 'img/home/icons/icon_premium.svg'; ?>
                         <div class="upper-header" style="font-size: 12px;">Premium Selection</div>
-                        <p class="mb-0">Finest in Local and Global</p>
+                        <p class="mb-0">Sourced from BC and Beyond</p>
                     </div>
                 </div>
             </div>
@@ -63,9 +63,9 @@
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="product-card product-card-2">
                     <div class="product-card-content">
-                        <div class="upper-header text-white">BC Juices</div>
-                        <h4 class="text-white">BC-Grown <br>Vibrant <br>Flavourful</h4>
-                        <button class="button-white">COMING SOON</button>
+                        <div class="upper-header">BC Juices</div>
+                        <h4>BC-Grown <br>Vibrant <br>Flavourful</h4>
+                        <button class="button">COMING SOON</button>
                     </div>
                 </div>
             </div>
@@ -160,24 +160,24 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="testimonial-content-box">
-                        <h3>"Finally, a coconut water that tastes clean and real—just like cracking open a fresh coconut. No weird aftertaste, no sugar. Just perfect."</h3>
-                        <div class="upper-header pt-5">John Doe</div>
+                        <h3>"It’s become my go-to when I feel wiped out. One can and I’m back on track—it’s surprisingly energizing."</h3>
+                        <div class="upper-header pt-5">Jenna M.</div>
                         <p class="mb-0">100% Pure Coconut water</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
-                        <h3>"I drink it after my workouts and it’s a total game changer. It rehydrates without any of the junk in sports drinks."</h3>
-                        <div class="upper-header pt-5">John Doe</div>
+                        <h3>"Honestly the best coconut water I’ve had. It’s richer and more flavourful than the usual ones—and no weird aftertaste."</h3>
+                        <div class="upper-header pt-5">Devon L.</div>
                         <p class="mb-0">100% Pure Coconut water</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
-                        <h3>"It’s the only coconut water my kids will actually drink. Smooth, naturally sweet, and I feel good knowing there’s nothing added."</h3>
-                        <div class="upper-header pt-5">John Doe</div>
+                        <h3>"I use it in my morning smoothies. The natural sweetness is just right, and it makes everything taste fresher."</h3>
+                        <div class="upper-header pt-5">Maya T.</div>
                         <p class="mb-0">100% Pure Coconut water</p>
                     </div>
                 </div>
@@ -200,19 +200,19 @@
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
-                        <div class="scroll-text">Reach Out Today</div>
-                        <div class="scroll-text">Reach Out Today</div>
-                        <div class="scroll-text">Reach Out Today</div>
+                        <div class="scroll-text">Made to Refresh</div>
+                        <div class="scroll-text">Made to Refresh</div>
+                        <div class="scroll-text">Made to Refresh</div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center" data-aos="fade-left">
                 <div style="max-width: 500px;">
-                    <div class="upper-header">We’re Listening</div>
-                    <h2>Get In Touch Now</h2>
-                    <p>Have a question, idea, or request? Reach out—our team is ready to support you and explore new opportunities.</p>
-                    <a href="find-us.php"><button class="button">CONTACT US</button></a>
+                    <div class="upper-header">Now In Stores</div>
+                    <h2>Find Us Nearby</h2>
+                    <p>Our products are available at select retailers in Vancouver and Richmond. See where you can pick them up today.</p>
+                    <a href="find-us.php"><button class="button">Where to Buy</button></a>
                 </div>
             </div>
         </div>

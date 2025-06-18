@@ -107,11 +107,15 @@ h6 {
 }
 
 .navbar .nav-link:hover {
-    color: #296314;
+    /*color: #296314;*/
+    color: white;
+    font-weight: 700;
 }
 
 .navbar .nav-link.active {
-    color: #296314;
+    /*color: #296314;*/
+    color: white;
+    font-weight: 700;
 }
 
 .navbar-toggler:focus {
@@ -119,7 +123,9 @@ h6 {
 }
 
 nav .nav-link.show {
-    color: #296314 !important;
+    /*color: #296314 !important;*/
+    color: white;
+    font-weight: 700;
 }
 
 .navbar-brand {
@@ -142,7 +148,7 @@ a {
 }
 
 .highlight-wrap {
-    background-color: #425300;
+    background-color: #5a7800;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -167,7 +173,7 @@ a {
 }
 
 .custom-border {
-    border-right: 1px solid #566c00;
+    border-right: 1px solid #a8cc3c;
     border-bottom: none;
 }
 
@@ -755,56 +761,23 @@ iframe {
 }
 
 .product-coconut-img-wrap {
-    height: 602px;
+     min-height: 602px;
+    height: auto;
 }
 
 .product-coconut-bg {
-    min-height: 690px;
-    /* background: #2f4912; */
-    /*background-image: linear-gradient(#658807 0%, #3a4810 100%);*/
-    background-image: url('../img/coconut/bcorchard_coconut_water_bg.jpg');
-    /* background-size: 100% auto;  */
-    background-position: top center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    perspective: 1000px;
-        /* clip-path: polygon(
-        0% 0%,
-        100% 0%,
-        100% 100%,
-        75% 96%,
-        50% 94%,
-        25% 96%,
-        0% 100%
-    ); */
-}
-
-.u-shape {
     width: 100%;
-    position: relative;
+    height: 100%;
     overflow: hidden;
+    background: url('../img/coconut/bcorchard_coconut_water_bg.jpg') center/cover no-repeat;
+    clip-path: url(#smoothBottomCurve);
 }
-
-.u-shape::after {
-    content: '';
-    position: absolute;
-    bottom: -70px;
-    left: 0;
-    width: 100%;
-    height: 140px;
-    background: white;
-    border-top-left-radius: 100% 140px;
-    border-top-right-radius: 100% 140px;
-}
-
 
 .product-coconut-img,
 .product-coconut-img-2 {
-    height: 400px;
+    height: 500px;
     position: absolute;
-    top: 56%;
+    top: 54%;
     left: 42%;
     animation: float-z 3s ease-in-out infinite;
     transform-style: preserve-3d;
@@ -812,7 +785,7 @@ iframe {
 }
 
 .product-coconut-img-2 {
-    top: 41%;
+    top: 34%;
     left: 64%;
     animation: float-z-2 4s ease-in-out infinite;
 }
@@ -848,16 +821,16 @@ iframe {
 .floating-coconut-1,
 .floating-coconut-2 {
     position: absolute;
-    top: -3%;
-    right: 20px;
+    top: -9%;
+    right: 14px;
     transform: translate(-50%, -50%);
-    width: 150px;
+    width: 250px;
     animation: float 5s ease-in-out infinite;
 }
 
 .floating-coconut-2 {
-    top: -1%;
-    right: 140px;
+    top: -3%;
+    right: 160px;
     animation: float 4s ease-in-out infinite;
 }
 

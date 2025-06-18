@@ -80,9 +80,9 @@
             </div>
         </div>
 
-        <div class="row bottom-margin">
-            <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1P4YbeONeysOhsFgbnckvTn5LCzVa-7o&ehbc=2E312F&noprof=1"></iframe>
-        </div>
+        <!--<div class="row bottom-margin">-->
+        <!--    <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1P4YbeONeysOhsFgbnckvTn5LCzVa-7o&ehbc=2E312F&noprof=1"></iframe>-->
+        <!--</div>-->
     </div>
 </body>
 

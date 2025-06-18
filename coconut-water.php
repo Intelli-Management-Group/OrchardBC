@@ -25,13 +25,16 @@
         height: 12px !important;
         background-color: #2a2a2a !important;
     }
+    /*.product-coconut-bg{*/
+    /*    clip-path: url(#bottomCurve);*/
+    /*}*/
 </style>
 
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <body>
-    <div class="product-coconut-bg overflow-x-hidden u-shape">
+    <div class="product-coconut-bg overflow-x-hidden react">
         <div class="container section-padding-sm">
             <div class="row">
                 <div class="product-coconut-img-wrap col-lg-8 position-relative order-1 order-lg-2">
@@ -50,6 +53,16 @@
             </div>
         </div>
     </div>
+    <!-- SVG for U-shaped clip-path -->
+    <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <clipPath id="smoothBottomCurve" clipPathUnits="objectBoundingBox">
+            <!-- <path d="M0,0 H1 V0.85 C0.8,1 0.2,1 0,0.85 Z" /> -->
+                    <path d="M0,0 H1 V1 C1,1 0.5,0.85 0,1 Z" />
+
+            </clipPath>
+        </defs>
+    </svg>
 
     <!--<svg viewBox="0 0 1440 100" style="display: block; width: 100%; height: auto;">-->
     <!--    <path fill="#3a4810" d="M0,100 Q720,0 1440,100 L1440,0 L0,0 Z"></path>-->
@@ -108,7 +121,7 @@
                     <div class="col-lg-5">
                         <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="0">
                             <div class="col-4">
-                                <img src="img/coconut/img_electrolyte.jpg" alt="" class="product-highlight-img-sm">
+                                <img src="img/coconut/img_sweet.jpg" alt="" class="product-highlight-img-sm">
                                 <!-- https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg -->
                             </div>
                             <div class="col-8 d-flex flex-column justify-content-center">
@@ -119,7 +132,7 @@
 
                         <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="100">
                             <div class="col-4">
-                                <img src="img/coconut/img_immunity.jpg" alt="" class="product-highlight-img-sm">
+                                <img src="img/coconut/img_nutrients.jpg" alt="" class="product-highlight-img-sm">
                             </div>
                             <div class="col-8 d-flex flex-column justify-content-center">
                                 <h6>Rich in Nutrients</h6>
@@ -129,7 +142,7 @@
                                                
                         <div class="row" data-aos="fade-up" data-aos-delay="200">
                             <div class="col-4">
-                                <img src="img/coconut/img_hydration.jpg" alt="" class="product-highlight-img-sm">
+                                <img src="img/coconut/img_pure.jpg" alt="" class="product-highlight-img-sm">
                             </div>
                             <div class="col-8 d-flex flex-column justify-content-center">
                                 <h6>100% Pure</h6>
@@ -261,7 +274,7 @@
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-1">
-                                <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
+                                <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100">
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
                                     <div>v.s.<br>Other Coconut Water</div>
@@ -277,7 +290,7 @@
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-2">
-                                <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
+                                <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100">
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
                                     <div>v.s.<br>Juices</div>
@@ -293,7 +306,7 @@
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-3">
-                                <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
+                                <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100">
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
                                     <div>v.s.<br>Sports Drinks</div>
@@ -309,7 +322,7 @@
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-4">
-                                <img src="https://www.nokaorganics.com/cdn/shop/files/applesauce-pouch-graphic.png" alt="" class="h-100">
+                                <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100">
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
                                     <div>v.s.<br>Soft Drinks</div>
@@ -326,6 +339,13 @@
             </div>
         </div>
     </div>
+ <svg viewBox="0 0 1440 100" preserveAspectRatio="none" width="0" height="0">
+  <defs>
+    <clipPath id="bottomCurve" clipPathUnits="objectBoundingBox">
+      <path d="M0,1 Q0.5,0 1,1 L1,0 L0,0 Z" />
+    </clipPath>
+  </defs>
+</svg>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 
