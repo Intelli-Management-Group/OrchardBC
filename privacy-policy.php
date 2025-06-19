@@ -13,9 +13,34 @@
         color: black !important;
     }
 
-    .section::marker {
-        font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+    /* Custom list counter */
+    ol.custom-ol {
+        list-style: none;
+        counter-reset: section;
+        padding-left: 0;
     }
+
+    ol.custom-ol > li.section {
+        counter-increment: section;
+        position: relative;
+        padding-left: 3rem; /* space for the number */
+        margin-bottom: 2rem;
+    }
+
+    ol.custom-ol > li.section::before {
+        content: counter(section) ".";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+        color: black;
+        line-height: 1.2;
+    }
+
+    /* .section h4 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    } */
 </style>
 
 <div class="container">
@@ -28,7 +53,7 @@
                 <p>At BC Orchard, we use cookies and similar technologies to improve your browsing experience and better understand how visitors interact with our website.</p>
             </div>
 
-            <ol>
+            <ol class="custom-ol">
                 <li class="section">
                     <h4>Use of Cookies</h4>
                     <p class="mb-0">Cookies help us:</p>
