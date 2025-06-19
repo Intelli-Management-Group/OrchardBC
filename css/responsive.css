@@ -179,6 +179,14 @@
     .gy-md-0 {
         --bs-gutter-y: 0 !important;
     }
+
+    .border-start-md {
+        border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    }
+
+    .border-end-md {
+        border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    }
 }
 
 @media only screen and (min-width: 576px) {

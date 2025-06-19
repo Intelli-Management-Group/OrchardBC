@@ -27,7 +27,7 @@
                 <p class="mb-0">200 - 3071 No.5 Rd,<br>Richmond, BC, V6X 2T4</p>
             </div>
 
-            <div class="col-md-4 d-flex flex-column align-items-center border-start border-end">
+            <div class="col-md-4 d-flex flex-column align-items-center border-start-md border-end-md">
                 <div class="upper-header">Contact Us</div>
                 <a href="mailto:contact@example.com">contact@example.com</a>
                 <a href="tel:+17782977108">+1 (778) 297-7108</a>
