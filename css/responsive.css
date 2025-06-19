@@ -66,9 +66,41 @@
     .product-nutrition-img {
         max-height: 450px;
     }
+
+    .floating-coconut-1 {
+        width: 180px;
+        top: -5%;
+    }
+
+    .floating-coconut-2 {
+        width: 180px;
+        top: -2%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
+    .navbar {
+        position: static;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .navbar .nav-link:hover {
+        color: black;
+    }
+
+    .navbar .nav-link.active {
+        color: black;
+    }
+
     .col-28 {
         flex: 0 0 auto;
         width: 100%;
@@ -88,6 +120,17 @@
     .floating-ice-3 {
         top: 45%;
         right: 0;
+    }
+
+    .floating-coconut-1 {
+        width: 150px;
+        top: -3%;
+    }
+
+    .floating-coconut-2 {
+        width: 150px;
+        top: -1%;
+        right: 120px;
     }
 }
 
@@ -111,20 +154,6 @@
 
     .highlight-wrap {
         height: 200px;
-    }
-
-    .navbar {
-        position: static;
-        background-color: white;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .nav-link {
-        color: black;
-    }
-
-    .navbar {
-        padding: 10px 0;
     }
 }
 
@@ -153,6 +182,7 @@
 }
 
 @media only screen and (min-width: 576px) {
+
     /* Show Dropdown on Hover */
     .navbar .dropdown:hover>.dropdown-menu {
         display: block;

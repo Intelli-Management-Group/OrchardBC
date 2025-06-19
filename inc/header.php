@@ -29,7 +29,7 @@ $config = [
 </head>
 
 <header>
-    <nav class="navbar navbar-expand-sm">
+    <nav class="navbar navbar-expand-md">
         <div class="custom-container container d-flex justify-content-between align-items-center">
             <a class="navbar-brand" href="index.php">
                 <img src="img/home/logo.png" alt="logo" class="logo">
@@ -40,7 +40,7 @@ $config = [
             </button>
             <!-- Navbar Content -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav d-flex justify-content-start w-100 gap-3">
+                <ul class="navbar-nav d-flex justify-content-start w-100 column-gap-3">
                     <li class="nav-item">
                         <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>" href="index.php">Home</a>
                     </li>

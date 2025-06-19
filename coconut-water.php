@@ -25,6 +25,7 @@
         height: 12px !important;
         background-color: #2a2a2a !important;
     }
+
     /*.product-coconut-bg{*/
     /*    clip-path: url(#bottomCurve);*/
     /*}*/
@@ -57,9 +58,8 @@
     <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <clipPath id="smoothBottomCurve" clipPathUnits="objectBoundingBox">
-            <!-- <path d="M0,0 H1 V0.85 C0.8,1 0.2,1 0,0.85 Z" /> -->
-                    <path d="M0,0 H1 V1 C1,1 0.5,0.85 0,1 Z" />
-
+                <!-- <path d="M0,0 H1 V0.85 C0.8,1 0.2,1 0,0.85 Z" /> -->
+                <path d="M0,0 H1 V1 C1,1 0.5,0.85 0,1 Z" />
             </clipPath>
         </defs>
     </svg>
@@ -139,7 +139,7 @@
                                 <p class="mb-0">Packed with natural electrolytes—especially potassium—and often called the “Water of Life” for its balance and hydration benefits.</p>
                             </div>
                         </div>
-                                               
+
                         <div class="row" data-aos="fade-up" data-aos-delay="200">
                             <div class="col-4">
                                 <img src="img/coconut/img_pure.jpg" alt="" class="product-highlight-img-sm">
@@ -339,13 +339,13 @@
             </div>
         </div>
     </div>
- <svg viewBox="0 0 1440 100" preserveAspectRatio="none" width="0" height="0">
-  <defs>
-    <clipPath id="bottomCurve" clipPathUnits="objectBoundingBox">
-      <path d="M0,1 Q0.5,0 1,1 L1,0 L0,0 Z" />
-    </clipPath>
-  </defs>
-</svg>
+    <svg viewBox="0 0 1440 100" preserveAspectRatio="none" width="0" height="0">
+        <defs>
+            <clipPath id="bottomCurve" clipPathUnits="objectBoundingBox">
+                <path d="M0,1 Q0.5,0 1,1 L1,0 L0,0 Z" />
+            </clipPath>
+        </defs>
+    </svg>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 
