@@ -76,6 +76,10 @@
         width: 180px;
         top: -2%;
     }
+
+    .product-coconut-bg {
+        clip-path: url(#smoothBottomCurve-sm);
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -132,6 +136,10 @@
         top: -1%;
         right: 120px;
     }
+
+    .cocoanut-water-bg-ice {
+        bottom: -50px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -154,6 +162,10 @@
 
     .highlight-wrap {
         height: 200px;
+    }
+
+    .cocoanut-water-bg-ice {
+        bottom: -10px;
     }
 }
 

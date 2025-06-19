@@ -769,8 +769,17 @@ iframe {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: url('../img/coconut/bcorchard_coconut_water_bg_1.jpg') center/cover no-repeat;
+    background: url('../img/coconut/bcorchard_coconut_water_bg.jpg') center/cover no-repeat;
     clip-path: url(#smoothBottomCurve);
+    position: relative;
+}
+
+.cocoanut-water-bg-ice {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
 }
 
 .product-coconut-img,

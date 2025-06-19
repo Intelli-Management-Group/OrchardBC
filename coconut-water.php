@@ -25,17 +25,13 @@
         height: 12px !important;
         background-color: #2a2a2a !important;
     }
-
-    /*.product-coconut-bg{*/
-    /*    clip-path: url(#bottomCurve);*/
-    /*}*/
 </style>
 
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <body>
-    <div class="product-coconut-bg overflow-x-hidden react">
+    <div class="product-coconut-bg overflow-x-hidden">
         <div class="container section-padding-sm">
             <div class="row">
                 <div class="product-coconut-img-wrap col-lg-8 position-relative order-1 order-lg-2">
@@ -53,13 +49,18 @@
                 </div>
             </div>
         </div>
+        <div class="cocoanut-water-bg-ice">
+            <img src="img/coconut/bcorchard_coconut_water_bg_ice.png" alt="BC Orchard Coconut Water" class="w-100">
+        </div>
     </div>
     <!-- SVG for U-shaped clip-path -->
     <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <clipPath id="smoothBottomCurve" clipPathUnits="objectBoundingBox">
-                <!-- <path d="M0,0 H1 V0.85 C0.8,1 0.2,1 0,0.85 Z" /> -->
                 <path d="M0,0 H1 V1 C1,1 0.5,0.85 0,1 Z" />
+            </clipPath>
+            <clipPath id="smoothBottomCurve-sm" clipPathUnits="objectBoundingBox">
+                <path d="M0,0 H1 V1 C1,1 0.5,0.95 0,1 Z" />
             </clipPath>
         </defs>
     </svg>
