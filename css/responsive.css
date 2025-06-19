@@ -23,17 +23,17 @@
 
     .floating-ice-1 {
         top: 20%;
-        left: 5%;
+        left: 80%;
     }
 
     .floating-ice-2 {
         top: 60%;
-        left: 10%;
+        left: 82%;
     }
 
     .floating-ice-3 {
-        top: 45%;
-        left: 80%;
+        top: 52%;
+        left: 10%;
     }
 }
 
@@ -113,17 +113,17 @@
 
     .floating-ice-1 {
         top: 20%;
-        left: 0;
+        left: 72%;
     }
 
     .floating-ice-2 {
         top: 60%;
-        left: 5%;
+        left: 75%;
     }
 
     .floating-ice-3 {
-        top: 45%;
-        right: 0;
+        top: 52%;
+        left: 0;
     }
 
     .floating-coconut-1 {
