@@ -5,7 +5,7 @@
     <?php include 'inc/slider.php'; ?>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" style="--bs-gutter-y: 0;">
             <div class="col-lg-3 col-sm-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="0">
@@ -130,11 +130,11 @@
 
             <div class="col-lg-3 col-6 p-0 border-end" data-aos="fade-left">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/bco_feature-3.jpg" alt="Arrow Tree Strawberry Financier">
-                    <img class="hover-img" src="img/home/bco_feature-3-hover.jpg" alt="Arrow Tree Strawberry Financier">
+                    <img class="main-img" src="img/home/bco_feature-3.jpg" alt="ArrowTreeGift M-box">
+                    <img class="hover-img" src="img/home/bco_feature-3-hover.jpg" alt="ArrowTreeGift M-box">
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
-                        <h6 class="px-2">Strawberry Financier</h6>
+                        <h6 class="px-2">Gift M-box</h6>
                         <a href="" class="learn-more-button">Coming Soon</a>
                     </div>
                 </div>

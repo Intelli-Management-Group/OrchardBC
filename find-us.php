@@ -36,8 +36,8 @@
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <div class="upper-header">Follow Us</div>
                 <div class="social-icons">
-                    <img src="img/home/icons/facebook.svg" alt="" class="social-icon">
-                    <img src="img/home/icons/instagram.svg" alt="" class="social-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100086876454993" target="_blank" rel="noopener noreferrer"><img src="img/home/icons/facebook.svg" alt="BC Orchard Facebook" class="social-icon"></a>
+                    <a href="https://www.instagram.com/bc_orchard_official/" target="_blank" rel="noopener noreferrer"><img src="img/home/icons/instagram.svg" alt="BC Orchard Instagram" class="social-icon"></a>
                 </div>
             </div>
         </div>

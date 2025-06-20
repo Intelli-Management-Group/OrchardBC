@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1399px) {
+    .cocoanut-water-bg-ice {
+        top: 480px;
+    }
+}
 @media only screen and (max-width: 1199px) {
     .highlight-wrap {
         height: 250px;
@@ -35,7 +40,7 @@
     }
 
     .cocoanut-water-bg-ice {
-        top: 550px;
+        top: 520px;
     }
 }
 
@@ -84,7 +89,7 @@
     }
 
     .cocoanut-water-bg-ice {
-        top: 950px;
+        top: 910px;
     }
 }
 
@@ -145,7 +150,7 @@
 
     .cocoanut-water-bg-ice {
         top: auto;
-        bottom: -50px;
+        bottom: -10px;
     }
 }
 
@@ -172,7 +177,7 @@
     }
 
     .cocoanut-water-bg-ice {
-        bottom: -15px;
+        bottom: 0;
     }
 }
 

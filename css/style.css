@@ -192,14 +192,14 @@ a {
 
     .custom-border:nth-child(1),
     .custom-border:nth-child(2) {
-        border-bottom: 1px solid #566c00;
+        border-bottom: 1px solid #a8cc3c;
     }
 }
 
 @media (max-width: 575px) {
     .custom-border {
         border-right: none;
-        border-bottom: 1px solid #566c00;
+        border-bottom: 1px solid #a8cc3c;
     }
 
     .custom-border:nth-child() {
@@ -776,7 +776,7 @@ iframe {
 
 .cocoanut-water-bg-ice {
     position: absolute;
-    top: 500px;
+    top: 420px;
     left: 0;
     width: 100%;
     z-index: -1;
