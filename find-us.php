@@ -29,7 +29,7 @@
 
             <div class="col-md-4 d-flex flex-column align-items-center border-start-md border-end-md">
                 <div class="upper-header">Contact Us</div>
-                <a href="mailto:contact@example.com">contact@example.com</a>
+                <a href="mailto:inquiry@orchardbc.com">inquiry@orchardbc.com</a>
                 <a href="tel:+17782977108">+1 (778) 297-7108</a>
             </div>
 

@@ -92,7 +92,7 @@
                     <div class="bg-image" style="background-image: url('img/home/slider_2.jpg');"></div>
                     <div class="slider-content">
                         <div class="upper-header">CRAFTED IN JAPAN</div>
-                        <h1>Make the<br> Moment Sweeter</h1>
+                        <h1>Cherish Yourself,<br> Delight Others</h1>
                         <button class="button-white-fill">COMING SOON</button>
                     </div>
                 </div>

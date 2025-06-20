@@ -1,5 +1,3 @@
-@media only screen and (max-width: 1399px) {}
-
 @media only screen and (max-width: 1199px) {
     .highlight-wrap {
         height: 250px;
@@ -34,6 +32,10 @@
     .floating-ice-3 {
         top: 52%;
         left: 10%;
+    }
+
+    .cocoanut-water-bg-ice {
+        top: 550px;
     }
 }
 
@@ -79,6 +81,10 @@
 
     .product-coconut-bg {
         clip-path: url(#smoothBottomCurve-sm);
+    }
+
+    .cocoanut-water-bg-ice {
+        top: 950px;
     }
 }
 
@@ -138,6 +144,7 @@
     }
 
     .cocoanut-water-bg-ice {
+        top: auto;
         bottom: -50px;
     }
 }
@@ -165,7 +172,7 @@
     }
 
     .cocoanut-water-bg-ice {
-        bottom: -10px;
+        bottom: -15px;
     }
 }
 
