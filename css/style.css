@@ -3,6 +3,8 @@
     --bs-border-color: #eee;
 }
 
+
+
 hr {
     color: #eee;
     opacity: 1;
@@ -116,6 +118,10 @@ h6 {
     /*color: #296314;*/
     color: white;
     font-weight: 700;
+}
+
+.nav-link:focus {
+    color: white;
 }
 
 .navbar-toggler:focus {
