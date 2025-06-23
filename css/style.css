@@ -876,6 +876,7 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 20px;
     color: #37a6ca;
     line-height: 0.8;
