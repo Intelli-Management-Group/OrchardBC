@@ -6,7 +6,7 @@
 
     <div class="container-fluid">
         <div class="row" style="--bs-gutter-y: 0;">
-            <div class="col-lg-3 col-sm-6 p-0 custom-border">
+            <div class="col-lg-3 col-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="0">
                         <?php include 'img/home/icons/icon_premium.svg'; ?>
@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 p-0 custom-border">
+            <div class="col-lg-3 col-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="100">
                         <?php include 'img/home/icons/icon_wellness.svg'; ?>
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 p-0 custom-border">
+            <div class="col-lg-3 col-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="200">
                         <?php include 'img/home/icons/icon_canada.svg'; ?>
@@ -36,7 +36,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 p-0 custom-border">
+            <div class="col-lg-3 col-6 p-0 custom-border">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="300">
                         <?php include 'img/home/icons/icon_flavour.svg'; ?>
@@ -50,7 +50,7 @@
 
     <div class="container-fluid bottom-margin" style="margin-top: 30px; padding-left: 20px; padding-right: 20px;">
         <div class="row gy-4">
-            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+            <div class="col-xxl-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
                 <div class="product-card product-card-1">
                     <div class="product-card-content">
                         <div class="upper-header">Coconut Water</div>
@@ -60,7 +60,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-xxl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="product-card product-card-2">
                     <div class="product-card-content">
                         <div class="upper-header">BC Juices</div>
@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-xxl-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="product-card product-card-3">
                     <div class="product-card-content">
                         <div class="upper-header">Arrow Tree Snacks</div>
@@ -160,7 +160,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="testimonial-content-box">
-                        <h3>"It’s become my go-to when I feel wiped out. One can and I’m back on track—it’s surprisingly energizing."</h3>
+                        <div class="testimonial-content">"It’s become my go-to when I feel wiped out. One can and I’m back on track—it’s surprisingly energizing."</div>
                         <div class="upper-header pt-5">Jenna M.</div>
                         <p class="mb-0">100% Pure Coconut water</p>
                     </div>
@@ -168,7 +168,7 @@
 
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
-                        <h3>"Honestly the best coconut water I’ve had. It’s richer and more flavourful than the usual ones—and no weird aftertaste."</h3>
+                        <div class="testimonial-content">"Honestly the best coconut water I’ve had. It’s richer and more flavourful than the usual ones—and no weird aftertaste."</div>
                         <div class="upper-header pt-5">Devon L.</div>
                         <p class="mb-0">100% Pure Coconut water</p>
                     </div>
@@ -176,7 +176,7 @@
 
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
-                        <h3>"I use it in my morning smoothies. The natural sweetness is just right, and it makes everything taste fresher."</h3>
+                        <div class="testimonial-content">"I use it in my morning smoothies. The natural sweetness is just right, and it makes everything taste fresher."</h3>
                         <div class="upper-header pt-5">Maya T.</div>
                         <p class="mb-0">100% Pure Coconut water</p>
                     </div>

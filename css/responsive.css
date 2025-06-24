@@ -3,6 +3,7 @@
         top: 480px;
     }
 }
+
 @media only screen and (max-width: 1199px) {
     .highlight-wrap {
         height: 250px;
@@ -42,6 +43,17 @@
     .cocoanut-water-bg-ice {
         top: 520px;
     }
+
+    .floating-coconut-1 {
+        width: 180px;
+        top: -5%;
+    }
+
+    .floating-coconut-2 {
+        width: 180px;
+        top: -2%;
+        right: 130px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -62,6 +74,10 @@
         margin-bottom: 100px;
     }
 
+    .top-margin {
+        margin-top: 100px;
+    }
+
     .slider-content {
         width: 75% !important;
     }
@@ -70,18 +86,41 @@
         height: 500px;
     }
 
+    .product-coconut-img-wrap {
+        height: 400px;
+    }
+
+    .product-coconut-img {
+        height: 350px;
+    }
+
+    .product-coconut-img-1 {
+        top: 14%;
+        left: 25%;
+    }
+
+    .product-coconut-img-2 {
+        top: 5%;
+        left: 40%;
+    }
+
+    .floating-ice-1 {
+        top: 20%;
+        left: 72%;
+    }
+
+    .floating-ice-2 {
+        top: 60%;
+        left: 75%;
+    }
+
+    .floating-ice-3 {
+        top: 52%;
+        left: 13%;
+    }
+
     .product-nutrition-img {
         max-height: 450px;
-    }
-
-    .floating-coconut-1 {
-        width: 180px;
-        top: -5%;
-    }
-
-    .floating-coconut-2 {
-        width: 180px;
-        top: -2%;
     }
 
     .product-coconut-bg {
@@ -89,7 +128,7 @@
     }
 
     .cocoanut-water-bg-ice {
-        top: 910px;
+        top: 630px;
     }
 }
 
@@ -105,7 +144,7 @@
     }
 
     .navbar {
-        padding: 10px 0;
+        padding: 0;
     }
 
     .navbar .nav-link:hover {
@@ -120,6 +159,16 @@
         flex: 0 0 auto;
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .product-coconut-img-1 {
+        top: 14%;
+        left: 15%;
+    }
+
+    .product-coconut-img-2 {
+        top: 5%;
+        left: 30%;
     }
 
     .floating-ice-1 {
@@ -152,6 +201,10 @@
         top: auto;
         bottom: -10px;
     }
+
+    .pt-0-sm {
+        padding-top: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -168,6 +221,10 @@
         margin-bottom: 70px;
     }
 
+    .top-margin {
+        margin-top: 70px;
+    }
+
     .slider-content {
         width: 100% !important;
     }
@@ -178,6 +235,21 @@
 
     .cocoanut-water-bg-ice {
         bottom: 0;
+    }
+
+    .floating-coconut-1 {
+        width: 120px;
+        top: -3%;
+    }
+
+    .floating-coconut-2 {
+        width: 120px;
+        top: -1.5%;
+        right: 90px;
+    }
+
+    .testimonial-content-box {
+        width: 70%;
     }
 }
 

@@ -32,20 +32,20 @@
 
 <body>
     <div class="product-coconut-bg overflow-x-hidden">
-        <div class="container section-padding-sm">
+        <div class="container section-padding-sm pt-0-sm">
             <div class="row">
-                <div class="product-coconut-img-wrap col-lg-8 position-relative order-1 order-lg-2">
-                    <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img">
-                    <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img-2">
+                <div class="product-coconut-img-wrap col-lg-8 order-1 order-lg-2">
+                    <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img product-coconut-img-1">
+                    <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img product-coconut-img-2">
                     <img src="img/coconut/ice_cube_1.png" alt="ice cube" class="floating-ice-1">
                     <img src="img/coconut/ice_cube_2.png" alt="ice cube" class="floating-ice-2">
                     <img src="img/coconut/ice_cube_3.png" alt="ice cube" class="floating-ice-3">
                 </div>
 
                 <div class="col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
-                    <h3 class="mb-5">100% Pure<br>Coconut Water</h3>
+                    <h3 class="mb-lg-5 mb-3">100% Pure<br class="d-none d-lg-block"> Coconut Water</h3>
                     <p>Nothing added. Nothing taken away.</p>
-                    <p>Our coconut water is bottled straight from young Vietnamese coconuts—capturing nature’s hydration at its peak. Naturally sweet, packed with essential electrolytes, and free from additives, it’s the cleanest way to refresh your day. From workouts to wind-downs, this is hydration as it should be.</p>
+                    <p style="text-align: justify;">Our coconut water is bottled straight from young Vietnamese coconuts—capturing nature’s hydration at its peak. Naturally sweet, packed with essential electrolytes, and free from additives, it’s the cleanest way to refresh your day. From workouts to wind-downs, this is hydration as it should be.</p>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
             <h2 class="text-center">A Better Way to Rehydrate</h2>
             <div class="row mt-5 gy-md-0">
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
-                    <div id="" class="lottie-container">
+                    <div class="lottie-container">
                         <!-- id="lottie1" -->
                         <img src="img/coconut/BCO_icon_Hydration.png" alt="Electrolyte-Rich Hydration" class="lottie-container">
                     </div>
@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
-                    <div id="" class="lottie-container">
+                    <div class="lottie-container">
                         <!-- id="lottie2" -->
                         <img src="img/coconut/BCO_icon_Immunity.png" alt="Boosts Immunity" class="lottie-container">
                     </div>
@@ -92,7 +92,7 @@
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div id="" class="lottie-container">
+                    <div class="lottie-container">
                         <!-- id="lottie3" -->
                         <img src="img/coconut/BCO_icon_GoodforSkin.png" alt="Good for Skin" class="lottie-container">
                     </div>
@@ -182,7 +182,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 d-flex justify-content-center order-lg-1 order-0" data-aos="fade-up">
+                <div class="col-lg-4 d-flex justify-content-center order-lg-1 order-0 mt-0" data-aos="fade-up">
                     <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="BC Orchard Coconut Water" class="img-fluid product-nutrition-img">
                 </div>
 
@@ -242,7 +242,7 @@
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="450" data-aos-anchor="#aos-anchor">
-                            <button class="button" data-bs-toggle="modal" data-bs-target="#nutritionModal">view nutrition facts</button>
+                            <button class="button" data-bs-toggle="modal" data-bs-target="#nutritionModal">VIEW NUTRITION FACTS</button>
                         </div>
 
                         <!-- Modal -->

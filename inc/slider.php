@@ -6,6 +6,32 @@
             height: 900px;
         }
 
+        @media only screen and (max-width: 1199px) {
+            .swiper {
+                height: 800px;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+            .swiper {
+                height: 700px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .swiper {
+                height: 600px;
+            }
+
+            .bg-image::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background-color: rgba(0, 0, 0, 0.25);
+                z-index: 0;
+            }
+        }
+
         .swiper-slide {
             position: relative;
             display: flex;
@@ -33,6 +59,7 @@
 
         .slider-content {
             color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
             text-align: left;
             opacity: 0;
             position: absolute;
@@ -178,5 +205,3 @@
         });
     </script>
 </body>
-
-</html>

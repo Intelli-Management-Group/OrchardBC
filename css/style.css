@@ -155,6 +155,7 @@ a {
 
 .highlight-wrap {
     background-color: #5a7800;
+    padding: 0 15px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -202,7 +203,7 @@ a {
     }
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
     .custom-border {
         border-right: none;
         border-bottom: 1px solid #a8cc3c;
@@ -211,7 +212,7 @@ a {
     .custom-border:nth-child() {
         border-bottom: none;
     }
-}
+} */
 
 .product-card {
     position: relative;
@@ -235,16 +236,17 @@ a {
 
 .product-card-1::before {
     background-image: url('../img/home/bco_brand_coconut_water.jpg');
-    background-position: 40% center;
+    background-position: 50% center;
 }
 
 .product-card-2::before {
     background-image: url('../img/home/bco_brand_ bc_juice.jpg');
+    background-position: 50% center;
 }
 
 .product-card-3::before {
     background-image: url('../img/home/bco_brand_ arrow_tree_snacks.jpg');
-    background-position: 70% center;
+    /* background-position: 70% center; */
 }
 
 .product-card:hover::before {
@@ -555,6 +557,10 @@ a {
     width: 100%;
 }
 
+.testimonial-content {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
 .carousel-inner {
     width: 100%;
 }
@@ -594,11 +600,11 @@ a {
 }
 
 .carousel-control-prev {
-    left: 5%;
+    left: 3%;
 }
 
 .carousel-control-next {
-    right: 5%;
+    right: 3%;
 }
 
 .social-icons {
@@ -723,32 +729,29 @@ iframe {
 
 @keyframes float-z {
     0% {
-        transform: translate(-50%, -50%) translateZ(0) scale(1) rotate(-20deg);
-        /* rotate(-10deg) */
+        transform: translateZ(0) scale(1) rotate(-20deg);
     }
 
     50% {
-        transform: translate(-50%, -50%) translateZ(50px) scale(1.03) rotate(-20deg);
-        /* rotate(-10deg) */
+        transform: translateZ(50px) scale(1.03) rotate(-20deg);
     }
 
     100% {
-        transform: translate(-50%, -50%) translateZ(0) scale(1) rotate(-20deg);
-        /* rotate(-10deg) */
+        transform: translateZ(0) scale(1) rotate(-20deg);
     }
 }
 
 @keyframes float-z-2 {
     0% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(10deg) scale(1);
+        transform: translateZ(0) rotate(10deg) scale(1);
     }
 
     50% {
-        transform: translate(-50%, -50%) translateZ(50px) rotate(10deg) scale(1.03);
+        transform: translateZ(50px) rotate(10deg) scale(1.03);
     }
 
     100% {
-        transform: translate(-50%, -50%) translateZ(0) rotate(10deg) scale(1);
+        transform: translateZ(0) rotate(10deg) scale(1);
     }
 }
 
@@ -764,11 +767,6 @@ iframe {
     100% {
         transform: translateY(0px);
     }
-}
-
-.product-coconut-img-wrap {
-     min-height: 602px;
-    height: auto;
 }
 
 .product-coconut-bg {
@@ -788,20 +786,27 @@ iframe {
     z-index: -1;
 }
 
-.product-coconut-img,
-.product-coconut-img-2 {
+.product-coconut-img-wrap {
+    position: relative;
+    height: 600px;
+}
+
+.product-coconut-img {
     height: 500px;
     position: absolute;
-    top: 54%;
-    left: 42%;
-    animation: float-z 3s ease-in-out infinite;
     transform-style: preserve-3d;
     will-change: transform;
 }
 
+.product-coconut-img-1 {
+    top: 6%;
+    left: 18%;
+    animation: float-z 3s ease-in-out infinite;
+}
+
 .product-coconut-img-2 {
-    top: 34%;
-    left: 64%;
+    top: -3%;
+    left: 40%;
     animation: float-z-2 4s ease-in-out infinite;
 }
 
@@ -812,7 +817,7 @@ iframe {
     top: 20%;
     left: 75%;
     /* transform: translate(-50%, -50%); */
-    width: 150px;
+    height: 25%;
     animation: float 4s ease-in-out infinite;
 }
 
@@ -838,7 +843,7 @@ iframe {
     position: absolute;
     top: -9%;
     right: 14px;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     width: 230px;
     animation: float 5s ease-in-out infinite;
 }
