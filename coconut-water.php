@@ -155,29 +155,30 @@
             </div>
 
             <div class="row top-margin">
-                <div class="col-lg-4 col-md-6 text-white order-lg-0 order-1">
+                <div class="col-lg-4 col-md-6 text-white order-lg-0 order-1 text-md-start text-center">
                     <h2>Health in Every Sip</h2>
                     <h6 class="mb-5">What ‘Packed with Nutrition’ Really Means</h6>
-                    <div data-aos="fade-up" data-aos-delay="0">
-                        <div class="d-flex justify-content-start align-items-center gap-3">
-                            <div class="nutrition-circle">55</div>
-                            <h5 class="mb-0">Calories</h5>
-                        </div>
-                        <hr>
-                    </div>
 
-                    <div data-aos="fade-up" data-aos-delay="100">
-                        <div class="d-flex justify-content-start align-items-center gap-3">
-                            <div class="nutrition-circle">340<br>mg</div>
-                            <h5 class="mb-0">Potassium</h5>
+                    <div class="nutrition-container">
+                        <div data-aos="fade-up" data-aos-delay="0">
+                            <div class="d-flex justify-content-start align-items-center gap-3">
+                                <div class="nutrition-circle">55</div>
+                                <h5 class="mb-0">Calories</h5>
+                            </div>
+                            <hr>
                         </div>
-                        <hr>
-                    </div>
-
-                    <div data-aos="fade-up" data-aos-delay="200">
-                        <div class="d-flex justify-content-start align-items-center gap-3">
-                            <div class="nutrition-circle">22%</div>
-                            <h5 class="mb-0">Daily Vitamin C</h5>
+                        <div data-aos="fade-up" data-aos-delay="100">
+                            <div class="d-flex justify-content-start align-items-center gap-3">
+                                <div class="nutrition-circle">340<br>mg</div>
+                                <h5 class="mb-0">Potassium</h5>
+                            </div>
+                            <hr>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="200">
+                            <div class="d-flex justify-content-start align-items-center gap-3">
+                                <div class="nutrition-circle">22%</div>
+                                <h5 class="mb-0">Daily Vitamin C</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -189,7 +190,7 @@
                 <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center order-lg-2 order-2">
                     <div class="bg-white rounded-5 p-4 w-100" style="max-width: 350px;">
                         <div id="aos-anchor" data-aos="fade-up" data-aos-delay="0">
-                            <h6>Every Can Delivers</h6>
+                            <h6 class="text-center">Every Can Delivers</h6>
                             <hr>
                         </div>
 
@@ -241,7 +242,7 @@
                             <hr>
                         </div>
 
-                        <div data-aos="fade-up" data-aos-delay="450" data-aos-anchor="#aos-anchor">
+                        <div data-aos="fade-up" data-aos-delay="450" data-aos-anchor="#aos-anchor" class="text-center">
                             <button class="button" data-bs-toggle="modal" data-bs-target="#nutritionModal">VIEW NUTRITION FACTS</button>
                         </div>
 
@@ -389,24 +390,22 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.productSwiper', {
-            slidesPerView: 'auto',
             spaceBetween: 20,
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
             },
-            // breakpoints: {
-            //     768: {
-            //         slidesPerView: 2,
-            //     },
-            //     991: {
-            //         slidesPerView: 3,
-            //     },
-            //     1200: {
-            //         slidesPerView: 4,
-            //     },
-            // },
             loop: false,
+            breakpoints: {
+                0: {
+                    slidesPerView: 'auto',
+                    centeredSlides: true,
+                },
+                769: {
+                    slidesPerView: 'auto',
+                    centeredSlides: false,
+                }
+            }
         });
     </script>
 </body>
