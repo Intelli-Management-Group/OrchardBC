@@ -21,7 +21,7 @@
             <button class="button" data-filter="arrow">Arrow Tree</button>
         </div> -->
 
-        <div class="row mt-5 bottom-margin">
+        <div class="row mt-5 bottom-margin gy-md-0 gy-4">
             <div class="col-md-4 d-flex flex-column align-items-center text-center">
                 <div class="upper-header">Our Office</div>
                 <p class="mb-0">200 - 3071 No.5 Rd,<br>Richmond, BC, V6X 2T4</p>
@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <div class="row mt-3">
+        <div class="row my-5">
             <div class="col-lg-4 offset-lg-2 col-md-6 d-flex justify-content-center">
                 <div class="location-card" data-category="coconut">
                     <div>

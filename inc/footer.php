@@ -25,7 +25,7 @@
                 <p class="mb-0">Copyright © <?php echo date('Y'); ?> BC Orchard. All rights reserved</p>
             </div>
 
-            <div class="col-md-4 d-flex justify-content-md-end justify-content-center">
+            <div class="col-md-4 d-flex justify-content-md-end justify-content-center mt-lg-0 mt-md-4 mt-0">
                 <a href="privacy-policy.php" class="me-3">Privacy Policy</a>
                 <a href="terms-of-use.php">Terms of Use</a>
             </div>
