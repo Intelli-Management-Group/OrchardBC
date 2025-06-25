@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
-        <div class="row py-5">
-            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="row py-md-5 py-4 gy-md-0 gy-4">
+            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center text-center mt-0">
                 <p class="mb-0">200 - 3071 No.5 Rd,<br>Richmond, BC, V6X 2T4</p>
             </div>
 
@@ -21,11 +21,11 @@
     <hr class="mt-0">
     <div class="container">
         <div class="row pb-3" style="font-size: 12px;">
-            <div class="col-md-8">
-                <p style="text-align: left;" class="mb-0">Copyright © <?php echo date('Y'); ?> BC Orchard. All rights reserved</p>
+            <div class="col-md-8 d-flex justify-content-md-start justify-content-center">
+                <p class="mb-0">Copyright © <?php echo date('Y'); ?> BC Orchard. All rights reserved</p>
             </div>
 
-            <div class="col-md-4 d-flex justify-content-md-end justify-content-start">
+            <div class="col-md-4 d-flex justify-content-md-end justify-content-center">
                 <a href="privacy-policy.php" class="me-3">Privacy Policy</a>
                 <a href="terms-of-use.php">Terms of Use</a>
             </div>

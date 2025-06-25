@@ -85,7 +85,9 @@
     <div class="container-fluid bottom-margin" style="padding-left: 20px; padding-right: 20px;">
         <div class="row">
             <div class="col-44" data-aos="fade-up" data-aos-delay="0">
-                <div class="masked-image masked-image-1"></div>
+                <!-- <div class="masked-image masked-image-1"></div> -->
+                <div class="masked-image top"></div>
+                <div class="masked-image bottom"></div>
             </div>
             <div class="col-28" data-aos="fade-up" data-aos-delay="100">
                 <div class="masked-image masked-image-2">
@@ -177,19 +179,19 @@
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
                         <div class="testimonial-content">"I use it in my morning smoothies. The natural sweetness is just right, and it makes everything taste fresher."</h3>
-                        <div class="upper-header pt-5">Maya T.</div>
-                        <p class="mb-0">100% Pure Coconut water</p>
+                            <div class="upper-header pt-5">Maya T.</div>
+                            <p class="mb-0">100% Pure Coconut water</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                <span class="fa fa-chevron-left carousel-control-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                <span class="fa fa-chevron-right carousel-control-icon"></span>
-            </button>
-        </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="fa fa-chevron-left carousel-control-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="fa fa-chevron-right carousel-control-icon"></span>
+                </button>
+            </div>
     </section>
 
     <section class="container-fluid bottom-margin overflow-x-hidden">

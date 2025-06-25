@@ -49,7 +49,7 @@
         </div>
 
         <div class="row mt-3">
-            <div class="col-lg-4 offset-lg-1">
+            <div class="col-lg-4 offset-lg-2 col-md-6 d-flex justify-content-center">
                 <div class="location-card" data-category="coconut">
                     <div>
                         <div class="upper-header">Coconut Water</div>
@@ -64,11 +64,11 @@
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5204.6982870686825!2d-123.1382003!3d49.288728899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486722886d4e1df%3A0xf0668965f385a62b!2sBrandon%20%26%20Joanny&#39;s%20NOFRILLS%20Vancouver!5e0!3m2!1sen!2sca!4v1747342506141!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             </div>
 
-            <div class="col-lg-4 offset-lg-1">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center mb-md-0 mb-4">
                 <div class="location-card" data-category="coconut juice">
                     <div>
                         <div class="upper-header">Coconut Water</div>
-                        <h5>Big Crazy Supermarket<br> (柏仁超市)</h5>
+                        <h5>Big Crazy Supermarket<br> (<span class="chinese-h5">柏仁超市</span>)</h5>
                         <div>180-4551 No 3 Rd, Richmond</div>
                     </div>
                     <div>

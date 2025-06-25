@@ -196,7 +196,7 @@
 
                         <div data-aos="fade-up" data-aos-delay="50" data-aos-anchor="#aos-anchor">
                             <div class="d-flex justify-content-between">
-                                <div>calories</div>
+                                <div>Calories</div>
                                 <div>55</div>
                             </div>
                             <hr>
