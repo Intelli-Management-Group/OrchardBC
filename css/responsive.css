@@ -1,6 +1,16 @@
+@media only screen and (max-width: 1650px) {
+    .product-card-content {
+        right: 4%;
+    }
+}
+
 @media only screen and (max-width: 1399px) {
     .cocoanut-water-bg-ice {
         top: 480px;
+    }
+
+    .product-card-content {
+        right: 7%;
     }
 }
 
@@ -90,6 +100,10 @@
         width: 75% !important;
     }
 
+    .product-card-content {
+        right: 4%;
+    }
+
     .masked-image {
         height: 500px;
     }
@@ -146,6 +160,10 @@
     .cocoanut-water-bg-ice {
         top: 630px;
     }
+
+    /* .nutrition-container {
+        margin: 0 auto;
+    } */
 }
 
 @media only screen and (max-width: 767px) {
@@ -169,6 +187,10 @@
 
     .navbar .nav-link.active {
         color: black;
+    }
+
+    .product-card-content {
+        right: 8%;
     }
 
     .col-28 {
@@ -223,6 +245,10 @@
     }
 
     .nutrition-container {
+        max-width: none;
+    }
+
+    .nutrition-circle-container {
         width: 260px;
         margin: 0 auto;
     }
@@ -248,6 +274,10 @@
 
     .slider-content {
         width: 100% !important;
+    }
+
+    .product-card-content {
+        right: 5%;
     }
 
     .highlight-wrap {

@@ -240,12 +240,12 @@ a {
 
 .product-card-1::before {
     background-image: url('../img/home/bco_brand_coconut_water.jpg');
-    background-position: 50% center;
+    background-position: 60% center;
 }
 
 .product-card-2::before {
     background-image: url('../img/home/bco_brand_ bc_juice.jpg');
-    background-position: 50% center;
+    background-position: 60% center;
 }
 
 .product-card-3::before {
@@ -906,6 +906,14 @@ iframe {
     width: 100%;
     object-fit: cover;
     border-radius: 17px;
+}
+
+.product-nutrition-img {
+    object-fit: contain;
+}
+
+.nutrition-container {
+    max-width: 350px;
 }
 
 .nutrition-circle {
