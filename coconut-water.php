@@ -1,4 +1,8 @@
-<?php include 'inc/header.php'; ?>
+<?php
+$title = "100% Pure Coconut Water | No Sugar, No Additives | BC Orchard";
+$description = "Enjoy 100% pure coconut water with no sugar, no additives—just hydration the way nature intended. A better choice for wellness, recovery, and refreshment.";
+include 'inc/header.php'; 
+?>
 
 <style>
     footer {

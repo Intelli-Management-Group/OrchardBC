@@ -1,4 +1,8 @@
-<?php include 'inc/header.php'; ?>
+<?php
+$title = "BC Orchard | Pure Coconut Water & Natural Goodness from BC";
+$description = "BC Orchard delivers wellness through 100% pure coconut water and thoughtfully crafted products. Experience premium ingredients and honest nutrition you can trust.";
+include 'inc/header.php'; 
+?>
 
 <body>
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">

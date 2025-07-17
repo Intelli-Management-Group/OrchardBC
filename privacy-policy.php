@@ -1,4 +1,8 @@
-<?php include 'inc/header.php'; ?>
+<?php
+$title = "Privacy Policy | BC Orchard";
+$description = "Privacy Policy | BC Orchard";
+include 'inc/header.php'; 
+?>
 
 <style>
     .navbar {

@@ -1,4 +1,8 @@
-<?php include 'inc/header.php'; ?>
+<?php
+$title = "Coconut Water Near Me | Where to Find BC Orchard Products";
+$description = "Looking for BC Orchard coconut water? Find our products at trusted retailers across Vancouver and Richmond. See the full list of stores carrying our drinks.";
+include 'inc/header.php'; 
+?>
 
 <body>
     <div class="banner-container find-us-banner bottom-margin">
