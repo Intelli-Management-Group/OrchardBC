@@ -182,7 +182,7 @@ include 'inc/header.php';
 
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
-                        <div class="testimonial-content">"I use it in my morning smoothies. The natural sweetness is just right, and it makes everything taste fresher."</h3>
+                        <div class="testimonial-content">"I use it in my morning smoothies. The natural sweetness is just right, and it makes everything taste fresher."</div>
                             <div class="upper-header pt-5">Maya T.</div>
                             <p class="mb-0">100% Pure Coconut water</p>
                         </div>
