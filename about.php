@@ -12,6 +12,18 @@ include 'inc/header.php';
         </div>
     </div>
 
+        <!-- SVG for U-shaped clip-path -->
+    <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <clipPath id="smoothBottomCurve" clipPathUnits="objectBoundingBox">
+                <path d="M0,0 H1 V1 C1,1 0.5,0.85 0,1 Z" />
+            </clipPath>
+            <clipPath id="smoothBottomCurve-sm" clipPathUnits="objectBoundingBox">
+                <path d="M0,0 H1 V1 C1,1 0.5,0.95 0,1 Z" />
+            </clipPath>
+        </defs>
+    </svg>
+
     <div class="container overflow-x-hidden">
         <div class="row section-padding">
             <div class="col-lg-8 mx-auto">
@@ -45,7 +57,7 @@ include 'inc/header.php';
             </div>
 
             <div class="row gy-5 gy-lg-0">
-                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end-md" data-aos="fade-up" data-aos-delay="0">
                     <img src="img/about/about-image-4.jpg" alt="" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Excellence</div>
                     <h5>Only the Finest</h5>
@@ -59,14 +71,14 @@ include 'inc/header.php';
                     <p>We care deeply about your health – and ours. Our team prioritizes self-care and healthy working environment</p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end-md" data-aos="fade-up" data-aos-delay="200">
                     <img src="img/about/about-image-6.jpg" alt="" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Communication</div>
                     <h5>Your Voice Matters</h5>
                     <p>We listen to you – and to each other. Customer feedback shapes new products, while employee ideas drive innovation. </p>
                 </div>
 
-                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end-lg" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="300">
                     <img src="img/about/about-image-7.jpg" alt="" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Respect</div>
                     <h5>For People and Planet</h5>

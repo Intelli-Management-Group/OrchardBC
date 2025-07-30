@@ -47,8 +47,8 @@ include 'inc/header.php';
                 </div>
 
                 <div class="col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
-                    <h3 class="mb-lg-5 mb-3">100% Pure<br class="d-none d-lg-block"> Coconut Water</h3>
-                    <p>Nothing added. Nothing taken away.</p>
+                    <h3 class="mb-lg-3 mb-3">100% Pure<br class="d-none d-lg-block"> Coconut Water</h3>
+                    <div style="font-size: 24px; font-family: Lato, sans-serif; letter-spacing: 0.8px;" class="mb-2">Nothing added. Nothing taken away.</div>
                     <p style="text-align: justify;">Our coconut water is bottled straight from young Vietnamese coconuts—capturing nature’s hydration at its peak. Naturally sweet, packed with essential electrolytes, and free from additives, it’s the cleanest way to refresh your day. From workouts to wind-downs, this is hydration as it should be.</p>
                 </div>
             </div>
@@ -108,7 +108,7 @@ include 'inc/header.php';
     </div>
 
     <svg viewBox="0 0 1440 100" style="display: block; width: 100%; height: auto; margin-bottom: -1px;">
-        <path fill="#516e32" d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z"></path>
+        <path fill="#246113" d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z"></path>
     </svg>
 
     <div class="product-coconut-bg-2 position-relative">
@@ -282,10 +282,11 @@ include 'inc/header.php';
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-1">
-                                <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100">
+                                <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
-                                    <div>v.s.<br>Other Coconut Water</div>
+                                    <div>v.s.</div>
+                                    <h6 class="mb-0">Other Coconut Water</h6>
                                 </div>
                             </div>
                             <div class="product-comparison-card-content">
@@ -298,10 +299,11 @@ include 'inc/header.php';
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-2">
-                                <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100">
+                                <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
-                                    <div>v.s.<br>Juices</div>
+                                    <div>v.s.</div>
+                                    <h6 class="mb-0">Juices</h6>
                                 </div>
                             </div>
                             <div class="product-comparison-card-content">
@@ -314,10 +316,11 @@ include 'inc/header.php';
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-3">
-                                <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100">
+                                <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
-                                    <div>v.s.<br>Sports Drinks</div>
+                                    <div>v.s.</div>
+                                    <h6 class="mb-0">Sports Drinks</h6>
                                 </div>
                             </div>
                             <div class="product-comparison-card-content">
@@ -330,10 +333,11 @@ include 'inc/header.php';
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-4">
-                                <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100">
+                                <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
-                                    <div>v.s.<br>Soft Drinks</div>
+                                    <div>v.s.</div>
+                                    <h6 class="mb-0">Soft Drinks</h6>
                                 </div>
                             </div>
                             <div class="product-comparison-card-content">

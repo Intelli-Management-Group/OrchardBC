@@ -108,7 +108,7 @@
                     <div class="slider-content">
                         <div class="upper-header">PURE COCONUT WATER</div>
                         <h1>100% Coconut <br> Nothing More,<br> Nothing Less</h1>
-                        <a href="coconut-water.php"><button class="button-white-fill">LEARN MORE</button></a>
+                        <!-- <a href="coconut-water.php"><button class="button-white-fill">LEARN MORE</button></a> -->
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                     <div class="slider-content">
                         <div class="upper-header">CRAFTED IN JAPAN</div>
                         <h1>Cherish Yourself<br> Delight Others</h1>
-                        <button class="button-white-fill">COMING SOON</button>
+                        <!-- <button class="button-white-fill">COMING SOON</button> -->
                     </div>
                 </div>
             </div>

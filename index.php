@@ -59,7 +59,7 @@ include 'inc/header.php';
                     <div class="product-card-content">
                         <div class="upper-header">Coconut Water</div>
                         <h4>Refresh <br>Rehydrate <br>Replenish</h4>
-                        <a href="coconut-water.php"><button class="button">LEARN MORE</button></a>
+                        <!-- <a href="coconut-water.php"><button class="button">LEARN MORE</button></a> -->
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ include 'inc/header.php';
                     <div class="product-card-content">
                         <div class="upper-header">BC Juices</div>
                         <h4>BC-Grown <br>Vibrant <br>Flavourful</h4>
-                        <button class="button">COMING SOON</button>
+                        <!-- <button class="button">COMING SOON</button> -->
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ include 'inc/header.php';
                     <div class="product-card-content">
                         <div class="upper-header">Arrow Tree Snacks</div>
                         <h4>Curated <br>Delightful <br>Elegant</h4>
-                        <button class="button">COMING SOON</button>
+                        <!-- <button class="button">COMING SOON</button> -->
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ include 'inc/header.php';
                 <div class="masked-image masked-image-2">
                     <div class="masked-image-content text-center">
                         <h4 style="line-height: 1.5;">More Than A Business - A Belief That Health Is Your Greatest Asset</h4>
-                        <a href="about.php" class="button mt-3">ABOUT US</a>
+                        <!-- <a href="about.php" class="button mt-3">ABOUT US</a> -->
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@ include 'inc/header.php';
                     <div class="product-name">
                         <div class="brand-name">BC Orchard</div>
                         <h6 class="px-2">100% Pure Coconut Water</h6>
-                        <a href="coconut-water.php" class="learn-more-button">Learn More</a>
+                        <!-- <a href="coconut-water.php" class="learn-more-button">Learn More</a> -->
                     </div>
                 </div>
             </div>
@@ -141,7 +141,7 @@ include 'inc/header.php';
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
                         <h6 class="px-2">Gift M-box</h6>
-                        <a href="" class="learn-more-button">Coming Soon</a>
+                        <!-- <a href="" class="learn-more-button">Coming Soon</a> -->
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@ include 'inc/header.php';
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
                         <h6 class="px-2">ICHI-HA</h6>
-                        <a href="" class="learn-more-button">Coming Soon</a>
+                        <!-- <a href="" class="learn-more-button">Coming Soon</a> -->
                     </div>
                 </div>
             </div>

@@ -57,7 +57,7 @@ include 'inc/header.php';
                 <div class="location-card" data-category="coconut">
                     <div>
                         <div class="upper-header">Coconut Water</div>
-                        <h5>Brandon & Joanny’s<br> NoFrills</h5>
+                        <h6>Brandon & Joanny’s<br> NoFrills</h6>
                         <div>101-1030 Denman St, Vancouver</div>
                     </div>
                     <div>
@@ -72,7 +72,7 @@ include 'inc/header.php';
                 <div class="location-card" data-category="coconut juice">
                     <div>
                         <div class="upper-header">Coconut Water</div>
-                        <h5>Big Crazy Supermarket<br> (<span class="chinese-h5">柏仁超市</span>)</h5>
+                        <h6>Big Crazy Supermarket<br> (<span class="chinese-h5">柏仁超市</span>)</h6>
                         <div>180-4551 No 3 Rd, Richmond</div>
                     </div>
                     <div>
