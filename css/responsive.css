@@ -84,10 +84,6 @@
         padding-bottom: 100px;
     }
 
-    .bottom-top {
-        margin-bottom: 100px;
-    }
-
     .bottom-margin {
         margin-bottom: 100px;
     }
@@ -154,6 +150,20 @@
     }
 
     .product-coconut-bg {
+        clip-path: url(#smoothBottomCurve-sm);
+    }
+
+    .about-banner {
+        clip-path: url(#smoothBottomCurve-sm);
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url('../img/about/banner_about.jpg') no-repeat 90% center/cover;
+    }
+
+    .about-banner-text {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .find-us-banner {
         clip-path: url(#smoothBottomCurve-sm);
     }
 
@@ -258,10 +268,6 @@
     .section-padding {
         padding-top: 70px;
         padding-bottom: 70px;
-    }
-
-    .bottom-top {
-        margin-bottom: 70px;
     }
 
     .bottom-margin {

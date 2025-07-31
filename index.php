@@ -1,7 +1,7 @@
 <?php
 $title = "BC Orchard | Pure Coconut Water & Natural Goodness from BC";
 $description = "BC Orchard delivers wellness through 100% pure coconut water and thoughtfully crafted products. Experience premium ingredients and honest nutrition you can trust.";
-include 'inc/header.php'; 
+include 'inc/header.php';
 ?>
 
 <body>
@@ -183,19 +183,19 @@ include 'inc/header.php';
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
                         <div class="testimonial-content">"I use it in my morning smoothies. The natural sweetness is just right, and it makes everything taste fresher."</div>
-                            <div class="upper-header pt-5">Maya T.</div>
-                            <p class="mb-0">100% Pure Coconut water</p>
-                        </div>
+                        <div class="upper-header pt-5">Maya T.</div>
+                        <p class="mb-0">100% Pure Coconut water</p>
                     </div>
                 </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                    <span class="fa fa-chevron-left carousel-control-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                    <span class="fa fa-chevron-right carousel-control-icon"></span>
-                </button>
             </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="fa fa-chevron-left carousel-control-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="fa fa-chevron-right carousel-control-icon"></span>
+            </button>
+        </div>
     </section>
 
     <section class="container-fluid bottom-margin overflow-x-hidden">
@@ -206,19 +206,23 @@ include 'inc/header.php';
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
-                        <div class="scroll-text">Made to Refresh</div>
-                        <div class="scroll-text">Made to Refresh</div>
-                        <div class="scroll-text">Made to Refresh</div>
+                        <div class="scroll-text">VIETNAM COCONUT</div>
+                        <div class="scroll-text">BC-GROWN JUICES</div>
+                        <div class="scroll-text">JAPANESE SNACKS</div>
+                        <!-- Repeat the same three for seamless looping -->
+                        <div class="scroll-text">VIETNAM COCONUT</div>
+                        <div class="scroll-text">BC-GROWN JUICES</div>
+                        <div class="scroll-text">JAPANESE SNACKS</div>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center" data-aos="fade-left">
                 <div style="max-width: 500px;">
-                    <div class="upper-header">Now In Stores</div>
-                    <h2>Find Us Nearby</h2>
-                    <p>Our products are available at select retailers in Vancouver and Richmond. See where you can pick them up today.</p>
-                    <a href="find-us.php"><button class="button">Where to Buy</button></a>
+                    <div class="upper-header">GLOBAL SELECTION</div>
+                    <h2>From The Finest Sources</h2>
+                    <p class="mb-0">We source globally from regions renowned for their specialties—Vietnam’s finest young coconuts, Japan’s exquisite snacks, and BC’s orchard-fresh fruits. Every product reflects our full commitment to exceptional flavour, thoughtful care, and uncompromising quality.</p>
+                    <!-- <a href="find-us.php"><button class="button">Where to Buy</button></a> -->
                 </div>
             </div>
         </div>

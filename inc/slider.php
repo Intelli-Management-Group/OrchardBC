@@ -59,7 +59,7 @@
 
         .slider-content {
             color: white;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
             text-align: left;
             opacity: 0;
             position: absolute;

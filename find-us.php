@@ -1,15 +1,36 @@
 <?php
 $title = "Coconut Water Near Me | Where to Find BC Orchard Products";
 $description = "Looking for BC Orchard coconut water? Find our products at trusted retailers across Vancouver and Richmond. See the full list of stores carrying our drinks.";
-include 'inc/header.php'; 
+include 'inc/header.php';
 ?>
 
 <body>
     <div class="banner-container find-us-banner bottom-margin">
-        <div class="banner-content">
+        <!-- <div class="banner-content">
             <h1 class="text-white">Find Us</h1>
+        </div> -->
+        <div class="container section-padding-sm">
+            <div class="row">
+                <div class="about-banner-text col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
+                    <h3 class="mb-lg-3 mb-3">Find Us</h3>
+                    <!-- <h5>Nothing added. Nothing taken away.</h5> -->
+                    <p style="text-align: justify;">At BC Orchard, we don’t just make food—we make choices that reflect our belief in better living. From our sourcing to our packaging, everything is guided by one promise: to support your well-being with honesty, intention, and care. What you taste is only part of the story. The rest is what we stand for.</p>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- SVG for U-shaped clip-path -->
+    <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <clipPath id="smoothBottomCurve" clipPathUnits="objectBoundingBox">
+                <path d="M0,0 H1 V1 C1,1 0.5,0.85 0,1 Z" />
+            </clipPath>
+            <clipPath id="smoothBottomCurve-sm" clipPathUnits="objectBoundingBox">
+                <path d="M0,0 H1 V1 C1,1 0.5,0.95 0,1 Z" />
+            </clipPath>
+        </defs>
+    </svg>
 
     <div class="container">
         <div class="row">

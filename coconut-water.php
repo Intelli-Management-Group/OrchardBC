@@ -1,7 +1,7 @@
 <?php
 $title = "100% Pure Coconut Water | No Sugar, No Additives | BC Orchard";
 $description = "Enjoy 100% pure coconut water with no sugar, no additives—just hydration the way nature intended. A better choice for wellness, recovery, and refreshment.";
-include 'inc/header.php'; 
+include 'inc/header.php';
 ?>
 
 <style>
@@ -48,7 +48,7 @@ include 'inc/header.php';
 
                 <div class="col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
                     <h3 class="mb-lg-3 mb-3">100% Pure<br class="d-none d-lg-block"> Coconut Water</h3>
-                    <div style="font-size: 24px; font-family: Lato, sans-serif; letter-spacing: 0.8px;" class="mb-2">Nothing added. Nothing taken away.</div>
+                    <h5 class="sub-heading">Nothing Added. Nothing Taken Away.</h5>
                     <p style="text-align: justify;">Our coconut water is bottled straight from young Vietnamese coconuts—capturing nature’s hydration at its peak. Naturally sweet, packed with essential electrolytes, and free from additives, it’s the cleanest way to refresh your day. From workouts to wind-downs, this is hydration as it should be.</p>
                 </div>
             </div>
@@ -78,28 +78,19 @@ include 'inc/header.php';
             <h2 class="text-center">A Better Way to Rehydrate</h2>
             <div class="row mt-5 gy-md-0">
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
-                    <div class="lottie-container">
-                        <!-- id="lottie1" -->
-                        <img src="img/coconut/BCO_icon_Hydration.png" alt="Electrolyte-Rich Hydration" class="lottie-container">
-                    </div>
+                    <img src="img/coconut/BCO_icon_Hydration.png" alt="Electrolyte-Rich Hydration" class="benefits-img">
                     <h5 class="mt-3">Electrolyte-Rich Hydration</h5>
                     <p>Rich in natural electrolytes to replenish fluids after workouts, sports, or even a rough night out.</p>
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
-                    <div class="lottie-container">
-                        <!-- id="lottie2" -->
-                        <img src="img/coconut/BCO_icon_Immunity.png" alt="Boosts Immunity" class="lottie-container">
-                    </div>
+                    <img src="img/coconut/BCO_icon_Immunity.png" alt="Boosts Immunity" class="benefits-img">
                     <h5 class="mt-3">Boosts Immunity</h5>
                     <p>Delivers 20% of your daily vitamin C, strengthening your immune system in a light, refreshing way.</p>
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="lottie-container">
-                        <!-- id="lottie3" -->
-                        <img src="img/coconut/BCO_icon_GoodforSkin.png" alt="Good for Skin" class="lottie-container">
-                    </div>
+                    <img src="img/coconut/BCO_icon_GoodforSkin.png" alt="Good for Skin" class="benefits-img">
                     <h5 class="mt-3">Supports Skin & Recovery</h5>
                     <p>Helps your skin retain moisture and provides natural antioxidants to fight signs of aging and oxidative stress.</p>
                 </div>
@@ -358,35 +349,6 @@ include 'inc/header.php';
             </clipPath>
         </defs>
     </svg> -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
-
-    <!-- Replace With png Images -->
-    <!-- <script>
-        lottie.loadAnimation({
-            container: document.getElementById('lottie1'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'https://www.nokaorganics.com/cdn/shop/files/icon-immune-support.json?v=13080125162050862022'
-        });
-
-        lottie.loadAnimation({
-            container: document.getElementById('lottie2'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'https://www.nokaorganics.com/cdn/shop/files/icon-fruit-blends.json?v=2311880577335748567'
-        });
-
-        lottie.loadAnimation({
-            container: document.getElementById('lottie3'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'https://www.nokaorganics.com/cdn/shop/files/icon-for-all-ages.json?v=11389779386743926115'
-        });
-    </script> -->
 
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
