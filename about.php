@@ -13,9 +13,9 @@ include 'inc/header.php';
         <div class="container section-padding-sm">
             <div class="row">
                 <div class="about-banner-text col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
-                    <h3 class="mb-lg-3 mb-3">About Us</h3>
+                    <h3 class="mb-lg-3 mb-3">The Belief Behind Every Product</h3>
                     <!-- <h5>Nothing added. Nothing taken away.</h5> -->
-                    <p style="text-align: justify;">At BC Orchard, we don’t just make food—we make choices that reflect our belief in better living. From our sourcing to our packaging, everything is guided by one promise: to support your well-being with honesty, intention, and care. What you taste is only part of the story. The rest is what we stand for.</p>
+                    <p style="text-align: justify;">At BC Orchard, everything we create reflects our belief in better living. From sourcing to packaging, every choice is guided by one promise: to support your well-being with honesty, intention, and care. What you taste is only part of the story—the rest is what we stand for.</p>
                 </div>
             </div>
         </div>
@@ -34,13 +34,11 @@ include 'inc/header.php';
     </svg>
 
     <div class="container overflow-x-hidden">
-        <div class="row section-padding">
-            <div class="col-lg-8 mx-auto">
-                <p class="text-center">At BC Orchard, we don’t just make food—we make choices that reflect our belief in better living. From our sourcing to our packaging, everything is guided by one promise: to support your well-being with honesty, intention, and care. What you taste is only part of the story. The rest is what we stand for.</p>
-            </div>
+        <div class="row section-padding-sm">
+            <h2 class="text-center">Explore Our Journey to Making Wellness Simple and Enjoyable.</h2>
         </div>
 
-        <div class="row section-padding gy-5 gy-lg-0">
+        <div class="row bottom-margin gy-5 gy-lg-0">
             <div class="col-lg-6 text-center d-flex flex-column justify-content-center align-items-center border-end-lg" data-aos="fade-right" data-aos-offset="80">
                 <div class="max-width">
                     <div class="upper-header">Our Story</div>

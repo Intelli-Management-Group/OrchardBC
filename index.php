@@ -202,7 +202,7 @@ include 'inc/header.php';
         <div class="row gy-5 gy-lg-0">
             <div class="col-lg-6 p-0 d-flex align-items-stretch" data-aos="fade-right">
                 <div class="img-container">
-                    <img src="img/home/contact_2.jpg" alt="" class="img-fluid">
+                    <img src="img/home/contact.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">

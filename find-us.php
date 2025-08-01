@@ -5,16 +5,16 @@ include 'inc/header.php';
 ?>
 
 <body>
-    <div class="banner-container find-us-banner bottom-margin">
+    <div class="banner-container find-us-banner">
         <!-- <div class="banner-content">
             <h1 class="text-white">Find Us</h1>
         </div> -->
         <div class="container section-padding-sm">
             <div class="row">
                 <div class="about-banner-text col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
-                    <h3 class="mb-lg-3 mb-3">Find Us</h3>
+                    <h3 class="mb-lg-3 mb-3">Find Our Products. Join Our Mission.</h3>
                     <!-- <h5>Nothing added. Nothing taken away.</h5> -->
-                    <p style="text-align: justify;">At BC Orchard, we don’t just make food—we make choices that reflect our belief in better living. From our sourcing to our packaging, everything is guided by one promise: to support your well-being with honesty, intention, and care. What you taste is only part of the story. The rest is what we stand for.</p>
+                    <p style="text-align: justify;">Whether you’re looking to carry our products, place a bulk order, or just learn more about what we do, you’re in the right place. Explore how to reach us—or find BC Orchard products at a store near you.</p>
                 </div>
             </div>
         </div>
@@ -33,9 +33,10 @@ include 'inc/header.php';
     </svg>
 
     <div class="container">
-        <div class="row">
+        <div class="row section-padding-sm">
             <div class="col-lg-8 mx-auto">
-                <h4 class="text-center">Looking to purchase in bulk or explore a retail partnership? Reach us directly today.</h4>
+                <h2 class="text-center mb-5">Start the Conversation</h2>
+                <p>Whether you're a retailer, distributor, or someone who shares our passion for wellness, we’re always open to meaningful conversations. From bulk orders to business collaborations, we’re here to explore how we can work together and grow something great. Reach out by <a class="contact-link" href="tel:+17782977108">+1 (778) 297-7108</a> or <a class="contact-link" href="mailto:inquiry@orchardbc.com">inquiry@orchardbc.com</a> to start the conversation, and stay connected with us on <a class="contact-link" href="https://www.instagram.com/bc_orchard_official/" target="_blank" rel="noopener noreferrer">Instagram</a> and <a class="contact-link" href="https://www.facebook.com/profile.php?id=100086876454993" target="_blank" rel="noopener noreferrer">Facebook</a> for the latest updates, behind-the-scenes stories, and wellness inspiration from the BC Orchard community.</p>
             </div>
         </div>
 
@@ -46,7 +47,7 @@ include 'inc/header.php';
             <button class="button" data-filter="arrow">Arrow Tree</button>
         </div> -->
 
-        <div class="row mt-5 bottom-margin gy-md-0 gy-4">
+        <!-- <div class="row mt-5 bottom-margin gy-md-0 gy-4">
             <div class="col-md-4 d-flex flex-column align-items-center text-center">
                 <div class="upper-header">Our Office</div>
                 <p class="mb-0">200 - 3071 No.5 Rd,<br>Richmond, BC, V6X 2T4</p>
@@ -65,11 +66,11 @@ include 'inc/header.php';
                     <a href="https://www.instagram.com/bc_orchard_official/" target="_blank" rel="noopener noreferrer"><img src="img/home/icons/instagram.svg" alt="BC Orchard Instagram" class="social-icon"></a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <h4 class="text-center mb-0">Grab Your Favorites In-Store —we’re expanding,<br class="d-xxl-block d-none"> stay tuned for more.</h4>
+                <h2 class="text-center mb-0">Now Stocked Locally</h2>
             </div>
         </div>
 

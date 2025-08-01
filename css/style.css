@@ -246,7 +246,7 @@ a {
 
 .product-card-1::before {
     background-image: url('../img/home/bco_brand_coconut_water.jpg');
-    background-position: 60% center;
+    background-position: 30% center;
 }
 
 .product-card-2::before {
@@ -1000,4 +1000,9 @@ iframe {
 
 .product-comparison-card-content {
     padding: 15px 25px;
+}
+
+.contact-link {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: underline;
 }
