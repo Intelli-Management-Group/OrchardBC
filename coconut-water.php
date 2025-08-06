@@ -6,8 +6,8 @@ include 'inc/header.php';
 
 <style>
     footer {
-        border-top-left-radius: 24px;
-        border-top-right-radius: 24px;
+        border-top-left-radius: 32px;
+        border-top-right-radius: 32px;
     }
 
     .swiper {
@@ -31,7 +31,6 @@ include 'inc/header.php';
     }
 </style>
 
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <body>
@@ -349,15 +348,6 @@ include 'inc/header.php';
             </clipPath>
         </defs>
     </svg> -->
-
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 500,
-            easing: 'ease-in-out',
-            once: false
-        });
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>

@@ -36,7 +36,7 @@ include 'inc/header.php';
         <div class="row section-padding-sm">
             <div class="col-lg-8 mx-auto">
                 <h2 class="text-center mb-5">Start the Conversation</h2>
-                <p>Whether you're a retailer, distributor, or someone who shares our passion for wellness, we’re always open to meaningful conversations. From bulk orders to business collaborations, we’re here to explore how we can work together and grow something great. Reach out by <a class="contact-link" href="tel:+17782977108">+1 (778) 297-7108</a> or <a class="contact-link" href="mailto:inquiry@orchardbc.com">inquiry@orchardbc.com</a> to start the conversation, and stay connected with us on <a class="contact-link" href="https://www.instagram.com/bc_orchard_official/" target="_blank" rel="noopener noreferrer">Instagram</a> and <a class="contact-link" href="https://www.facebook.com/profile.php?id=100086876454993" target="_blank" rel="noopener noreferrer">Facebook</a> for the latest updates, behind-the-scenes stories, and wellness inspiration from the BC Orchard community.</p>
+                <p class="text-justify" data-aos="fade-up">Whether you're a retailer, distributor, or someone who shares our passion for wellness, we’re always open to meaningful conversations. From bulk orders to business collaborations, we’re here to explore how we can work together and grow something great. Reach out by <a class="contact-link" href="tel:+17782977108">+1 (778) 297-7108</a> or <a class="contact-link" href="mailto:inquiry@orchardbc.com">inquiry@orchardbc.com</a> to start the conversation, and stay connected with us on <a class="contact-link" href="https://www.instagram.com/bc_orchard_official/" target="_blank" rel="noopener noreferrer">Instagram</a> and <a class="contact-link" href="https://www.facebook.com/profile.php?id=100086876454993" target="_blank" rel="noopener noreferrer">Facebook</a> for the latest updates, behind-the-scenes stories, and wellness inspiration from the BC Orchard community.</p>
             </div>
         </div>
 
@@ -75,7 +75,7 @@ include 'inc/header.php';
         </div>
 
         <div class="row my-5">
-            <div class="col-lg-4 offset-lg-2 col-md-6 d-flex justify-content-center">
+            <div class="col-lg-4 offset-lg-2 col-md-6 d-flex justify-content-center" data-aos="fade-right">
                 <div class="location-card" data-category="coconut">
                     <div>
                         <div class="upper-header">Coconut Water</div>
@@ -90,7 +90,7 @@ include 'inc/header.php';
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5204.6982870686825!2d-123.1382003!3d49.288728899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486722886d4e1df%3A0xf0668965f385a62b!2sBrandon%20%26%20Joanny&#39;s%20NOFRILLS%20Vancouver!5e0!3m2!1sen!2sca!4v1747342506141!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             </div>
 
-            <div class="col-lg-4 col-md-6 d-flex justify-content-center mb-md-0 mb-4">
+            <div class="col-lg-4 col-md-6 d-flex justify-content-center mb-md-0 mb-4" data-aos="fade-left">
                 <div class="location-card" data-category="coconut juice">
                     <div>
                         <div class="upper-header">Coconut Water</div>

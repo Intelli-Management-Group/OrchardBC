@@ -5,7 +5,6 @@ include 'inc/header.php';
 ?>
 
 <body>
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <div class="banner-container about-banner">
         <!-- <div class="banner-content">
             <h1 class="text-white">About Us</h1>
@@ -35,7 +34,7 @@ include 'inc/header.php';
 
     <div class="container overflow-x-hidden">
         <div class="row section-padding-sm">
-            <h2 class="text-center">Explore Our Journey to Making Wellness Simple and Enjoyable.</h2>
+            <h2 class="text-center">The Story Behind It All</h2>
         </div>
 
         <div class="row bottom-margin gy-5 gy-lg-0">
@@ -59,7 +58,7 @@ include 'inc/header.php';
             <div class="row text-center mb-5">
                 <div class="col-12">
                     <div class="upper-header">core values</div>
-                    <h2>For You. For Us. For Earth</h2>
+                    <h2>The Heart of Our Brand</h2>
                 </div>
             </div>
 
@@ -74,21 +73,21 @@ include 'inc/header.php';
                 <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end-lg" data-aos="fade-up" data-aos-delay="100">
                     <img src="img/about/about-image-5.jpg" alt="BC Orchard Health" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Health</div>
-                    <h5>Foundations for Life</h5>
+                    <h5>For Better Living</h5>
                     <p>Your well-being is our deepest passion. We believe healthy choices should be joyful, accessible, and foundational to vibrant living.</p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end-md" data-aos="fade-up" data-aos-delay="200">
                     <img src="img/about/about-image-6.jpg" alt="BC Orchard Flavour" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Flavour</div>
-                    <h5>Uncompromised Taste</h5>
+                    <h5>Taste the Joy</h5>
                     <p>Healthy can be delicious. We craft flavourful products that make nutritious choices feel joyful and uplifting.</p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="300">
                     <img src="img/about/about-image-7.jpg" alt="BC Orchard Transparency" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Transparency</div>
-                    <h5>Clear & Honest</h5>
+                    <h5>True to Our Word</h5>
                     <p>Clear sourcing, full ingredient disclosure. No hidden additives—just trustworthy products with complete transparency.</p>
                 </div>
             </div>
@@ -98,28 +97,19 @@ include 'inc/header.php';
     <div class="container overflow-x-hidden">
         <div class="row bottom-margin gy-5 gy-lg-0">
             <div class="col-lg-6 px-4 border-end-lg d-flex justify-content-center" data-aos="fade-right">
-                <img src="img/about/about-image-3.jpg" alt="BC Orchard Why It Matters" class="img-fluid">
+                <img src="img/about/about-image-3.1.jpg" alt="BC Orchard Why It Matters" class="img-fluid">
             </div>
 
             <div class="col-lg-6 text-center d-flex flex-column justify-content-center align-items-center" data-aos="fade-left">
                 <div class="max-width">
                     <div class="upper-header">Why It Matters</div>
-                    <h2 class="mb-4">Globally Sourced. Locally Rooted.</h2>
+                    <h2 class="mb-4">It’s More Than Just the Products</h2>
                     <p>We believe your well-being is your greatest asset. That’s why we’re here—to create products that support how you feel, live, and thrive. Every decision we make is rooted in the idea that better health starts with better choices, made with care and intention.</p>
                     <p class="mb-0">How we get there matters just as much. We work closely with partners who share our values—from ethical sourcing to quality you can trust. Whether it’s a bottle, a snack, or a new idea, everything we offer is built on thoughtful collaboration and a shared commitment to doing things right.</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 500,
-            easing: 'ease-in-out',
-            once: false
-        });
-    </script>
 </body>
 
 <?php include 'inc/footer.php'; ?>

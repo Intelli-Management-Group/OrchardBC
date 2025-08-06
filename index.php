@@ -5,47 +5,50 @@ include 'inc/header.php';
 ?>
 
 <body>
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <?php include 'inc/slider.php'; ?>
 
     <div class="container-fluid">
         <div class="row" style="--bs-gutter-y: 0;">
-            <div class="col-lg-3 col-6 p-0 custom-border">
+            <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="0">
-                        <?php include 'img/home/icons/icon_premium.svg'; ?>
+                        <!-- <?php include 'img/home/icons/icon_premium.svg'; ?> -->
+                        <img src="img/home/icons/BCO_icon_premium.svg" alt="BC Orchard Premium Selection" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Premium Selection</div>
                         <p class="mb-0">Sourced from BC and Beyond</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0 custom-border">
+            <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="100">
-                        <?php include 'img/home/icons/icon_wellness.svg'; ?>
+                        <!-- <?php include 'img/home/icons/icon_wellness.svg'; ?> -->
+                         <img src="img/home/icons/BCO_icon_wellness.svg" alt="BC Orchard Healthy Lifestyle" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Healthy Lifestyle</div>
-                        <p class="mb-0">Everyday Wellness, Naturally</p>
+                        <p class="mb-0">Natural Everyday Wellness</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0 custom-border">
+            <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="200">
-                        <?php include 'img/home/icons/icon_canada.svg'; ?>
+                        <!-- <?php include 'img/home/icons/icon_canada.svg'; ?> -->
+                         <img src="img/home/icons/BCO_icon_canada.svg" alt="BC Orchard Proudly Canadian" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Proudly Canadian</div>
-                        <p class="mb-0">Rooted in Local Values</p>
+                        <p class="mb-0">Based in British Columbia</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6 p-0 custom-border">
+            <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="300">
-                        <?php include 'img/home/icons/icon_flavour.svg'; ?>
+                        <!-- <?php include 'img/home/icons/icon_flavour.svg'; ?> -->
+                         <img src="img/home/icons/BCO_icon_wholesome.svg" alt="BC Orchard Full of Flavor" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Full of Flavor</div>
-                        <p class="mb-0">Healthy Can Still Be Delicious</p>
+                        <p class="mb-0">Healthy Can Be Delicious</p>
                     </div>
                 </div>
             </div>
@@ -96,7 +99,7 @@ include 'inc/header.php';
             <div class="col-28" data-aos="fade-up" data-aos-delay="100">
                 <div class="masked-image masked-image-2">
                     <div class="masked-image-content text-center">
-                        <h4 style="line-height: 1.5;">More Than A Business - A Belief That Health Is Your Greatest Asset</h4>
+                        <h4 style="line-height: 1.5;">A Belief That Health Comes Above All Else</h4>
                         <!-- <a href="about.php" class="button mt-3">ABOUT US</a> -->
                     </div>
                 </div>
@@ -233,15 +236,6 @@ include 'inc/header.php';
             control.addEventListener('mouseup', function() {
                 this.blur();
             });
-        });
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 500,
-            easing: 'ease-in-out',
-            once: false
         });
     </script>
 </body>
