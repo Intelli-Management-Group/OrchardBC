@@ -172,7 +172,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color:#5a7800;
+    color: #5a7800;
 }
 
 .highlight-icon {
@@ -727,8 +727,9 @@ footer hr {
 }
 
 .find-us-banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)),
-        url('../img/find-us/banner_find_us.jpg') no-repeat 90% center/cover;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../img/find-us/banner_find_us.jpg') no-repeat 90% center/cover; */
+    background: url('../img/find-us/banner_find_us.jpg') no-repeat 90% center/cover;
     clip-path: url(#smoothBottomCurve);
     height: 740px;
     display: flex;
