@@ -47,7 +47,7 @@ include 'inc/header.php';
                     <div data-aos="fade-up" data-aos-delay="300">
                         <!-- <?php include 'img/home/icons/icon_flavour.svg'; ?> -->
                          <img src="img/home/icons/BCO_icon_wholesome.svg" alt="BC Orchard Full of Flavor" class="highlight-icon">
-                        <div class="upper-header" style="font-size: 12px;">Full of Flavor</div>
+                        <div class="upper-header" style="font-size: 12px;">Full of Flavour</div>
                         <p class="mb-0">Healthy Can Be Delicious</p>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ include 'inc/header.php';
                 <div class="product-card product-card-2">
                     <div class="product-card-content">
                         <div class="upper-header">BC Juices</div>
-                        <h4>BC-Grown <br>Vibrant <br>Flavourful</h4>
+                        <h4>Vibrant <br>Flavourful <br>BC-Grown</h4>
                         <!-- <button class="button">COMING SOON</button> -->
                     </div>
                 </div>
@@ -81,7 +81,7 @@ include 'inc/header.php';
                 <div class="product-card product-card-3">
                     <div class="product-card-content">
                         <div class="upper-header">Arrow Tree Snacks</div>
-                        <h4>Curated <br>Delightful <br>Elegant</h4>
+                        <h4>Delightful <br>Elegant <br>Curated</h4>
                         <!-- <button class="button">COMING SOON</button> -->
                     </div>
                 </div>
@@ -99,7 +99,7 @@ include 'inc/header.php';
             <div class="col-28" data-aos="fade-up" data-aos-delay="100">
                 <div class="masked-image masked-image-2">
                     <div class="masked-image-content text-center">
-                        <h4 style="line-height: 1.5;">A Belief That Health Comes Above All Else</h4>
+                        <h4 style="line-height: 1.5;">A Belief That Health and Happiness Comes Above All Else</h4>
                         <!-- <a href="about.php" class="button mt-3">ABOUT US</a> -->
                     </div>
                 </div>
@@ -107,7 +107,7 @@ include 'inc/header.php';
             <div class="col-28" data-aos="fade-up" data-aos-delay="200">
                 <div class="masked-image masked-image-3">
                     <div class="masked-image-content">
-                        <p style="line-height: 2;">Founded in 2016, BC Orchard is a Canadian company dedicated to crafting honest, great-tasting products made with clean, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe in thoughtful indulgence. That’s why we offer handcrafted premium snacks from Japan’s ArrowTree— elegant treats to enjoy or gifts.</p>
+                        <p style="line-height: 2;">Founded in 2016, BC Orchard is a Canadian company dedicated to creating exceptional, great-tasting products with quality, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe bringing joy to everyone, which is why we also oﬀer premium Japanese snacks “ArrowTree” for you to enjoy or share.</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@ include 'inc/header.php';
                 <div class="feature-product-wrap">
                     <div class="upper-header">Our Top Picks</div>
                     <h2>Featured Products</h2>
-                    <p>Carefully selected for taste, quality, and purpose—these are our favorite picks for everyday refreshment and joy.</p>
+                    <p>Carefully curated for taste and quality, these are our favourite picks for daily refreshment and everyday joy.</p>
                     <!-- <button class="button">VIEW MORE PRODUCTS</button> -->
                 </div>
             </div>
@@ -209,13 +209,13 @@ include 'inc/header.php';
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
-                        <div class="scroll-text">VIETNAM COCONUT</div>
-                        <div class="scroll-text">BC-GROWN JUICES</div>
-                        <div class="scroll-text">JAPANESE SNACKS</div>
+                        <div class="scroll-text scroll-text-1">VIETNAMESE COCONUTS</div>
+                        <div class="scroll-text scroll-text-2">BC-GROWN JUICES</div>
+                        <div class="scroll-text scroll-text-3">JAPANESE SNACKS</div>
                         <!-- Repeat the same three for seamless looping -->
-                        <div class="scroll-text">VIETNAM COCONUT</div>
-                        <div class="scroll-text">BC-GROWN JUICES</div>
-                        <div class="scroll-text">JAPANESE SNACKS</div>
+                        <div class="scroll-text scroll-text-1">VIETNAMESE COCONUTS</div>
+                        <div class="scroll-text scroll-text-2">BC-GROWN JUICES</div>
+                        <div class="scroll-text scroll-text-3">JAPANESE SNACKS</div>
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@ include 'inc/header.php';
                 <div style="max-width: 500px;">
                     <div class="upper-header">GLOBAL SELECTION</div>
                     <h2>From The Finest Sources</h2>
-                    <p class="mb-0">We source globally from regions renowned for their specialties—Vietnam’s finest young coconuts, Japan’s exquisite snacks, and BC’s orchard-fresh fruits. Every product reflects our full commitment to exceptional flavour, thoughtful care, and uncompromising quality.</p>
+                    <p class="mb-0">We source globally from regions renowned for their specialties—Vietnam’s finest young coconuts, Japan’s exquisite snacks, and BC’s orchard-fresh fruits. Every product reflects our commitment to exceptional flavour and uncompromising quality.</p>
                     <!-- <a href="find-us.php"><button class="button">Where to Buy</button></a> -->
                 </div>
             </div>

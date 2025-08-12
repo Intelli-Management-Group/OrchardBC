@@ -48,7 +48,7 @@ include 'inc/header.php';
                 <div class="col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
                     <h3 class="mb-lg-3 mb-3">100% Pure<br class="d-none d-lg-block"> Coconut Water</h3>
                     <h5 class="sub-heading">Nothing Added. Nothing Taken Away.</h5>
-                    <p style="text-align: justify;">Our coconut water is bottled straight from young Vietnamese coconuts—capturing nature’s hydration at its peak. Naturally sweet, packed with essential electrolytes, and free from additives, it’s the cleanest way to refresh your day. From workouts to wind-downs, this is hydration as it should be.</p>
+                    <p style="text-align: justify;">From coconut straight to bottle, our coconut water is naturally sweet, packed with essential electrolytes, and free from additives, making it the cleanest way to refresh your day. No matter the occasion—workouts or wind-downs—this is true hydration.</p>
                 </div>
             </div>
         </div>
@@ -79,7 +79,7 @@ include 'inc/header.php';
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
                     <img src="img/coconut/BCO_icon_Hydration.png" alt="Electrolyte-Rich Hydration" class="benefits-img">
                     <h5 class="mt-3">Electrolyte-Rich Hydration</h5>
-                    <p>Rich in natural electrolytes to replenish fluids after workouts, sports, or even a rough night out.</p>
+                    <p>Rich in natural electrolytes to replenish fluids after workouts, sports practice, or a rough night out.</p>
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
@@ -91,7 +91,7 @@ include 'inc/header.php';
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
                     <img src="img/coconut/BCO_icon_GoodforSkin.png" alt="Good for Skin" class="benefits-img">
                     <h5 class="mt-3">Supports Skin & Recovery</h5>
-                    <p>Helps your skin retain moisture and provides natural antioxidants to fight signs of aging and oxidative stress.</p>
+                    <p>Helps your skin retain moisture and provides natural antioxidants to combat aging and oxidative stress.</p>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@ include 'inc/header.php';
         <img src="img/coconut/young_coconut_1.png" alt="coconut" class="floating-coconut-1">
         <img src="img/coconut/young_coconut_2.png" alt="coconut" class="floating-coconut-2">
         <div class="container-xxl section-padding">
-            <h2 class="text-center text-white mb-5">It Starts with Young Vietnamese Coconuts</h2>
+            <h2 class="text-center text-white mb-5">Young Vietnamese Coconuts</h2>
             <div class="bg-white rounded-5 p-3">
                 <div class="row">
                     <div class="col-lg-7">
@@ -131,7 +131,7 @@ include 'inc/header.php';
                             </div>
                             <div class="col-8 d-flex flex-column justify-content-center">
                                 <h6>Rich in Nutrients</h6>
-                                <p class="mb-0">Packed with natural electrolytes—especially potassium—and often called the “Water of Life” for its balance and hydration benefits.</p>
+                                <p class="mb-0">Packed with natural electrolytes like potassium, coconut water is often called the “water of life” for its hydration benefits.</p>
                             </div>
                         </div>
 
@@ -141,7 +141,7 @@ include 'inc/header.php';
                             </div>
                             <div class="col-8 d-flex flex-column justify-content-center">
                                 <h6>100% Pure</h6>
-                                <p class="mb-0">To keep everything good from our young coconuts, we add nothing—no sugar, no extras. Just pure coconut water, as it should.</p>
+                                <p class="mb-0">It’s all about our young coconuts, so we add nothing. Each can contains pure, quality coconut water.</p>
                             </div>
                         </div>
                     </div>
@@ -275,12 +275,12 @@ include 'inc/header.php';
                                 <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
-                                    <div>v.s.</div>
-                                    <h6 class="mb-0">Other Coconut Water</h6>
+                                    <div>vs.</div>
+                                    <h6 class="mb-0">Other Coconut Waters</h6>
                                 </div>
                             </div>
                             <div class="product-comparison-card-content">
-                                No added sugar—not 1%, not less than 1%—zero. No preservatives, no “quality control” additives. Just pure coconut water. Nothing else.
+                                No added sugar. No preservatives. No “quality control” additives. Just the pure, quality coconut water you have come to expect.
                             </div>
                         </div>
                     </div>
@@ -292,7 +292,7 @@ include 'inc/header.php';
                                 <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
-                                    <div>v.s.</div>
+                                    <div>vs.</div>
                                     <h6 class="mb-0">Juices</h6>
                                 </div>
                             </div>
@@ -309,12 +309,12 @@ include 'inc/header.php';
                                 <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
-                                    <div>v.s.</div>
+                                    <div>vs.</div>
                                     <h6 class="mb-0">Sports Drinks</h6>
                                 </div>
                             </div>
                             <div class="product-comparison-card-content">
-                                No artificial colors, flavors, or mystery chemicals you can’t pronounce—just the cleanest, most natural way to restore electrolytes and rehydrate.
+                                No artificial colors, flavours, or mystery chemicals you can’t pronounce—just the cleanest, most natural way to restore electrolytes and rehydrate.
                             </div>
                         </div>
                     </div>
@@ -326,12 +326,12 @@ include 'inc/header.php';
                                 <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
-                                    <div>v.s.</div>
+                                    <div>vs.</div>
                                     <h6 class="mb-0">Soft Drinks</h6>
                                 </div>
                             </div>
                             <div class="product-comparison-card-content">
-                                No caffeine, no fizz, and no crash—just clean, natural refreshment you can enjoy daily, with real health benefits in every sip.
+                                No caffeine, no fizz, and no crash. Only the clean, natural refreshment you can enjoy daily, with real health benefits in every sip.
                             </div>
                         </div>
                     </div>

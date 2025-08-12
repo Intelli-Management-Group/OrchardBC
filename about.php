@@ -41,8 +41,8 @@ include 'inc/header.php';
             <div class="col-lg-6 text-center d-flex flex-column justify-content-center align-items-center border-end-lg" data-aos="fade-right" data-aos-offset="80">
                 <div class="max-width">
                     <div class="upper-header">Our Story</div>
-                    <h2 class="mb-4">Made Healthy Living Simple</h2>
-                    <p>BC Orchard was founded in 2016 with one goal in mind: to make health-conscious choices easier for everyone. We’re not here to follow trends—we’re here to offer products that are honest, nourishing, and rooted in care. From day one, we’ve believed that wellness should be an everyday essential, not an afterthought.</p>
+                    <h2 class="mb-4">Healthy Living Made Simple</h2>
+                    <p>BC Orchard was founded in 2016 with one goal in mind: to make health-conscious choices easier for everyone. From day one, we have believed wellness is an everyday essential, which is why we are here for the long run. Our products are nourishing, intentional, and rooted in care.</p>
                     <p class="mb-0">That belief drives everything we do—from sourcing coconuts in Vietnam and fruit in BC to partnering with Japanese snack makers who share our values. Each bottle and bag are made with purpose, crafted for real people and real lives. Whether you’re hydrating, snacking, or sharing, we’re here to make every moment a little better.</p>
                 </div>
             </div>

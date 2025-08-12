@@ -680,12 +680,24 @@ a {
 
 .scroll-text {
     writing-mode: vertical-rl;
-    height: 400px;
+    /* height: 420px; */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 32px;
     font-weight: bold;
+}
+
+.scroll-text-1 {
+    height: 470px;
+}
+
+.scroll-text-2 {
+    height: 380px;
+}
+
+.scroll-text-3 {
+    height: 360px;
 }
 
 @keyframes scrollDown {
@@ -694,7 +706,7 @@ a {
     }
 
     100% {
-        transform: translateY(-1200px);
+        transform: translateY(-1210px);
     }
 }
 

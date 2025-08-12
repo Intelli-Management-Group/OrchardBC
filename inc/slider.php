@@ -107,7 +107,7 @@
                     <div class="bg-image" style="background-image: url('img/home/slider_1.jpg');"></div>
                     <div class="slider-content">
                         <div class="upper-header">PURE COCONUT WATER</div>
-                        <h1>100% Coconut <br> Pure and Natural Refreshment.</h1>
+                        <h1>100% Coconut.<br>Pure and Natural Refreshment.</h1>
                         <!-- <a href="coconut-water.php"><button class="button-white-fill">LEARN MORE</button></a> -->
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                     <div class="bg-image" style="background-image: url('img/home/slider_2.jpg');"></div>
                     <div class="slider-content">
                         <div class="upper-header">CRAFTED IN JAPAN</div>
-                        <h1>Treat Yourself<br> Delight Others</h1>
+                        <h1>Treat Yourself,<br> Delight Others.</h1>
                         <!-- <button class="button-white-fill">COMING SOON</button> -->
                     </div>
                 </div>

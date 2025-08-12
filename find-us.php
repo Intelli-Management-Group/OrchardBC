@@ -14,7 +14,7 @@ include 'inc/header.php';
                 <div class="about-banner-text col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
                     <h3 class="mb-lg-3 mb-3">Find Our Products. Join Our Mission.</h3>
                     <!-- <h5>Nothing added. Nothing taken away.</h5> -->
-                    <p style="text-align: justify;">Whether you’re looking to carry our products, place a bulk order, or just learn more about what we do, you’re in the right place. Explore how to reach us—or find BC Orchard products at a store near you.</p>
+                    <p style="text-align: justify;">Whether you’re looking to carry our products, place a bulk order, or learn more about what we do, you’re in the right place. Explore how to reach us—or find BC Orchard products at a store near you.</p>
                 </div>
             </div>
         </div>
