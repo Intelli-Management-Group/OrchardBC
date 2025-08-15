@@ -32,7 +32,7 @@ include 'inc/header.php';
         </defs>
     </svg>
 
-    <div class="container">
+    <div class="container overflow-x-hidden">
         <div class="row section-padding-sm">
             <div class="col-lg-8 mx-auto">
                 <h2 class="text-center mb-5">Start the Conversation</h2>
@@ -94,7 +94,7 @@ include 'inc/header.php';
                 <div class="location-card" data-category="coconut juice">
                     <div>
                         <div class="upper-header">Coconut Water</div>
-                        <h6>Big Crazy Supermarket<br> (<span class="chinese-h5">柏仁超市</span>)</h6>
+                        <h6>Big Crazy Supermarket<br> (<span class="chinese-h6">柏仁超市</span>)</h6>
                         <div>180-4551 No 3 Rd, Richmond</div>
                     </div>
                     <div>

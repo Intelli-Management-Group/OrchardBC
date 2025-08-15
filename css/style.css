@@ -52,8 +52,8 @@ h5 {
     font-weight: 300;
 }
 
-.chinese-h5 {
-    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+.chinese-h6 {
+    font-size: clamp(1.125rem, 2.5vw, 1.25rem);
 }
 
 h6 {

@@ -145,7 +145,7 @@
                     el: ".swiper-pagination",
                     clickable: true,
                 },
-                speed: 0, // make swiper instantly switch slide (0 transition)
+                speed: 0.1,
                 on: {
                     init: function() {
                         gsap.set(this.slides[this.activeIndex].querySelector('.bg-image'), {
