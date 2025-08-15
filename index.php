@@ -107,7 +107,7 @@ include 'inc/header.php';
             <div class="col-28" data-aos="fade-up" data-aos-delay="200">
                 <div class="masked-image masked-image-3">
                     <div class="masked-image-content">
-                        <p style="line-height: 2;">Founded in 2016, BC Orchard is a Canadian company dedicated to creating exceptional, great-tasting products with quality, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe bringing joy to everyone, which is why we also oﬀer premium Japanese snacks “ArrowTree” for you to enjoy or share.</p>
+                        <p style="line-height: 2;">Founded in 2016, BC Orchard is a Canadian company dedicated to creating exceptional, great-tasting products with quality, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe bringing joy to everyone, which is why we also offer premium Japanese snacks “ArrowTree” for you to enjoy or share.</p>
                     </div>
                 </div>
             </div>
@@ -205,7 +205,7 @@ include 'inc/header.php';
         <div class="row gy-5 gy-lg-0">
             <div class="col-lg-6 p-0 d-flex align-items-stretch" data-aos="fade-right">
                 <div class="img-container">
-                    <img src="img/home/contact.jpg" alt="" class="img-fluid">
+                    <img src="img/home/bcorchard_global_selection.jpg" alt="BC Orchard Global Selection" class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
