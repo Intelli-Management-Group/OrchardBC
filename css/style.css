@@ -369,9 +369,9 @@ a {
     position: relative;
     display: inline-block;
     padding: 12px 24px 13px;
-    border: 1px solid black;
+    border: 1px solid darkblue;
     background-color: transparent;
-    color: black;
+    color: darkblue;
     overflow: hidden;
     transition: color 0.3s ease;
     cursor: pointer;
@@ -388,7 +388,7 @@ a {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: black;
+    background-color: darkblue;
     z-index: -1;
     transition: width 0.4s ease;
 }
@@ -741,7 +741,7 @@ footer hr {
 .find-us-banner {
     /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url('../img/find-us/banner_find_us.jpg') no-repeat 90% center/cover; */
-    background: url('../img/find-us/banner_find_us.jpg') no-repeat 90% center/cover;
+    background: url('../img/find-us/bc-orchard-find-us-banner.jpg') no-repeat 90% center/cover;
     clip-path: url(#smoothBottomCurve);
     height: 740px;
     display: flex;
@@ -750,7 +750,7 @@ footer hr {
 }
 
 .about-banner {
-    background: url('../img/about/banner_about.jpg') no-repeat 90% center/cover;
+    background: url('../img/about/bc-orchard-about-us-banner.jpg') no-repeat 90% center/cover;
     clip-path: url(#smoothBottomCurve);
     height: 740px;
     display: flex;

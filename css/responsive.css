@@ -156,7 +156,7 @@
     .about-banner {
         clip-path: url(#smoothBottomCurve-sm);
         background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url('../img/about/banner_about.jpg') no-repeat 90% center/cover;
+            url('../img/about/bc-orchard-about-us-banner.jpg') no-repeat 90% center/cover;
     }
 
     .about-banner-text {
@@ -174,6 +174,10 @@
     /* .nutrition-container {
         margin: 0 auto;
     } */
+
+    .convex-cover {
+        height: 35px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -236,7 +240,7 @@
 
     .floating-coconut-1 {
         width: 150px;
-        top: -3%;
+        top: -2%;
     }
 
     .floating-coconut-2 {
@@ -296,12 +300,12 @@
 
     .floating-coconut-1 {
         width: 120px;
-        top: -3%;
+        top: -2%;
     }
 
     .floating-coconut-2 {
         width: 120px;
-        top: -1.5%;
+        top: -1%;
         right: 90px;
     }
 

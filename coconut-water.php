@@ -98,14 +98,14 @@ include 'inc/header.php';
         </svg> -->
 
         <div class="product-coconut-bg-2">
-            <svg viewBox="0 0 100 20" preserveAspectRatio="none" class="convex-cover">
-                <path d="M0,20 Q50,0 100,20 L100,0 L0,0 Z" fill="white"/>
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="convex-cover">
+                <path d="M0,100 Q50,0 100,100 L100,0 L0,0 Z" fill="white"/>
             </svg>
 
-            <img src="img/coconut/bc-orchard-young-coconut-half-corner-left.png" alt="young coconut" class="floating-coconut-1">
-            <img src="img/coconut/bc-orchard-young-coconut-half-corner-right.png" alt="young coconut" class="floating-coconut-2">
+            <img src="img/coconut/bc-orchard-young-coconut-half-corner-left.png" alt="BC Orchard young coconut" class="floating-coconut-1">
+            <img src="img/coconut/bc-orchard-young-coconut-half-corner-right.png" alt="BC Orchard young coconut" class="floating-coconut-2">
             <div class="container-xxl section-padding">
-                <h2 class="text-center text-white mb-5">Young Vietnamese Coconuts</h2>
+                <h2 class="text-center mb-5" style="color: darkblue;">Young Vietnamese Coconuts</h2>
                 <div class="bg-white rounded-5 p-3">
                     <div class="row">
                         <div class="col-lg-7">
@@ -148,7 +148,7 @@ include 'inc/header.php';
 
                 <div class="row top-margin">
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-start justify-content-center text-white order-lg-0 order-1 text-md-start text-center">
-                        <div class="nutrition-container">
+                        <div class="nutrition-container" style="color: darkblue;">
                             <h2>Health in <br>Every Sip</h2>
                             <h6 class="mb-5">What ‘Packed with Nutrition’ Really Means</h6>
 
@@ -182,7 +182,7 @@ include 'inc/header.php';
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-end justify-content-center align-items-center order-lg-2 order-2 mt-lg-0 mt-md-4 mt-5">
-                        <div class="bg-white rounded-5 p-4 w-100" style="max-width: 350px;">
+                        <div class="bg-white rounded-5 p-4 w-100" style="max-width: 350px; border: 1px solid #eee;">
                             <div id="aos-anchor" data-aos="fade-up" data-aos-delay="0">
                                 <h6 class="text-center">Every Can Delivers</h6>
                                 <hr>

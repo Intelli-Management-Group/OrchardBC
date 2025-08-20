@@ -38,7 +38,7 @@ include 'inc/header.php';
             </div>
 
             <div class="col-lg-6 px-4 d-flex justify-content-center" data-aos="fade-left" data-aos-offset="80">
-                <img src="img/about/img_1.jpg" alt="BC Orchard Our Story" class="img-fluid">
+                <img src="img/about/bc-orchard-our-story.jpg" alt="BC Orchard Our Story" class="img-fluid">
             </div>
         </div>
     </div>
@@ -54,28 +54,28 @@ include 'inc/header.php';
 
             <div class="row gy-5 gy-lg-0">
                 <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end-md" data-aos="fade-up" data-aos-delay="0">
-                    <img src="img/about/about-image-4.jpg" alt="BC Orchard Quality" class="img-fluid">
+                    <img src="img/about/bco_about_finest_quality.jpg" alt="Blueberries in sunlight with farmers harvesting quality ingredients" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Quality</div>
                     <h5>Only the Finest</h5>
                     <p>From sourcing to shelf, quality is non-negotiable. We select only the best ingredients from BC and the global. </p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end-lg" data-aos="fade-up" data-aos-delay="100">
-                    <img src="img/about/about-image-5.jpg" alt="BC Orchard Health" class="img-fluid">
+                    <img src="img/about/bco_about_better_living.jpg" alt="BC Orchard Health" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Health</div>
                     <h5>For Better Living</h5>
                     <p>Your well-being is our deepest passion. We believe healthy choices should be joyful, accessible, and foundational to vibrant living.</p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center border-end-md" data-aos="fade-up" data-aos-delay="200">
-                    <img src="img/about/about-image-6.jpg" alt="BC Orchard Flavour" class="img-fluid">
+                    <img src="img/about/bco_about_tasty_choice.jpg" alt="BC Orchard Flavour" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Flavour</div>
                     <h5>Taste the Joy</h5>
                     <p>Healthy can be delicious. We craft flavourful products that make nutritious choices feel joyful and uplifting.</p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="300">
-                    <img src="img/about/about-image-7.jpg" alt="BC Orchard Transparency" class="img-fluid">
+                    <img src="img/about/bco_about_ingredient.jpg" alt="BC Orchard Transparency" class="img-fluid">
                     <div class="upper-header" style="margin-top: 40px;">Transparency</div>
                     <h5>True to Our Word</h5>
                     <p>Clear sourcing, full ingredient disclosure. No hidden additives—just trustworthy products with complete transparency.</p>
@@ -87,7 +87,7 @@ include 'inc/header.php';
     <div class="container overflow-x-hidden">
         <div class="row bottom-margin gy-5 gy-lg-0">
             <div class="col-lg-6 px-4 border-end-lg d-flex justify-content-center" data-aos="fade-right">
-                <img src="img/about/about-image-3.1.jpg" alt="BC Orchard Why It Matters" class="img-fluid">
+                <img src="img/about/bc-orchard-why-it-matters.jpg" alt="Couple on wooden mountain bench raising hands to the sky—active, healthy lifestyle" class="img-fluid">
             </div>
 
             <div class="col-lg-6 text-center d-flex flex-column justify-content-center align-items-center" data-aos="fade-left">
