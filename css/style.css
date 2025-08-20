@@ -53,7 +53,7 @@ h5 {
 }
 
 .chinese-h6 {
-    font-size: clamp(1.1rem, 2.5vw, 1.21rem);
+    font-size: clamp(1rem, 2.5vw, 1.1rem);
 }
 
 h6 {
@@ -273,7 +273,7 @@ a {
 .product-card-content {
     position: absolute;
     top: 50%;
-    right: 7%;
+    right: 10%;
     transform: translateY(-50%);
     z-index: 1;
     will-change: transform;
@@ -882,7 +882,6 @@ iframe {
     position: absolute;
     top: 20%;
     left: 75%;
-    /* transform: translate(-50%, -50%); */
     height: 25%;
     animation: float 4s ease-in-out infinite;
 }
@@ -907,7 +906,7 @@ iframe {
 .floating-coconut-1,
 .floating-coconut-2 {
     position: absolute;
-    top: -9%;
+    top: -6%;
     right: 14px;
     width: 230px;
     animation: float 5s ease-in-out infinite;
@@ -922,12 +921,24 @@ iframe {
 .product-coconut-bg-2 {
     width: 100%;
     height: auto;
-    background-image: linear-gradient(180deg, #246113 0%, #246113 100%);
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    /* background-image: linear-gradient(180deg, #246113 0%, #246113 100%); */
+    background-image: url('../img/coconut/water-wave-with-drops.jpg');
+    background-size: cover;
+    background-position: center;
     border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
+}
+
+.convex-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
 }
 
 .product-highlight-img-bg {

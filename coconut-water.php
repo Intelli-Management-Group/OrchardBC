@@ -56,24 +56,11 @@ include 'inc/header.php';
             <img src="img/coconut/bc-orchard-coconut-water-banner-ice-bottom-strip.png" alt="BC Orchard Coconut Water" class="w-100">
         </div>
     </div>
-    <!-- SVG for U-shaped clip-path -->
-    <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-            <clipPath id="smoothBottomCurve" clipPathUnits="objectBoundingBox">
-                <path d="M0,0 H1 V1 C1,1 0.5,0.85 0,1 Z" />
-            </clipPath>
-            <clipPath id="smoothBottomCurve-sm" clipPathUnits="objectBoundingBox">
-                <path d="M0,0 H1 V1 C1,1 0.5,0.95 0,1 Z" />
-            </clipPath>
-        </defs>
-    </svg>
 
-    <!--<svg viewBox="0 0 1440 100" style="display: block; width: 100%; height: auto;">-->
-    <!--    <path fill="#3a4810" d="M0,100 Q720,0 1440,100 L1440,0 L0,0 Z"></path>-->
-    <!--</svg>-->
+    <?php include 'img/coconut/clip-path.svg'; ?>
 
     <div class="container">
-        <div class="section-padding-sm">
+        <div class="section-padding-sm pb-0 bottom-margin">
             <h2 class="text-center">A Better Way to Rehydrate</h2>
             <div class="row mt-5 gy-md-0">
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
@@ -101,16 +88,20 @@ include 'inc/header.php';
         <path fill="#246113" d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z"></path>
     </svg> -->
 
-    <section class="position-relative">
-        <svg viewBox="0 0 1440 70" preserveAspectRatio="none" class="d-none d-lg-block" style="display: block; width: 100%; height: 70px; background-color: #246113;">
+    <!-- <section class="position-relative"> -->
+        <!-- <svg viewBox="0 0 1440 70" preserveAspectRatio="none" class="d-none d-lg-block" style="display: block; width: 100%; height: 70px; background-color: #246113;">
             <path fill="#ffffff" d="M0,70 C480,0 960,0 1440,70 L1440,0 L0,0 Z"></path>
         </svg>
 
         <svg viewBox="0 0 1440 20" preserveAspectRatio="none" class="d-lg-none d-block" style="display: block; width: 100%; height: 20px; background-color: #246113;">
             <path fill="#ffffff" d="M0,20 C480,0 960,0 1440,20 L1440,0 L0,0 Z"></path>
-        </svg>
+        </svg> -->
 
-        <div class="product-coconut-bg-2 position-relative">
+        <div class="product-coconut-bg-2">
+            <svg viewBox="0 0 100 20" preserveAspectRatio="none" class="convex-cover">
+                <path d="M0,20 Q50,0 100,20 L100,0 L0,0 Z" fill="white"/>
+            </svg>
+
             <img src="img/coconut/bc-orchard-young-coconut-half-corner-left.png" alt="young coconut" class="floating-coconut-1">
             <img src="img/coconut/bc-orchard-young-coconut-half-corner-right.png" alt="young coconut" class="floating-coconut-2">
             <div class="container-xxl section-padding">
@@ -134,7 +125,7 @@ include 'inc/header.php';
 
                             <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="100">
                                 <div class="col-4">
-                                    <img src="img/coconut/img_nutrients.jpg" alt="Glass of coconut water with C, K, Ca, Mg icons—rich in nutrients and electrolytes" class="product-highlight-img-sm">
+                                    <img src="img/coconut/bc-orchard-coconut-water-rich-in-nutrients.jpg" alt="Glass of coconut water with C, K, Ca, Mg icons—rich in nutrients and electrolytes" class="product-highlight-img-sm">
                                 </div>
                                 <div class="col-8 d-flex flex-column justify-content-center">
                                     <h6>Rich in Nutrients</h6>
@@ -144,7 +135,7 @@ include 'inc/header.php';
 
                             <div class="row" data-aos="fade-up" data-aos-delay="200">
                                 <div class="col-4">
-                                    <img src="img/coconut/img_pure.jpg" alt="" class="product-highlight-img-sm">
+                                    <img src="img/coconut/bc-orchard-coconut-water-pouring-from-young-coconut.jpg" alt="Young coconut pouring fresh coconut water into a glass—100% pure." class="product-highlight-img-sm">
                                 </div>
                                 <div class="col-8 d-flex flex-column justify-content-center">
                                     <h6>100% Pure</h6>
@@ -187,7 +178,7 @@ include 'inc/header.php';
                     </div>
 
                     <div class="col-lg-4 d-flex justify-content-center order-lg-1 order-0 mt-0" data-aos="fade-up">
-                        <img src="img/coconut/BC_Orchard_Coconut_Water_can_2.png" alt="BC Orchard Coconut Water" class="img-fluid product-nutrition-img">
+                        <img src="img/coconut/bc-orchard-coconut-water-can.png" alt="Young coconut pouring fresh coconut water into a glass—100% pure" class="img-fluid product-nutrition-img">
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-end justify-content-center align-items-center order-lg-2 order-2 mt-lg-0 mt-md-4 mt-5">
@@ -258,7 +249,7 @@ include 'inc/header.php';
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body d-flex justify-content-center">
-                                            <img src="img/coconut/nutrition_label.jpg" class="img-fluid" alt="Nutrition Label" style="max-height: 750px;">
+                                            <img src="img/coconut/bc-orchard-coconut-water-nutrition-facts.jpg" class="img-fluid" alt="BC Orchard Coconut Water Nutrition Label" style="max-height: 750px;">
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +259,7 @@ include 'inc/header.php';
                 </div>
             </div>
         </div>
-    </section>
+    <!-- </section> -->
 
     <div class="container section-padding">
         <h2 class="text-center mb-5">This Is the Better Choice</h2>
@@ -280,7 +271,6 @@ include 'inc/header.php';
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-1">
-                                <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
                                     <div>vs.</div>
@@ -297,7 +287,6 @@ include 'inc/header.php';
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-2">
-                                <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
                                     <div>vs.</div>
@@ -314,7 +303,6 @@ include 'inc/header.php';
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-3">
-                                <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
                                     <div>vs.</div>
@@ -331,7 +319,6 @@ include 'inc/header.php';
                     <div class="swiper-slide">
                         <div class="product-comparison-card">
                             <div class="product-comparison-inner-card-4">
-                                <!-- <img src="img/coconut/BCO_coconut_water_can.png" alt="" class="h-100"> -->
                                 <div>
                                     <h5 class="mb-0">BC Orchard</h5>
                                     <div>vs.</div>
