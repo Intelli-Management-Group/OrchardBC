@@ -38,11 +38,11 @@ include 'inc/header.php';
         <div class="container section-padding-sm pt-0-sm">
             <div class="row">
                 <div class="product-coconut-img-wrap col-lg-8 order-1 order-lg-2">
-                    <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img product-coconut-img-1">
-                    <img src="img/coconut/BC_Orchard_Coconut_Water_can.png" alt="BC Orchard Coconut Water" class="product-coconut-img product-coconut-img-2">
-                    <img src="img/coconut/ice_cube_1.png" alt="ice cube" class="floating-ice-1">
-                    <img src="img/coconut/ice_cube_2.png" alt="ice cube" class="floating-ice-2">
-                    <img src="img/coconut/ice_cube_3.png" alt="ice cube" class="floating-ice-3">
+                    <img src="img/coconut/bc-orchard-100-percent-pure-coconut-water-can-hero.png" alt="BC Orchard 100% pure coconut water" class="product-coconut-img product-coconut-img-1">
+                    <img src="img/coconut/bc-orchard-100-percent-pure-coconut-water-can-hero.png" alt="BC Orchard 100% pure coconut water" class="product-coconut-img product-coconut-img-2">
+                    <img src="img/coconut/bc-orchard-ice-cube-floating-1.png" alt="floating ice cube" class="floating-ice-1">
+                    <img src="img/coconut/bc-orchard-ice-cube-floating-2.png" alt="floating ice cube" class="floating-ice-2">
+                    <img src="img/coconut/bc-orchard-ice-cube-floating-3.png" alt="floating ice cube" class="floating-ice-3">
                 </div>
 
                 <div class="col-lg-4 text-white d-flex flex-column justify-content-center order-2 order-lg-1">
@@ -53,7 +53,7 @@ include 'inc/header.php';
             </div>
         </div>
         <div class="cocoanut-water-bg-ice">
-            <img src="img/coconut/bcorchard_coconut_water_bg_ice.png" alt="BC Orchard Coconut Water" class="w-100">
+            <img src="img/coconut/bc-orchard-coconut-water-banner-ice-bottom-strip.png" alt="BC Orchard Coconut Water" class="w-100">
         </div>
     </div>
     <!-- SVG for U-shaped clip-path -->
@@ -111,22 +111,20 @@ include 'inc/header.php';
         </svg>
 
         <div class="product-coconut-bg-2 position-relative">
-            <img src="img/coconut/young_coconut_1.png" alt="coconut" class="floating-coconut-1">
-            <img src="img/coconut/young_coconut_2.png" alt="coconut" class="floating-coconut-2">
+            <img src="img/coconut/bc-orchard-young-coconut-half-corner-left.png" alt="young coconut" class="floating-coconut-1">
+            <img src="img/coconut/bc-orchard-young-coconut-half-corner-right.png" alt="young coconut" class="floating-coconut-2">
             <div class="container-xxl section-padding">
                 <h2 class="text-center text-white mb-5">Young Vietnamese Coconuts</h2>
                 <div class="bg-white rounded-5 p-3">
                     <div class="row">
                         <div class="col-lg-7">
-                            <img src="img/coconut/img_main.jpg" alt="" class="product-highlight-img-bg">
-                            <!-- https://www.nokaorganics.com/cdn/shop/files/AdobeStock_71166726_83c8afd8-eed0-4c02-9dbe-e0c7137457e9.jpg -->
+                            <img src="img/coconut/bc-orchard-young-coconut-on-tree.jpg" alt="Young Vietnamese coconut on tree" class="product-highlight-img-bg">
                         </div>
 
                         <div class="col-lg-5">
                             <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="0">
                                 <div class="col-4">
-                                    <img src="img/coconut/img_sweet.jpg" alt="" class="product-highlight-img-sm">
-                                    <!-- https://www.nokaorganics.com/cdn/shop/files/iStock-1328913917.jpg -->
+                                    <img src="img/coconut/bc-orchard-coconut-water-child-holding-can-naturally-sweet.jpg" alt="Child holding BC Orchard coconut water, showing naturally sweet taste." class="product-highlight-img-sm">
                                 </div>
                                 <div class="col-8 d-flex flex-column justify-content-center">
                                     <h6>Naturally Sweet</h6>
@@ -136,7 +134,7 @@ include 'inc/header.php';
 
                             <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="100">
                                 <div class="col-4">
-                                    <img src="img/coconut/img_nutrients.jpg" alt="" class="product-highlight-img-sm">
+                                    <img src="img/coconut/img_nutrients.jpg" alt="Glass of coconut water with C, K, Ca, Mg icons—rich in nutrients and electrolytes" class="product-highlight-img-sm">
                                 </div>
                                 <div class="col-8 d-flex flex-column justify-content-center">
                                     <h6>Rich in Nutrients</h6>

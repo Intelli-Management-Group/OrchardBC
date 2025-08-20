@@ -834,7 +834,7 @@ iframe {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: url('../img/coconut/bcorchard_coconut_water_bg.jpg') center/cover no-repeat;
+    background: url('../img/coconut/bc-orchard-coconut-water-banner-blue-bubbles-background.jpg') center/cover no-repeat;
     clip-path: url(#smoothBottomCurve);
     position: relative;
 }
