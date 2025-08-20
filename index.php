@@ -12,7 +12,6 @@ include 'inc/header.php';
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="0">
-                        <!-- <?php include 'img/home/icons/icon_premium.svg'; ?> -->
                         <img src="img/home/icons/BCO_icon_premium.svg" alt="BC Orchard Premium Selection" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Premium Selection</div>
                         <p class="mb-0">Sourced from BC and Beyond</p>
@@ -23,8 +22,7 @@ include 'inc/header.php';
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="100">
-                        <!-- <?php include 'img/home/icons/icon_wellness.svg'; ?> -->
-                         <img src="img/home/icons/BCO_icon_wellness.svg" alt="BC Orchard Healthy Lifestyle" class="highlight-icon">
+                        <img src="img/home/icons/BCO_icon_wellness.svg" alt="BC Orchard Healthy Lifestyle" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Healthy Lifestyle</div>
                         <p class="mb-0">Natural Everyday Wellness</p>
                     </div>
@@ -34,8 +32,7 @@ include 'inc/header.php';
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="200">
-                        <!-- <?php include 'img/home/icons/icon_canada.svg'; ?> -->
-                         <img src="img/home/icons/BCO_icon_canada.svg" alt="BC Orchard Proudly Canadian" class="highlight-icon">
+                        <img src="img/home/icons/BCO_icon_canada.svg" alt="BC Orchard Proudly Canadian" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Proudly Canadian</div>
                         <p class="mb-0">Based in British Columbia</p>
                     </div>
@@ -45,8 +42,7 @@ include 'inc/header.php';
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="300">
-                        <!-- <?php include 'img/home/icons/icon_flavour.svg'; ?> -->
-                         <img src="img/home/icons/BCO_icon_wholesome.svg" alt="BC Orchard Full of Flavor" class="highlight-icon">
+                        <img src="img/home/icons/BCO_icon_wholesome.svg" alt="BC Orchard Full of Flavor" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Full of Flavour</div>
                         <p class="mb-0">Healthy Can Be Delicious</p>
                     </div>
@@ -127,8 +123,8 @@ include 'inc/header.php';
 
             <div class="col-lg-3 col-6 p-0 border-end-lg" data-aos="fade-left">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/bco_feature-1.jpg" alt="BC Orchard 100% Pure Coconut Water">
-                    <img class="hover-img" src="img/home/bco_feature-1-hover.jpg" alt="BC Orchard 100% Pure Coconut Water">
+                    <img class="main-img" src="img/home/bc-orchard-coconut-water-can-100-percent-pure.jpg" alt="BC Orchard coconut water can—100% pure coconut water">
+                    <img class="hover-img" src="img/home/bc-orchard-coconut-water-glass-young-green-coconut.jpg" alt="Glass of coconut water with a young green coconut behind it.">
                     <div class="product-name">
                         <div class="brand-name">BC Orchard</div>
                         <h6 class="px-2">100% Pure Coconut Water</h6>
@@ -139,8 +135,8 @@ include 'inc/header.php';
 
             <div class="col-lg-3 col-6 p-0 border-end" data-aos="fade-left">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/bco_feature-3.jpg" alt="ArrowTreeGift M-box">
-                    <img class="hover-img" src="img/home/bco_feature-3-hover.jpg" alt="ArrowTreeGift M-box">
+                    <img class="main-img" src="img/home/bc-orchard-arrow-tree-japanese-snacks-gift-box.jpg" alt="Arrow Tree Japanese snacks gift box—premium treats for gifting">
+                    <img class="hover-img" src="img/home/bc-orchard-arrow-tree-snacks-plated-assortment.jpg" alt="Arrow Tree snacks arranged on a plate.">
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
                         <h6 class="px-2">Gift M-box</h6>
@@ -151,8 +147,8 @@ include 'inc/header.php';
 
             <div class="col-lg-3 col-6 p-0" data-aos="fade-left">
                 <div class="shop-wrap">
-                    <img class="main-img" src="img/home/bco_feature-2.jpg" alt="Arrow Tree ICHI-HA">
-                    <img class="hover-img" src="img/home/bco_feature-2-hover.jpg" alt="Arrow Tree ICHI-HA">
+                    <img class="main-img" src="img/home/bc-orchard-arrow-tree-ichi-ha-snack-bag.jpg" alt="Arrow Tree ICHI-HA snack bag">
+                    <img class="hover-img" src="img/home/bc-orchard-arrow-tree-ichi-ha-snacks-on-plate.jpg" alt="Arrow Tree ICHI-HA snacks presented on a plate">
                     <div class="product-name">
                         <div class="brand-name">Arrow Tree</div>
                         <h6 class="px-2">ICHI-HA</h6>

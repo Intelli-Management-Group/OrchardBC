@@ -247,17 +247,17 @@ a {
 }
 
 .product-card-1::before {
-    background-image: url('../img/home/bco_brand_coconut_water.jpg');
+    background-image: url('../img/home/bc-orchard-coconut-water-highlight.jpg');
     background-position: 30% center;
 }
 
 .product-card-2::before {
-    background-image: url('../img/home/bco_brand_ bc_juice.jpg');
+    background-image: url('../img/home/bc-orchard-bc-jucies-highlight.jpg');
     background-position: 60% center;
 }
 
 .product-card-3::before {
-    background-image: url('../img/home/bco_brand_ arrow_tree_snacks.jpg');
+    background-image: url('../img/home/bc-orchard-arrow-tree-highlight.jpg');
     /* background-position: 70% center; */
 }
 
@@ -314,7 +314,7 @@ a {
     border-top-right-radius: 100px;
     border-bottom-right-radius: 80px;
     background-position-y: bottom;
-    background-image: url("../img/home/bco_about_top.jpg");
+    background-image: url("../img/home/bc-orchard-about-us-top.jpg");
 }
 
 .masked-image.bottom {
@@ -324,7 +324,7 @@ a {
     border-top-right-radius: 80px;
     border-bottom-right-radius: 100px;
     background-position-y: top;
-    background-image: url("../img/home/bco_about_bottom.jpg");
+    background-image: url("../img/home/bc-orchard-about-us-bottom.jpg");
 }
 
 .masked-image-2 {
@@ -469,7 +469,7 @@ a {
 }
 
 .shop-wrap {
-    padding: 30px 30px 180px;
+    padding: 30px 30px 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -563,7 +563,7 @@ a {
 }
 
 .testimonials-container {
-    background: url('../img/home/bg_testimonial.jpg') no-repeat center center/cover;
+    background: url('../img/home/bc-orchard-testimonials-background.jpg') no-repeat center center/cover;
     background-attachment: fixed;
     width: 100%;
     height: 675px;

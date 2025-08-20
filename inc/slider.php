@@ -51,10 +51,16 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            background-size: cover;
-            background-position: 70% center;
             z-index: -1;
-            transform: scale(1);
+            overflow: hidden;
+        }
+
+        .bg-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 70% center;
+            display: block;
         }
 
         .slider-content {
@@ -104,7 +110,9 @@
             <!-- Slide 1 -->
             <div class="swiper-slide">
                 <div class="home-slider">
-                    <div class="bg-image" style="background-image: url('img/home/slider_1.jpg');"></div>
+                    <div class="bg-image">
+                        <img src="img/home/bc-orchard-100-percent-pure-coconut-water-banner.jpg" alt="BC Orchard 100% pure coconut water—natural refreshment from young coconuts." />
+                    </div>
                     <div class="slider-content">
                         <div class="upper-header">PURE COCONUT WATER</div>
                         <h1>100% Coconut.<br>Pure and Natural Refreshment.</h1>
@@ -116,7 +124,9 @@
             <!-- Slide 2 -->
             <div class="swiper-slide">
                 <div class="home-slider">
-                    <div class="bg-image" style="background-image: url('img/home/slider_2.jpg');"></div>
+                    <div class="bg-image">
+                        <img src="img/home/bc-orchard-arrow-tree-japanese-snacks-banner.jpg" alt="Arrow Tree Japanese snacks crafted in Japan—premium treats to enjoy or share." />
+                    </div>
                     <div class="slider-content">
                         <div class="upper-header">CRAFTED IN JAPAN</div>
                         <h1>Treat Yourself,<br> Delight Others.</h1>

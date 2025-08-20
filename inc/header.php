@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-md">
         <div class="custom-container container d-flex justify-content-between align-items-center">
             <a class="navbar-brand" href="index.php">
-                <img src="img/home/logo.png" alt="logo" class="logo">
+                <img src="img/home/bc-orchard-logo.png" alt="BC Orchard Icon" class="logo">
             </a>
             <!-- Toggle Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
