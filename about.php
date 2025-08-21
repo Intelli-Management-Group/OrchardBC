@@ -93,7 +93,7 @@ include 'inc/header.php';
             <div class="col-lg-6 text-center d-flex flex-column justify-content-center align-items-center" data-aos="fade-left">
                 <div class="max-width">
                     <div class="upper-header">Why It Matters</div>
-                    <h2 class="mb-4">It’s More Than Just the Products</h2>
+                    <h2 class="mb-4">Wellness Shaped by Choices</h2>
                     <p>We believe your well-being is your greatest asset. That’s why we’re here—to create products that support how you feel, live, and thrive. Every decision we make is rooted in the idea that better health starts with better choices, made with care and intention.</p>
                     <p class="mb-0">How we get there matters just as much. We work closely with partners who share our values—from ethical sourcing to quality you can trust. Whether it’s a bottle, a snack, or a new idea, everything we offer is built on thoughtful collaboration and a shared commitment to doing things right.</p>
                 </div>

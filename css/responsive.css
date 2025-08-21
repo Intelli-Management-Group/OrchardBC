@@ -266,6 +266,10 @@
         width: 260px;
         margin: 0 auto;
     }
+
+    .product-coconut-bg-2 {
+        background-image: url('../img/coconut/water-wave-with-drops-mobile.jpg');
+    }
 }
 
 @media only screen and (max-width: 575px) {
