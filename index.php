@@ -12,7 +12,7 @@ include 'inc/header.php';
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="0">
-                        <img src="img/home/icons/BCO_icon_premium.svg" alt="BC Orchard Premium Selection" class="highlight-icon">
+                        <img src="img/home/icons/bc-orchard-premium-selection.svg" alt="BC Orchard Premium Selection" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Premium Selection</div>
                         <p class="mb-0">Sourced from BC and Beyond</p>
                     </div>
@@ -22,7 +22,7 @@ include 'inc/header.php';
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="100">
-                        <img src="img/home/icons/BCO_icon_wellness.svg" alt="BC Orchard Healthy Lifestyle" class="highlight-icon">
+                        <img src="img/home/icons/bc-orchard-healthy-lifestyle.svg" alt="BC Orchard Healthy Lifestyle" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Healthy Lifestyle</div>
                         <p class="mb-0">Natural Everyday Wellness</p>
                     </div>
@@ -32,7 +32,7 @@ include 'inc/header.php';
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="200">
-                        <img src="img/home/icons/BCO_icon_canada.svg" alt="BC Orchard Proudly Canadian" class="highlight-icon">
+                        <img src="img/home/icons/bc-orchard-proudly-canadian.svg" alt="BC Orchard Proudly Canadian" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Proudly Canadian</div>
                         <p class="mb-0">Based in British Columbia</p>
                     </div>
@@ -42,7 +42,7 @@ include 'inc/header.php';
             <div class="col-lg-3 col-6 p-0">
                 <div class="highlight-wrap">
                     <div data-aos="fade-up" data-aos-delay="300">
-                        <img src="img/home/icons/BCO_icon_wholesome.svg" alt="BC Orchard Full of Flavor" class="highlight-icon">
+                        <img src="img/home/icons/bc-orchard-full-of-flavour.svg" alt="BC Orchard Full of Flavor" class="highlight-icon">
                         <div class="upper-header" style="font-size: 12px;">Full of Flavour</div>
                         <p class="mb-0">Healthy Can Be Delicious</p>
                     </div>
