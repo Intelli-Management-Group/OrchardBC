@@ -64,19 +64,19 @@ include 'inc/header.php';
             <h2 class="text-center">A Better Way to Rehydrate</h2>
             <div class="row mt-5 gy-md-0">
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="0">
-                    <img src="img/coconut/BCO_icon_Hydration.png" alt="Electrolyte-Rich Hydration" class="benefits-img">
+                    <img src="img/coconut/bc-orchard-electrolyte-rich-hydration-icon.png" alt="Electrolyte-rich hydration icon—a water droplet with hexagon cells." class="benefits-img">
                     <h5 class="mt-3">Electrolyte-Rich Hydration</h5>
                     <p>Rich in natural electrolytes to replenish fluids after workouts, sports practice, or a rough night out.</p>
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="100">
-                    <img src="img/coconut/BCO_icon_Immunity.png" alt="Boosts Immunity" class="benefits-img">
+                    <img src="img/coconut/bc-orchard-immunity-support-icon.png" alt="Immunity support icon—atom-style lines for vitamin C benefits." class="benefits-img">
                     <h5 class="mt-3">Boosts Immunity</h5>
                     <p>Delivers 20% of your daily vitamin C, strengthening your immune system in a light, refreshing way.</p>
                 </div>
 
                 <div class="col-md-4 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
-                    <img src="img/coconut/BCO_icon_GoodforSkin.png" alt="Good for Skin" class="benefits-img">
+                    <img src="img/coconut/bc-orchard-skin-and-recovery-antioxidants-icon.png" alt="Skin and recovery icon—a molecular network indicating antioxidants." class="benefits-img">
                     <h5 class="mt-3">Supports Skin & Recovery</h5>
                     <p>Helps your skin retain moisture and provides natural antioxidants to combat aging and oxidative stress.</p>
                 </div>
