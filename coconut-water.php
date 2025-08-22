@@ -106,7 +106,7 @@ include 'inc/header.php';
             <img src="img/coconut/bc-orchard-young-coconut-half-corner-right.png" alt="BC Orchard young coconut" class="floating-coconut-2">
             <div class="container-xxl section-padding">
                 <h2 class="text-center mb-5" style="color: darkblue;">Young Vietnamese Coconuts</h2>
-                <div class="bg-white rounded-5 p-3">
+                <div class="bg-white rounded-5 p-3 shadow">
                     <div class="row">
                         <div class="col-lg-7">
                             <img src="img/coconut/bc-orchard-young-coconut-on-tree.jpg" alt="Young Vietnamese coconut on tree" class="product-highlight-img-bg">
@@ -158,14 +158,14 @@ include 'inc/header.php';
                                         <div class="nutrition-circle">55</div>
                                         <h5 class="mb-0">Calories</h5>
                                     </div>
-                                    <hr>
+                                    <hr style="color: darkblue;">
                                 </div>
                                 <div data-aos="fade-up" data-aos-delay="100">
                                     <div class="d-flex justify-content-start align-items-center gap-3">
                                         <div class="nutrition-circle">340<br>mg</div>
                                         <h5 class="mb-0">Potassium</h5>
                                     </div>
-                                    <hr>
+                                    <hr style="color: darkblue;">
                                 </div>
                                 <div data-aos="fade-up" data-aos-delay="200">
                                     <div class="d-flex justify-content-start align-items-center gap-3">
@@ -182,7 +182,7 @@ include 'inc/header.php';
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-end justify-content-center align-items-center order-lg-2 order-2 mt-lg-0 mt-md-4 mt-5">
-                        <div class="bg-white rounded-5 p-4 w-100" style="max-width: 350px; border: 1px solid #eee;">
+                        <div class="bg-white rounded-5 p-4 w-100 shadow" style="max-width: 350px;">
                             <div id="aos-anchor" data-aos="fade-up" data-aos-delay="0">
                                 <h6 class="text-center">Every Can Delivers</h6>
                                 <hr>
