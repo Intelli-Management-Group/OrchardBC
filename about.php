@@ -87,7 +87,7 @@ include 'inc/header.php';
     <div class="container overflow-x-hidden">
         <div class="row bottom-margin gy-5 gy-lg-0">
             <div class="col-lg-6 px-4 border-end-lg d-flex justify-content-center" data-aos="fade-right">
-                <img src="img/about/bc-orchard-why-it-matters-healthy-snacks-fruits.jpg" alt="Assorted healthy snacks and fruits—wellness shaped by choices." class="img-fluid">
+                <img src="img/about/bc-orchard-why-it-matters.jpg" alt="Couple on wooden mountain bench raising hands to the sky—active, healthy lifestyle" class="img-fluid">
             </div>
 
             <div class="col-lg-6 text-center d-flex flex-column justify-content-center align-items-center" data-aos="fade-left">

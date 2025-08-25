@@ -186,6 +186,8 @@
     }
 
     .find-us-banner {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+            url('../img/find-us/bc-orchard-find-us-banner.jpg') no-repeat 90% center/cover;
         clip-path: url(#smoothBottomCurve-sm);
     }
 
@@ -241,6 +243,17 @@
         flex: 0 0 auto;
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+
+    .carousel-control-icon {
+        font-size: 15px;
     }
 
     .product-coconut-img-1 {
@@ -324,9 +337,40 @@
         right: 5%;
     }
 
-    .highlight-wrap {
-        height: 200px;
+    .product-card-1::before {
+        background-position: 40% center;
     }
+
+    .product-card-2::before {
+        background-position: 50% center;
+    }
+
+    .product-card-3::before {
+        background-position: 55% center;
+    }
+
+    .shop-wrap {
+        padding: 30px 30px 140px;
+    }
+
+    .feature-product-wrap {
+        max-width: auto;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .feature-product-wrap h2 {
+        font-size: 40px;
+    }
+
+    .masked-image-content {
+        padding: 0 24px;
+        text-align: center;
+    }
+
+    /* .highlight-wrap {
+        height: 200px;
+    } */
 
     .cocoanut-water-bg-ice {
         bottom: 0;
@@ -344,7 +388,7 @@
     }
 
     .testimonial-content-box {
-        width: 70%;
+        width: 80%;
     }
 }
 

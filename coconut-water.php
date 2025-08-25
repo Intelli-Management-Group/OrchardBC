@@ -148,7 +148,7 @@ include 'inc/header.php';
 
                 <div class="row top-margin">
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-start justify-content-center text-white order-lg-0 order-1 text-md-start text-center">
-                        <div class="nutrition-container" style="color: darkblue;">
+                        <div class="nutrition-container text-white">
                             <h2>Health in <br>Every Sip</h2>
                             <h6 class="mb-5">What ‘Packed with Nutrition’ Really Means</h6>
 
@@ -158,14 +158,14 @@ include 'inc/header.php';
                                         <div class="nutrition-circle">55</div>
                                         <h5 class="mb-0">Calories</h5>
                                     </div>
-                                    <hr style="color: darkblue;">
+                                    <hr>
                                 </div>
                                 <div data-aos="fade-up" data-aos-delay="100">
                                     <div class="d-flex justify-content-start align-items-center gap-3">
                                         <div class="nutrition-circle">340<br>mg</div>
                                         <h5 class="mb-0">Potassium</h5>
                                     </div>
-                                    <hr style="color: darkblue;">
+                                    <hr>
                                 </div>
                                 <div data-aos="fade-up" data-aos-delay="200">
                                     <div class="d-flex justify-content-start align-items-center gap-3">

@@ -95,7 +95,7 @@ include 'inc/header.php';
             <div class="col-28" data-aos="fade-up" data-aos-delay="100">
                 <div class="masked-image masked-image-2">
                     <div class="masked-image-content text-center">
-                        <h4 style="line-height: 1.5;">A Belief That Health and Happiness Comes Above All Else</h4>
+                        <h4 class="mb-0" style="line-height: 1.5;">A Belief That Health and Happiness Comes Above All Else</h4>
                         <!-- <a href="about.php" class="button mt-3">ABOUT US</a> -->
                     </div>
                 </div>
@@ -103,7 +103,7 @@ include 'inc/header.php';
             <div class="col-28" data-aos="fade-up" data-aos-delay="200">
                 <div class="masked-image masked-image-3">
                     <div class="masked-image-content">
-                        <p style="line-height: 2;">Founded in 2016, BC Orchard is a Canadian company dedicated to creating exceptional, great-tasting products with quality, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe bringing joy to everyone, which is why we also offer premium Japanese snacks “ArrowTree” for you to enjoy or share.</p>
+                        <p class="mb-0" style="line-height: 2;">Founded in 2016, BC Orchard is a Canadian company dedicated to creating exceptional, great-tasting products with quality, simple ingredients. While our core offerings focus on natural hydration and everyday wellness, we also believe bringing joy to everyone, which is why we also offer premium Japanese snacks “ArrowTree” for you to enjoy or share.</p>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ include 'inc/header.php';
                 <div class="feature-product-wrap">
                     <div class="upper-header">Our Top Picks</div>
                     <h2>Featured Products</h2>
-                    <p>Carefully curated for taste and quality, these are our favourite picks for daily refreshment and everyday joy.</p>
+                    <p class="mb-0">Carefully curated for taste and quality, these are our favourite picks for daily refreshment and everyday joy.</p>
                     <!-- <button class="button">VIEW MORE PRODUCTS</button> -->
                 </div>
             </div>
@@ -201,7 +201,7 @@ include 'inc/header.php';
         <div class="row gy-5 gy-lg-0">
             <div class="col-lg-6 p-0 d-flex align-items-stretch" data-aos="fade-right">
                 <div class="img-container">
-                    <img src="img/home/bc-orchard-global-selection-earth-chocolate.jpg" alt="Earth-shaped chocolate symbolizing BC Orchard global selection." class="img-fluid">
+                    <img src="img/home/bcorchard_global_selection.jpg" alt="Earth-shaped chocolate symbolizing BC Orchard global selection." class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
