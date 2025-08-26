@@ -105,17 +105,17 @@ include 'inc/header.php';
             <img src="img/coconut/bc-orchard-young-coconut-half-corner-left.png" alt="BC Orchard young coconut" class="floating-coconut-1">
             <img src="img/coconut/bc-orchard-young-coconut-half-corner-right.png" alt="BC Orchard young coconut" class="floating-coconut-2">
             <div class="container-xxl section-padding">
-                <h2 class="text-center mb-5" style="color: darkblue;">Young Vietnamese Coconuts</h2>
+                <h2 class="text-center mb-5" style="color: darkblue;">Crafted from Young Coconuts</h2>
                 <div class="bg-white rounded-5 p-3 shadow">
                     <div class="row">
                         <div class="col-lg-7">
-                            <img src="img/coconut/bc-orchard-young-coconut-on-tree.jpg" alt="Young Vietnamese coconut on tree" class="product-highlight-img-bg">
+                            <img src="img/coconut/bc-orchard-young-coconut-on-tree.jpg" alt="Young coconut on tree" class="product-highlight-img-bg">
                         </div>
 
                         <div class="col-lg-5">
                             <div class="row" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-delay="0">
                                 <div class="col-4">
-                                    <img src="img/coconut/bc-orchard-coconut-water-child-holding-can-naturally-sweet.jpg" alt="Child holding BC Orchard coconut water, showing naturally sweet taste." class="product-highlight-img-sm">
+                                    <img src="img/coconut/bc-orchard-coconut-water-naturally-sweet.jpg" alt="Kid drinking BC Orchard coconut water—naturally sweet from young coconuts." class="product-highlight-img-sm">
                                 </div>
                                 <div class="col-8 d-flex flex-column justify-content-center">
                                     <h6>Naturally Sweet</h6>
@@ -135,7 +135,7 @@ include 'inc/header.php';
 
                             <div class="row" data-aos="fade-up" data-aos-delay="200">
                                 <div class="col-4">
-                                    <img src="img/coconut/bc-orchard-coconut-water-pouring-from-young-coconut.jpg" alt="Young coconut pouring fresh coconut water into a glass—100% pure." class="product-highlight-img-sm">
+                                    <img src="img/coconut/bc-orchard-coconut-water-pure-glass-with-coconut-wedges.jpg" alt="Glass of coconut water with young coconut wedges—100% pure and natural." class="product-highlight-img-sm">
                                 </div>
                                 <div class="col-8 d-flex flex-column justify-content-center">
                                     <h6>100% Pure</h6>

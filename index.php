@@ -201,16 +201,16 @@ include 'inc/header.php';
         <div class="row gy-5 gy-lg-0">
             <div class="col-lg-6 p-0 d-flex align-items-stretch" data-aos="fade-right">
                 <div class="img-container">
-                    <img src="img/home/bcorchard_global_selection.jpg" alt="Earth-shaped chocolate symbolizing BC Orchard global selection." class="img-fluid">
+                    <img src="img/home/bc-orchard-global-selection-world-map-sourcing.jpg" alt="World map with trade routes showing BC Orchard global product sourcing." class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
                         <div class="scroll-text scroll-text-1">VIETNAMESE COCONUTS</div>
-                        <div class="scroll-text scroll-text-2">BC-GROWN JUICES</div>
+                        <div class="scroll-text scroll-text-2">BC-GROWN FRUITS</div>
                         <div class="scroll-text scroll-text-3">JAPANESE SNACKS</div>
                         <!-- Repeat the same three for seamless looping -->
                         <div class="scroll-text scroll-text-1">VIETNAMESE COCONUTS</div>
-                        <div class="scroll-text scroll-text-2">BC-GROWN JUICES</div>
+                        <div class="scroll-text scroll-text-2">BC-GROWN FRUITS</div>
                         <div class="scroll-text scroll-text-3">JAPANESE SNACKS</div>
                     </div>
                 </div>
