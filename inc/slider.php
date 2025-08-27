@@ -4,32 +4,7 @@
         .swiper {
             width: 100%;
             height: 900px;
-        }
-
-        @media only screen and (max-width: 1199px) {
-            .swiper {
-                height: 800px;
-            }
-        }
-
-        @media only screen and (max-width: 991px) {
-            .swiper {
-                height: 700px;
-            }
-        }
-
-        @media only screen and (max-width: 767px) {
-            .swiper {
-                height: 600px;
-            }
-
-            .bg-image::before {
-                content: "";
-                position: absolute;
-                inset: 0;
-                background-color: rgba(0, 0, 0, 0.25);
-                z-index: 0;
-            }
+            background: black;
         }
 
         .swiper-slide {
@@ -100,6 +75,34 @@
             height: 12px;
             background: transparent;
             box-shadow: 0 0 0 2px #a8cc3c;
+        }
+
+        @media only screen and (max-width: 1575px) {
+            .bg-image::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background-color: rgba(0, 0, 0, 0.25);
+                z-index: 0;
+            }
+        }
+
+        @media only screen and (max-width: 1199px) {
+            .swiper {
+                height: 800px;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+            .swiper {
+                height: 700px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .swiper {
+                height: 600px;
+            }
         }
     </style>
 </head>

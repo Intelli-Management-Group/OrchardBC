@@ -26,7 +26,7 @@ include 'inc/header.php';
         <div class="row section-padding-sm">
             <div class="col-lg-8 mx-auto">
                 <h2 class="text-center mb-5">Start the Conversation</h2>
-                <p class="text-justify" data-aos="fade-up">Whether you're a retailer, distributor, or someone who shares our passion for wellness, we’re always open to meaningful conversations. From bulk orders to business collaborations, we’re here to explore how we can work together and grow something great. Reach out by <a class="contact-link" href="tel:+17782977108">+1 (778) 297-7108</a> or <a class="contact-link" href="mailto:inquiry@orchardbc.com">inquiry@orchardbc.com</a> to start the conversation, and stay connected with us on <a class="contact-link" href="https://www.instagram.com/bc_orchard_official/" target="_blank" rel="noopener noreferrer">Instagram</a> and <a class="contact-link" href="https://www.facebook.com/profile.php?id=100086876454993" target="_blank" rel="noopener noreferrer">Facebook</a> for the latest updates, behind-the-scenes stories, and wellness inspiration from the BC Orchard community.</p>
+                <p class="text-justify" data-aos="fade-up">We’re always happy to connect with people who care about quality, wellness, and doing things the right way. Whether you're a retailer, distributor, or someone who simply shares our values, we believe great things start with meaningful conversations. Reach us anytime by email or follow us on social media to stay up to date with the latest news, product launches, and stories from the BC Orchard community.</p>
             </div>
         </div>
 

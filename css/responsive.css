@@ -186,7 +186,7 @@
     }
 
     .find-us-banner {
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
             url('../img/find-us/bc-orchard-find-us-banner.jpg') no-repeat 90% center/cover;
         clip-path: url(#smoothBottomCurve-sm);
     }
@@ -236,7 +236,8 @@
     }
 
     .product-card-content {
-        right: 8%;
+        right: auto;
+        left: 65%;
     }
 
     .col-28 {
@@ -330,11 +331,12 @@
     }
 
     .slider-content {
-        width: 100% !important;
+        width: 90% !important;
     }
 
     .product-card-content {
-        right: 5%;
+        right: auto;
+        left: 55%;
     }
 
     .product-card-1::before {

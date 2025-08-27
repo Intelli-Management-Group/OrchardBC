@@ -114,7 +114,7 @@ include 'inc/header.php';
         <div class="row">
             <div class="col-lg-3 col-6 d-flex justify-content-center p-0 border-end" data-aos="fade-right">
                 <div class="feature-product-wrap">
-                    <div class="upper-header">Our Top Picks</div>
+                    <div class="upper-header" style="color: #5a7800;">Our Top Picks</div>
                     <h2>Featured Products</h2>
                     <p class="mb-0">Carefully curated for taste and quality, these are our favourite picks for daily refreshment and everyday joy.</p>
                     <!-- <button class="button">VIEW MORE PRODUCTS</button> -->
@@ -161,29 +161,26 @@ include 'inc/header.php';
 
     <section class="testimonials-container bottom-margin">
         <div class="testimonials-content carousel slide" id="testimonialCarousel">
-            <div class="upper-header">Client Testimonials</div>
+            <div class="upper-header mb-5" style="color: #5a7800;">Client Testimonials</div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="testimonial-content-box">
-                        <div class="testimonial-content">"It’s become my go-to when I feel wiped out. One can and I’m back on track—it’s surprisingly energizing."</div>
-                        <div class="upper-header pt-5">Jenna M.</div>
-                        <p class="mb-0">100% Pure Coconut water</p>
+                        <div class="testimonial-content">"I use it in my morning smoothies—the natural sweetness blends smoothly and adds a refreshing boost to start my day."</div>
+                        <p class="mb-0 mt-4">100% Pure Coconut water</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
-                        <div class="testimonial-content">"Honestly the best coconut water I’ve had. It’s richer and more flavourful than the usual ones—and no weird aftertaste."</div>
-                        <div class="upper-header pt-5">Devon L.</div>
-                        <p class="mb-0">100% Pure Coconut water</p>
+                        <div class="testimonial-content">"It’s become my go-to for recharging. Clean, crisp, and light—it always gives me that extra lift when I need it most."</div>
+                        <p class="mb-0 mt-4">100% Pure Coconut water</p>
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <div class="testimonial-content-box">
-                        <div class="testimonial-content">"I use it in my morning smoothies. The natural sweetness is just right, and it makes everything taste fresher."</div>
-                        <div class="upper-header pt-5">Maya T.</div>
-                        <p class="mb-0">100% Pure Coconut water</p>
+                        <div class="testimonial-content">"The best I’ve tasted—richer, smoother, and naturally sweet. It feels closer to the real thing than anything I’ve had before."</div>
+                        <p class="mb-0 mt-4">100% Pure Coconut water</p>
                     </div>
                 </div>
             </div>
@@ -201,7 +198,7 @@ include 'inc/header.php';
         <div class="row gy-5 gy-lg-0">
             <div class="col-lg-6 p-0 d-flex align-items-stretch" data-aos="fade-right">
                 <div class="img-container">
-                    <img src="img/home/bc-orchard-global-selection-world-map-sourcing.jpg" alt="World map with trade routes showing BC Orchard global product sourcing." class="img-fluid">
+                    <img src="img/home/bcorchard_global_selection.jpg" alt="World map with trade routes showing BC Orchard global product sourcing." class="img-fluid">
                 </div>
                 <div class="scroll-container">
                     <div class="scroll-content">
@@ -218,7 +215,7 @@ include 'inc/header.php';
 
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center" data-aos="fade-left">
                 <div style="max-width: 500px;">
-                    <div class="upper-header">GLOBAL SELECTION</div>
+                    <div class="upper-header" style="color: #5a7800;">GLOBAL SELECTION</div>
                     <h2>From The Finest Sources</h2>
                     <p class="mb-0">We source globally from regions renowned for their specialties—Vietnam’s finest young coconuts, Japan’s exquisite snacks, and BC’s orchard-fresh fruits. Every product reflects our commitment to exceptional flavour and uncompromising quality.</p>
                     <!-- <a href="find-us.php"><button class="button">Where to Buy</button></a> -->

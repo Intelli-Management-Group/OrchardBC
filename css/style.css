@@ -563,27 +563,20 @@ a {
 }
 
 .testimonials-container {
-    background: url('../img/home/bc-orchard-testimonials-background.jpg') no-repeat 70% center/cover;
-    background-attachment: fixed;
+    /* background: url('../img/home/bc-orchard-testimonials-background.jpg') no-repeat 70% center/cover;
+    background-attachment: fixed; */
     width: 100%;
-    height: 675px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (hover: none) {
+/* @media (hover: none) {
     .testimonials-container {
         background-attachment: scroll;
     }
-}
-
-.testimonials-container::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    /* shorthand for top:0; right:0; bottom:0; left:0; */
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 1;
-}
+} */
 
 .testimonials-container>* {
     position: relative;
@@ -591,18 +584,16 @@ a {
 }
 
 .testimonials-content {
-    /* min-height: 320px; */
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    min-height: 297px;
+    color: #666;
     text-align: center;
     width: 100%;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    /* font-size: 40px; */
 }
 
-.testimonial-content {
-    font-size: clamp(1.5rem, 4vw, 3rem);
+.testimonials-content p {
+    font-size: 16px;
 }
 
 .carousel-inner {
@@ -625,8 +616,8 @@ a {
 
 .carousel-control-prev,
 .carousel-control-next {
-    background-color: white;
-    color: black;
+    background-color: #d1d1d1;
+    color: #fff;
     opacity: 1;
     width: 50px;
     height: 50px;
@@ -638,8 +629,8 @@ a {
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-    background-color: black;
-    color: white;
+    background-color: none;
+    color: #666;
     opacity: 1;
 }
 
@@ -799,7 +790,6 @@ iframe {
 }
 
 @keyframes float-z {
-
     0%,
     100% {
         transform: rotate(-20deg) translateZ(0);
@@ -811,7 +801,6 @@ iframe {
 }
 
 @keyframes float-z-2 {
-
     0%,
     100% {
         transform: rotate(10deg) translateZ(0);
