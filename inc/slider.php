@@ -1,220 +1,216 @@
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<style>
+    .swiper {
+        width: 100%;
+        height: 900px;
+        background: black;
+    }
+
+    .swiper-slide {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: black;
+    }
+
+    .home-slider {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .bg-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .bg-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 70% center;
+        display: block;
+    }
+
+    .slider-content {
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        text-align: left;
+        opacity: 0;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50%;
+        height: 470px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .swiper-pagination {
+        bottom: 10% !important;
+        left: 8% !important;
+        right: auto;
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .swiper-pagination-bullet {
+        background: white;
+        opacity: 0.6;
+        margin-right: 15px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        width: 12px;
+        height: 12px;
+        background: transparent;
+        box-shadow: 0 0 0 2px #a8cc3c;
+    }
+
+    @media only screen and (max-width: 1575px) {
+        .bg-image::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.25);
+            z-index: 0;
+        }
+    }
+
+    @media only screen and (max-width: 1199px) {
         .swiper {
-            width: 100%;
-            height: 900px;
-            background: black;
+            height: 800px;
         }
+    }
 
-        .swiper-slide {
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: black;
+    @media only screen and (max-width: 991px) {
+        .swiper {
+            height: 700px;
         }
+    }
 
-        .home-slider {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
+    @media only screen and (max-width: 767px) {
+        .swiper {
+            height: 600px;
         }
+    }
+</style>
 
-        .bg-image {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            overflow: hidden;
-        }
-
-        .bg-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: 70% center;
-            display: block;
-        }
-
-        .slider-content {
-            color: white;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-            text-align: left;
-            opacity: 0;
-            position: absolute;
-            left: 5%;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 50%;
-            height: 470px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .swiper-pagination {
-            bottom: 10% !important;
-            left: 8% !important;
-            right: auto;
-            text-align: left;
-            display: flex;
-            align-items: center;
-        }
-
-        .swiper-pagination-bullet {
-            background: white;
-            opacity: 0.6;
-            margin-right: 15px !important;
-        }
-
-        .swiper-pagination-bullet-active {
-            opacity: 1;
-            width: 12px;
-            height: 12px;
-            background: transparent;
-            box-shadow: 0 0 0 2px #a8cc3c;
-        }
-
-        @media only screen and (max-width: 1575px) {
-            .bg-image::before {
-                content: "";
-                position: absolute;
-                inset: 0;
-                background-color: rgba(0, 0, 0, 0.25);
-                z-index: 0;
-            }
-        }
-
-        @media only screen and (max-width: 1199px) {
-            .swiper {
-                height: 800px;
-            }
-        }
-
-        @media only screen and (max-width: 991px) {
-            .swiper {
-                height: 700px;
-            }
-        }
-
-        @media only screen and (max-width: 767px) {
-            .swiper {
-                height: 600px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <div class="swiper homeSwiper">
-        <div class="swiper-wrapper">
-            <!-- Slide 1 -->
-            <div class="swiper-slide">
-                <div class="home-slider">
-                    <div class="bg-image">
-                        <img src="img/home/bc-orchard-100-percent-pure-coconut-water-banner.jpg" alt="BC Orchard 100% pure coconut water—natural refreshment from young coconuts." />
-                    </div>
-                    <div class="slider-content">
-                        <div class="upper-header">PURE COCONUT WATER</div>
-                        <h1>100% Coconut.<br>Pure and Natural Refreshment.</h1>
-                        <!-- <a href="coconut-water.php"><button class="button-white-fill">LEARN MORE</button></a> -->
-                    </div>
+<div class="swiper homeSwiper">
+    <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+            <div class="home-slider">
+                <div class="bg-image">
+                    <img src="img/home/bc-orchard-100-percent-pure-coconut-water-banner.jpg" alt="BC Orchard 100% pure coconut water—natural refreshment from young coconuts." fetchpriority="high">
                 </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="swiper-slide">
-                <div class="home-slider">
-                    <div class="bg-image">
-                        <img src="img/home/bc-orchard-arrow-tree-japanese-snacks-banner.jpg" alt="Arrow Tree Japanese snacks crafted in Japan—premium treats to enjoy or share." />
-                    </div>
-                    <div class="slider-content">
-                        <div class="upper-header">CRAFTED IN JAPAN</div>
-                        <h1>Treat Yourself,<br> Delight Others.</h1>
-                        <!-- <button class="button-white-fill">COMING SOON</button> -->
-                    </div>
+                <div class="slider-content">
+                    <div class="upper-header">PURE COCONUT WATER</div>
+                    <h1>100% Coconut.<br>Pure and Natural Refreshment.</h1>
+                    <!-- <a href="coconut-water.php"><button class="button-white-fill">LEARN MORE</button></a> -->
                 </div>
             </div>
         </div>
 
-        <div class="swiper-pagination"></div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+            <div class="home-slider">
+                <div class="bg-image">
+                    <img src="img/home/bc-orchard-arrow-tree-japanese-snacks-banner.jpg" alt="Arrow Tree Japanese snacks crafted in Japan—premium treats to enjoy or share." fetchpriority="high">
+                </div>
+                <div class="slider-content">
+                    <div class="upper-header">CRAFTED IN JAPAN</div>
+                    <h1>Treat Yourself,<br> Delight Others.</h1>
+                    <!-- <button class="button-white-fill">COMING SOON</button> -->
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <div class="swiper-pagination"></div>
+</div>
 
-    <script>
-        window.addEventListener('load', function() {
-            const swiper = new Swiper(".homeSwiper", {
-                loop: true,
-                allowTouchMove: false,
-                autoplay: {
-                    delay: 5000,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                speed: 0.1,
-                on: {
-                    init: function() {
-                        gsap.set(this.slides[this.activeIndex].querySelector('.bg-image'), {
-                            scale: 1,
-                            opacity: 1
-                        });
-                        animateText(this.slides[this.activeIndex]);
-                    },
-                    slideChangeTransitionStart: function() {
-                        const previousSlide = this.slides[this.previousIndex];
-                        const bgPrev = previousSlide.querySelector('.bg-image');
-                        gsap.to(bgPrev, {
-                            scale: 1.5, // More zoom out
-                            opacity: 0,
-                            duration: 2.5, // Longer duration
-                            ease: "power3.out"
-                        });
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
-                        // gsap.set(".slider-content", {
-                        //     autoAlpha: 0,
-                        //     y: 200
-                        // });
-                    },
-                    slideChangeTransitionEnd: function() {
-                        const activeSlide = this.slides[this.activeIndex];
-                        const bgActive = activeSlide.querySelector('.bg-image');
-                        gsap.fromTo(bgActive, {
-                            scale: 1.5, // Start more zoomed out
-                            opacity: 0
-                        }, {
-                            scale: 1,
-                            opacity: 1,
-                            duration: 2.5, // Longer duration
-                            ease: "power3.out"
-                        });
-
-                        animateText(activeSlide);
-                    }
-                }
-            });
-
-            function animateText(slide) {
-                const content = slide.querySelector(".slider-content");
-                if (content) {
-                    gsap.fromTo(content, {
-                        autoAlpha: 0,
-                        y: 200
-                    }, {
-                        autoAlpha: 1,
-                        y: 0,
-                        duration: 1.5,
-                        ease: "power2.out",
-                        delay: 0.5
+<script>
+    window.addEventListener('load', function() {
+        const swiper = new Swiper(".homeSwiper", {
+            loop: true,
+            allowTouchMove: false,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            speed: 0.1,
+            on: {
+                init: function() {
+                    gsap.set(this.slides[this.activeIndex].querySelector('.bg-image'), {
+                        scale: 1,
+                        opacity: 1
                     });
+                    animateText(this.slides[this.activeIndex]);
+                },
+                slideChangeTransitionStart: function() {
+                    const previousSlide = this.slides[this.previousIndex];
+                    const bgPrev = previousSlide.querySelector('.bg-image');
+                    gsap.to(bgPrev, {
+                        scale: 1.5, // More zoom out
+                        opacity: 0,
+                        duration: 2.5, // Longer duration
+                        ease: "power3.out"
+                    });
+
+                    // gsap.set(".slider-content", {
+                    //     autoAlpha: 0,
+                    //     y: 200
+                    // });
+                },
+                slideChangeTransitionEnd: function() {
+                    const activeSlide = this.slides[this.activeIndex];
+                    const bgActive = activeSlide.querySelector('.bg-image');
+                    gsap.fromTo(bgActive, {
+                        scale: 1.5, // Start more zoomed out
+                        opacity: 0
+                    }, {
+                        scale: 1,
+                        opacity: 1,
+                        duration: 2.5, // Longer duration
+                        ease: "power3.out"
+                    });
+
+                    animateText(activeSlide);
                 }
             }
         });
-    </script>
-</body>
+
+        function animateText(slide) {
+            const content = slide.querySelector(".slider-content");
+            if (content) {
+                gsap.fromTo(content, {
+                    autoAlpha: 0,
+                    y: 200
+                }, {
+                    autoAlpha: 1,
+                    y: 0,
+                    duration: 1.5,
+                    ease: "power2.out",
+                    delay: 0.5
+                });
+            }
+        }
+    });
+</script>

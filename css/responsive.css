@@ -312,7 +312,7 @@
     }
 
     .product-coconut-bg-2 {
-        background-image: url('../img/coconut/water-wave-with-drops-mobile.jpg');
+        background-image: url('../img/coconut/bc-orchard-water-wave-with-drops-mobile.jpg');
     }
 }
 
@@ -423,14 +423,5 @@
 
     .border-end-md {
         border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
-    }
-}
-
-@media only screen and (min-width: 576px) {
-
-    /* Show Dropdown on Hover */
-    .navbar .dropdown:hover>.dropdown-menu {
-        display: block;
-        margin-top: 0;
     }
 }

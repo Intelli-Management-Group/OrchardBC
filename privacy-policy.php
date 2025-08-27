@@ -1,7 +1,7 @@
 <?php
 $title = "Privacy Policy | BC Orchard";
 $description = "Privacy Policy | BC Orchard";
-include 'inc/header.php'; 
+include 'inc/header.php';
 ?>
 
 <style>
@@ -24,14 +24,14 @@ include 'inc/header.php';
         padding-left: 0;
     }
 
-    ol.custom-ol > li.section {
+    ol.custom-ol>li.section {
         counter-increment: section;
         position: relative;
         padding-left: 26px;
         margin-bottom: 2rem;
     }
 
-    ol.custom-ol > li.section::before {
+    ol.custom-ol>li.section::before {
         content: counter(section) ".";
         position: absolute;
         left: 0;
